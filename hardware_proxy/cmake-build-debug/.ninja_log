@@ -1,0 +1,6 @@
+# ninja log v5
+1	968	7260661556660739	CMakeFiles/hardware_proxy.dir/main.c.obj	66106955f03de955
+21	1074	7260661558126020	CMakeFiles/hardware_proxy.dir/MotorProxy.c.obj	ee3b2a3fa0111c1c
+1075	1403	7260661561496081	hardware_proxy.exe	21640c6e151c658a
+6	390	7260663463375332	CMakeFiles/hardware_proxy.dir/main.c.obj	66106955f03de955
+393	795	7260663467553538	hardware_proxy.exe	21640c6e151c658a

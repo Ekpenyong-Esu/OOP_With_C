@@ -1,0 +1,21 @@
+
+>
+CMakeLists.txt,9\a\9a2aa4db38d3115ed60da621e012c0efc0172aae
+B
+BCPeriodicPoller.c,d\0\d0fe392637b4d3de0b1bcf913a981897c28aa81e
+B
+BCPeriodicPoller.h,1\a\1a49f7eba08d731c26b6f929c276716f0c390d48
+9
+	BCTimer.c,b\a\baf23435f184911f8b85b930932c20a7e3edc213
+9
+	BCTimer.h,b\5\b5fe1e8a16299fc0982c394195e244ab22ff8bc4
+H
+BreathingCircuitSensor.c,9\d\9d4f46a432b1e32e0eb5aedeb53bf111ccf8001c
+H
+BreathingCircuitSensor.h,e\5\e53a20d39736b38c3e27d8a5b30116582ff19557
+@
+MedicalDisplay.c,7\b\7baeed4da412dca25095a7d7a456afdf4d1056e9
+@
+MedicalDisplay.h,2\b\2b3370204f48431566e8dfa97463bce1d1f871e5
+6
+main.c,4\0\406e031b8824ea26ae0bf4d7579a1d89e3fb5906

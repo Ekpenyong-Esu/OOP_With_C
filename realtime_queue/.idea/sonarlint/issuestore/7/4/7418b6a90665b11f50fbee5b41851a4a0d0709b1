@@ -1,0 +1,6 @@
+
+c:S819"rcall to undeclared function 'OS_create_semaphore'; ISO C99 and later do not support implicit function declarations(Š©æàùÿÿÿÿ8³·òŒÔ1
+‘c:S819>"scall to undeclared function 'OS_release_semaphore'; ISO C99 and later do not support implicit function declarations(ÎŒ¹Òýÿÿÿÿ8µ·òŒÔ1
+‘c:S819B"scall to undeclared function 'OS_release_semaphore'; ISO C99 and later do not support implicit function declarations(ÎŒ¹Òýÿÿÿÿ8¶·òŒÔ1
+Žc:S819P"pcall to undeclared function 'OS_lock_semaphore'; ISO C99 and later do not support implicit function declarations(Ðí»Âüÿÿÿÿ8¸·òŒÔ1
+‘c:S819o"scall to undeclared function 'OS_release_semaphore'; ISO C99 and later do not support implicit function declarations(ÎŒ¹Òýÿÿÿÿ8º·òŒÔ1

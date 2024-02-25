@@ -1,0 +1,3 @@
+C:/Users/mahon/VS_CODE_LAB/OOP_With_C/CChannelMode/cmake-build-debug/CMakeFiles/CChannelMode.dir
+C:/Users/mahon/VS_CODE_LAB/OOP_With_C/CChannelMode/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mahon/VS_CODE_LAB/OOP_With_C/CChannelMode/cmake-build-debug/CMakeFiles/rebuild_cache.dir

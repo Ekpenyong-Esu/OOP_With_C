@@ -1,0 +1,5 @@
+
+]	cpp:S5566"CChange this raw for-loop to a range for-loop or an "std::for_each".(èëş´úÿÿÿÿ
+O	cpp:S5025":Rewrite the code so that you no longer need this "delete".(íæÖˆ
+p	cpp:S1172"VRemove the unused parameter "goal", make it unnamed, or declare it "[[maybe_unused]]".(È¸ØØûÿÿÿÿ
+F	cpp:S1121D",Extract the assignment from this expression.(½ú€ùÿÿÿÿ

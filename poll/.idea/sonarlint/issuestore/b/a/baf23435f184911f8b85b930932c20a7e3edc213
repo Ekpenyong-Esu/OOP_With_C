@@ -1,0 +1,20 @@
+
+lc:S1186"YAdd a nested comment explaining why this method is empty, or complete the implementation.(Ò…
+;c:S1172"!Remove the unused parameter "me".(Ò…8óÅÔĞ1
+c:S995"hMake the type of this parameter a pointer-to-const. The current type of "me" is "struct BCTimer *const".(Ò…8ôÅÔĞ1
+qc:S1186"YAdd a nested comment explaining why this method is empty, or complete the implementation.(Ò¿›Êùÿÿÿÿ
+@c:S1172"!Remove the unused parameter "me".(Ò¿›Êùÿÿÿÿ8õÅÔĞ1
+†c:S995"hMake the type of this parameter a pointer-to-const. The current type of "me" is "struct BCTimer *const".(Ò¿›Êùÿÿÿÿ8õÅÔĞ1
+qc:S1186 "YAdd a nested comment explaining why this method is empty, or complete the implementation.(‡¡€Ùûÿÿÿÿ
+@c:S1172 "!Remove the unused parameter "me".(‡¡€Ùûÿÿÿÿ8øÅÔĞ1
+Fc:S1172 "'Remove the unused parameter "pollTime".(‡¡€Ùûÿÿÿÿ8ùÅÔĞ1
+†c:S995 "hMake the type of this parameter a pointer-to-const. The current type of "me" is "struct BCTimer *const".(‡¡€Ùûÿÿÿÿ8úÅÔĞ1
+qc:S1186$"YAdd a nested comment explaining why this method is empty, or complete the implementation.(„‡İÇøÿÿÿÿ
+@c:S1172$"!Remove the unused parameter "me".(„‡İÇøÿÿÿÿ8ûÅÔĞ1
+†c:S995$"hMake the type of this parameter a pointer-to-const. The current type of "me" is "struct BCTimer *const".(„‡İÇøÿÿÿÿ8ûÅÔĞ1
+qc:S1186("YAdd a nested comment explaining why this method is empty, or complete the implementation.(çÁö²şÿÿÿÿ
+@c:S1172("!Remove the unused parameter "me".(çÁö²şÿÿÿÿ8üÅÔĞ1
+†c:S995("hMake the type of this parameter a pointer-to-const. The current type of "me" is "struct BCTimer *const".(çÁö²şÿÿÿÿ8üÅÔĞ1
+qc:S1186,"YAdd a nested comment explaining why this method is empty, or complete the implementation.(û™é½úÿÿÿÿ
+@c:S1172,"!Remove the unused parameter "me".(û™é½úÿÿÿÿ8ıÅÔĞ1
+†c:S995,"hMake the type of this parameter a pointer-to-const. The current type of "me" is "struct BCTimer *const".(û™é½úÿÿÿÿ8şÅÔĞ1

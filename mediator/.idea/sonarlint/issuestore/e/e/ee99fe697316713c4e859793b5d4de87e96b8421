@@ -1,0 +1,11 @@
+
+lc:S1186
+"YAdd a nested comment explaining why this method is empty, or complete the implementation.(åªö 
+;c:S1172
+"!Remove the unused parameter "me".(åªö 8‹¯•Ğ1
+‰c:S995
+"pMake the type of this parameter a pointer-to-const. The current type of "me" is "struct sliding_joint_t *const".(åªö 8¯•Ğ1
+qc:S1186"YAdd a nested comment explaining why this method is empty, or complete the implementation.(Æ‡‰°úÿÿÿÿ
+@c:S1172"!Remove the unused parameter "me".(Æ‡‰°úÿÿÿÿ8¯•Ğ1
+c:S995"pMake the type of this parameter a pointer-to-const. The current type of "me" is "struct sliding_joint_t *const".(Æ‡‰°úÿÿÿÿ8¯•Ğ1
+c:S995."pMake the type of this parameter a pointer-to-const. The current type of "me" is "struct sliding_joint_t *const".(âí¸ğÿÿÿÿÿ8‘¯•Ğ1

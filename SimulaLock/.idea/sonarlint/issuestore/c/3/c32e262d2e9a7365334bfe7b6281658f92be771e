@@ -1,0 +1,23 @@
+
+—c:S819"…call to undeclared library function 'free' with type 'void (void *)'; ISO C99 and later do not support implicit function declarations(íê»
+lc:S1186"YAdd a nested comment explaining why this method is empty, or complete the implementation.(ùöá
+;c:S1172"!Remove the unused parameter "me".(ùöá8ğ†ÚÔ1
+‹c:S995"rMake the type of this parameter a pointer-to-const. The current type of "me" is "struct GPSPositionSensor *const".(ùöá8ğ†ÚÔ1
+lc:S1186	"YAdd a nested comment explaining why this method is empty, or complete the implementation.(¿í¡¯
+;c:S1172	"!Remove the unused parameter "me".(¿í¡¯8ğ†ÚÔ1
+‹c:S995	"rMake the type of this parameter a pointer-to-const. The current type of "me" is "struct GPSPositionSensor *const".(¿í¡¯8ğ†ÚÔ1
+qc:S1186"YAdd a nested comment explaining why this method is empty, or complete the implementation.(°‚›´úÿÿÿÿ
+@c:S1172"!Remove the unused parameter "me".(°‚›´úÿÿÿÿ8‘ğ†ÚÔ1
+Kc:S1172",Remove the unused parameter "reqSatellites".(°‚›´úÿÿÿÿ8‘ğ†ÚÔ1
+Ec:S1172"&Remove the unused parameter "useFast".(°‚›´úÿÿÿÿ8‘ğ†ÚÔ1
+c:S995"rMake the type of this parameter a pointer-to-const. The current type of "me" is "struct GPSPositionSensor *const".(°‚›´úÿÿÿÿ8’ğ†ÚÔ1
+qc:S1186!"YAdd a nested comment explaining why this method is empty, or complete the implementation.(Ú‚Îùúÿÿÿÿ
+@c:S1172!"!Remove the unused parameter "me".(Ú‚Îùúÿÿÿÿ8’ğ†ÚÔ1
+c:S995!"rMake the type of this parameter a pointer-to-const. The current type of "me" is "struct GPSPositionSensor *const".(Ú‚Îùúÿÿÿÿ8’ğ†ÚÔ1
+qc:S1186$"YAdd a nested comment explaining why this method is empty, or complete the implementation.(«Ùÿúÿÿÿÿ
+@c:S1172$"!Remove the unused parameter "me".(«Ùÿúÿÿÿÿ8’ğ†ÚÔ1
+c:S995$"rMake the type of this parameter a pointer-to-const. The current type of "me" is "struct GPSPositionSensor *const".(«Ùÿúÿÿÿÿ8“ğ†ÚÔ1
+lc:S1186("YAdd a nested comment explaining why this method is empty, or complete the implementation.(¤â
+Gc:S935*")non-void function does not return a value(æÀö€øÿÿÿÿ8“ğ†ÚÔ1
+;c:S1172("!Remove the unused parameter "me".(¤â8“ğ†ÚÔ1
+‹c:S995("rMake the type of this parameter a pointer-to-const. The current type of "me" is "struct GPSPositionSensor *const".(¤â8“ğ†ÚÔ1

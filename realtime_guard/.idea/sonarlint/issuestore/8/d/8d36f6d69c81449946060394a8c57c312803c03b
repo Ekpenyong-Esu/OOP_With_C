@@ -1,0 +1,14 @@
+
+Šc:S819
+"lcall to undeclared function 'Attitude_Init'; ISO C99 and later do not support implicit function declarations(‰…´ûüÿÿÿÿ8ì•¼ŒÔ1
+Šc:S819"lcall to undeclared function 'Position_Init'; ISO C99 and later do not support implicit function declarations(¢¨Åøÿÿÿÿ8í•¼ŒÔ1
+c:S819"rcall to undeclared function 'OS_create_semaphore'; ISO C99 and later do not support implicit function declarations(Š©æàùÿÿÿÿ8í•¼ŒÔ1
+c:S819"pcall to undeclared function 'OS_lock_semaphore'; ISO C99 and later do not support implicit function declarations(Ğí»Âüÿÿÿÿ8í•¼ŒÔ1
+‘c:S819"scall to undeclared function 'OS_release_semaphore'; ISO C99 and later do not support implicit function declarations(ÎŒ¹Òıÿÿÿÿ8î•¼ŒÔ1
+c:S819#"pcall to undeclared function 'OS_lock_semaphore'; ISO C99 and later do not support implicit function declarations(Ğí»Âüÿÿÿÿ8î•¼ŒÔ1
+‘c:S819("scall to undeclared function 'OS_release_semaphore'; ISO C99 and later do not support implicit function declarations(ÎŒ¹Òıÿÿÿÿ8î•¼ŒÔ1
+c:S819-"pcall to undeclared function 'OS_lock_semaphore'; ISO C99 and later do not support implicit function declarations(Ğí»Âüÿÿÿÿ8î•¼ŒÔ1
+‘c:S8192"scall to undeclared function 'OS_release_semaphore'; ISO C99 and later do not support implicit function declarations(ÎŒ¹Òıÿÿÿÿ8î•¼ŒÔ1
+c:S819C"…call to undeclared library function 'free' with type 'void (void *)'; ISO C99 and later do not support implicit function declarations(íê»8î•¼ŒÔ1
+c:S819J"pcall to undeclared function 'OS_lock_semaphore'; ISO C99 and later do not support implicit function declarations(Ğí»Âüÿÿÿÿ8î•¼ŒÔ1
+‘c:S819O"scall to undeclared function 'OS_release_semaphore'; ISO C99 and later do not support implicit function declarations(ÎŒ¹Òıÿÿÿÿ8î•¼ŒÔ1

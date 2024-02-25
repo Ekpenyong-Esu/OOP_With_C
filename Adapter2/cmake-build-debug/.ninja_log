@@ -1,0 +1,11 @@
+# ninja log v5
+8	1220	7260712400086822	build.ninja	1f61d85d4183b7b2
+17	526	7260712410866780	CMakeFiles/Adapter2.dir/main.c.obj	f433abaf344a1b3a
+1	623	7260712412012093	CMakeFiles/Adapter2.dir/gas_sensor.c.obj	2aca5bf88e7adb26
+96	760	7260713408250971	CMakeFiles/Adapter2.dir/display_client.c.obj	f683275d776eab6c
+20	961	7260713411010964	CMakeFiles/Adapter2.dir/gas_mixer_client.c.obj	f647cdcea8957685
+962	1257	7260713413960872	Adapter2.exe	fd999710cf2469d4
+6	364	7260714711056088	CMakeFiles/Adapter2.dir/main.c.obj	f433abaf344a1b3a
+366	746	7260714715046003	Adapter2.exe	fd999710cf2469d4
+8	454	7260715154075040	CMakeFiles/Adapter2.dir/main.c.obj	f433abaf344a1b3a
+457	881	7260715158400244	Adapter2.exe	fd999710cf2469d4

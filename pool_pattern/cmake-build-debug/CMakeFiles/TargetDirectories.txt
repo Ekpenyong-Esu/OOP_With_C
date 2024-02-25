@@ -1,0 +1,3 @@
+C:/Users/mahon/VS_CODE_LAB/OOP_With_C/pool_pattern/cmake-build-debug/CMakeFiles/pool_pattern.dir
+C:/Users/mahon/VS_CODE_LAB/OOP_With_C/pool_pattern/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mahon/VS_CODE_LAB/OOP_With_C/pool_pattern/cmake-build-debug/CMakeFiles/rebuild_cache.dir

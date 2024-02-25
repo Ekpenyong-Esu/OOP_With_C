@@ -1,0 +1,5 @@
+
+c:S819"vcall to undeclared function 'MotorPositionSensor_run'; ISO C99 and later do not support implicit function declarations(—±ŠÅÿÿÿÿÿ
+~c:S819"lcall to undeclared function 'OSCreateTimer'; ISO C99 and later do not support implicit function declarations(ùıÌ¥
+{c:S819"jcall to undeclared function 'getPosition'; ISO C99 and later do not support implicit function declarations(Şœñ
+kc:S1186"YAdd a nested comment explaining why this method is empty, or complete the implementation.(©¤a

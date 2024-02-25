@@ -1,0 +1,6 @@
+# ninja log v5
+19	525	7264073025919632	CMakeFiles/mediator.dir/sliding_joint.c.obj	fdec5fc4a8efd3f8
+79	577	7264073026779581	CMakeFiles/mediator.dir/robot_arm_manager.c.obj	57870a47993ceead
+39	669	7264073027789582	CMakeFiles/mediator.dir/main.c.obj	29c0832a98c9aa89
+1	697	7264073028080574	CMakeFiles/mediator.dir/rotating_joint.c.obj	ba6464ad6f341147
+698	1059	7264073031667058	mediator.exe	fdd8598791563f6e

@@ -1,0 +1,15 @@
+
+lc:S1186"YAdd a nested comment explaining why this method is empty, or complete the implementation.(ºœ™¢
+;c:S1172"!Remove the unused parameter "me".(ºœ™¢8‘ÉÔĞ1
+c:S995"wMake the type of this parameter a pointer-to-const. The current type of "me" is "struct BreathingCircuitSensor *const".(ºœ™¢8’ÉÔĞ1
+kc:S1186"YAdd a nested comment explaining why this method is empty, or complete the implementation.(¤Ÿº%
+:c:S1172"!Remove the unused parameter "me".(¤Ÿº%8”ÉÔĞ1
+c:S995"wMake the type of this parameter a pointer-to-const. The current type of "me" is "struct BreathingCircuitSensor *const".(¤Ÿº%8•ÉÔĞ1
+lc:S1186 "YAdd a nested comment explaining why this method is empty, or complete the implementation.(‡¡ş¿
+Gc:S935"")non-void function does not return a value(æÀö€øÿÿÿÿ8–ÉÔĞ1
+;c:S1172 "!Remove the unused parameter "me".(‡¡ş¿8—ÉÔĞ1
+c:S995 "wMake the type of this parameter a pointer-to-const. The current type of "me" is "struct BreathingCircuitSensor *const".(‡¡ş¿8—ÉÔĞ1
+qc:S1186$"YAdd a nested comment explaining why this method is empty, or complete the implementation.(Ç¾±Äøÿÿÿÿ
+Gc:S935&")non-void function does not return a value(æÀö€øÿÿÿÿ8˜ÉÔĞ1
+@c:S1172$"!Remove the unused parameter "me".(Ç¾±Äøÿÿÿÿ8™ÉÔĞ1
+•c:S995$"wMake the type of this parameter a pointer-to-const. The current type of "me" is "struct BreathingCircuitSensor *const".(Ç¾±Äøÿÿÿÿ8šÉÔĞ1

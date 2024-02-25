@@ -1,0 +1,10 @@
+# ninja log v5
+55	426	7254081741011856	CMakeFiles/client_server_pattern.dir/TimeMarkedData.c.obj	ad8fd87cc31ecfbf
+13	436	7254081741071845	CMakeFiles/client_server_pattern.dir/main.c.obj	9c9b9e0b74c31884
+1	438	7254081741121818	CMakeFiles/client_server_pattern.dir/TMDQueue.c.obj	98d66ec9b7eabc56
+35	442	7254081741251798	CMakeFiles/client_server_pattern.dir/QRSDetector.c.obj	258193e8d5181a64
+45	465	7254081741481800	CMakeFiles/client_server_pattern.dir/TestBuilder.c.obj	a6e563227618d366
+28	268	7254082013393085	CMakeFiles/client_server_pattern.dir/WaveformDisplay.c.obj	397a66a22006e009
+10	304	7254082013713066	CMakeFiles/client_server_pattern.dir/ECG_Module.c.obj	617488946cb7a4d7
+20	324	7254082014128465	CMakeFiles/client_server_pattern.dir/HistogramDisplay.c.obj	b1d365a369b9e8a2
+324	594	7254082016899951	client_server_pattern.exe	fac8fea9876dd114

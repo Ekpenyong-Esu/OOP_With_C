@@ -1,0 +1,6 @@
+
+¨	cpp:S3230"†Remove this use of the constructor's initializer list for data member "joints_". It is redundant with default initialization behavior.(— ÷Ôøÿÿÿÿ8òÑŞÀÎ1
+¦	cpp:S3230"„Remove this use of the constructor's initializer list for data member "path_". It is redundant with default initialization behavior.(— ÷Ôøÿÿÿÿ8óÑŞÀÎ1
+‹	cpp:S3230"jDo not assign data members in a constructor. Initialize member "curr_position_" in an initialization list.(­‚æƒøÿÿÿÿ8óÑŞÀÎ1
+	cpp:S3230"cDo not assign data members in a constructor. Initialize member "joints_" in an initialization list.(¿îŒ–8ôÑŞÀÎ1
+–	cpp:S3230"uDo not use the constructor's initializer list for data member "curr_position_". Use the in-class initializer instead.(— ÷Ôøÿÿÿÿ8öÑŞÀÎ1

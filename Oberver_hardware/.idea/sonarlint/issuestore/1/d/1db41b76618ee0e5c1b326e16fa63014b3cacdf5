@@ -1,0 +1,18 @@
+
+%c:S1481"unused variable 's'(üë
+nc:S5276&"Oimplicit conversion loses integer precision: 'unsigned int' to 'unsigned short'(èîéÿÿÿÿÿ8Û³—ÄÎ1
+nc:S5276'"Oimplicit conversion loses integer precision: 'unsigned int' to 'unsigned short'(µ¯ä§ùÿÿÿÿ8Û³—ÄÎ1
+,c:S1481-"unused variable 's'(üë8Ù©œÄÎ1
+Jc:S5955"+Declare the variable "pos" inside the loop.(ù˜êûÿÿÿÿ8ñ³—ÄÎ1
+ˆc:S995"jMake the type of this parameter a pointer-to-const. The current type of "me" is "struct GasSensor *const".(’ôĞùÿÿÿÿ8â©œÄÎ1
+Pc:S1066"1Merge this "if" statement with the enclosing one.(ãû§èúÿÿÿÿ8õ³—ÄÎ1
+Jc:S5955."+Declare the variable "pos" inside the loop.(ù˜êûÿÿÿÿ8ù³—ÄÎ1
+Pc:S10660"1Merge this "if" statement with the enclosing one.(£»¸¯úÿÿÿÿ8û³—ÄÎ1
+Jc:S5955?"+Declare the variable "pos" inside the loop.(ü¡±ùşÿÿÿÿ8€´—ÄÎ1
+Pc:S1066A"1Merge this "if" statement with the enclosing one.(»ğĞÃøÿÿÿÿ8ì©œÄÎ1
+5c:S1905I"Remove this redundant cast.(Ş®¯†8ş³—ÄÎ1
+;c:S1172P"!Remove the unused parameter "me".(Ÿ¤Ÿë8ÿ³—ÄÎ1
+Jc:S5955W"+Declare the variable "pos" inside the loop.(ü¡±ùşÿÿÿÿ8‚´—ÄÎ1
+Jc:S5955a"+Declare the variable "pos" inside the loop.(ü¡±ùşÿÿÿÿ8„´—ÄÎ1
+ c:S995_"†Make the type of this parameter a pointer-to-const. The current type of "p_GasNotificationHandle" is "struct GasNotificationHandle *".(Ô„ÅÊ8‚´—ÄÎ1
+Jc:S5955j"+Declare the variable "pos" inside the loop.(ğ·èüúÿÿÿÿ8ò©œÄÎ1

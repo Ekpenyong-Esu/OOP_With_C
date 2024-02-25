@@ -1,0 +1,9 @@
+
+‰c:S819"kcall to undeclared function 'GasData_Init'; ISO C99 and later do not support implicit function declarations(şàİøÿÿÿÿ8ù¨‚Ô1
+Šc:S819"qcall to undeclared function 'O2Sensor_getO2Data'; ISO C99 and later do not support implicit function declarations(û©âè8ú¨‚Ô1
+Šc:S819"qcall to undeclared function 'N2Sensor_getN2Data'; ISO C99 and later do not support implicit function declarations(É€ø8ú¨‚Ô1
+c:S819"qcall to undeclared function 'HeSensor_getHeData'; ISO C99 and later do not support implicit function declarations(×†õÑûÿÿÿÿ8ú¨‚Ô1
+c:S819"rcall to undeclared function 'GasDataQueue_insert'; ISO C99 and later do not support implicit function declarations(ª¤Ö‚ÿÿÿÿÿ8ú¨‚Ô1
+«c:S819"‘call to undeclared library function 'printf' with type 'int (const char *, ...)'; ISO C99 and later do not support implicit function declarations(ÿĞ‡8ú¨‚Ô1
+c:S819%"rcall to undeclared function 'GasDataQueue_insert'; ISO C99 and later do not support implicit function declarations(ª¤Ö‚ÿÿÿÿÿ8û¨‚Ô1
+c:S819."rcall to undeclared function 'GasDataQueue_insert'; ISO C99 and later do not support implicit function declarations(ª¤Ö‚ÿÿÿÿÿ8û¨‚Ô1

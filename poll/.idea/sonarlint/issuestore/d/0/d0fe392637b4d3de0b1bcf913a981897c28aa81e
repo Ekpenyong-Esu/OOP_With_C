@@ -1,0 +1,12 @@
+
+Jc:S5955"+Declare the variable "pos" inside the loop.(àçúÿûÿÿÿÿ8ÚÃÔĞ1
+Hc:S1659"0Define each identifier in a dedicated statement.(÷¯®Ÿüÿÿÿÿ
+5c:S19058"Remove this redundant cast.(“â8ÜÃÔĞ1
+;c:S1172C"!Remove the unused parameter "me".(„÷¾»8İÃÔĞ1
+Ec:S5955J"+Declare the variable "pos" inside the loop.(Í‡îş8ŞÃÔĞ1
+Ec:S5955T"+Declare the variable "pos" inside the loop.(Í‡îş8àÃÔĞ1
+¡c:S995R"ˆMake the type of this parameter a pointer-to-const. The current type of "p_BreathingCircuitSensor" is "struct BreathingCircuitSensor *".(ÿû‚>8áÃÔĞ1
+Jc:S5955^"+Declare the variable "pos" inside the loop.(àçúÿûÿÿÿÿ8âÃÔĞ1
+Wc:S1199\"8Extract this nested code block into a separate function.(ÒÌâ–øÿÿÿÿ8äÃÔĞ1
+:c:S1905f"Remove this redundant cast.(›ƒ£şÿÿÿÿ8åÃÔĞ1
+–c:S5350"{Make the type of this variable a pointer-to-const. The current type of "p_BCPeriodicPoller" is "struct BCPeriodicPoller *".(¯¢Ó‘8åÃÔĞ1

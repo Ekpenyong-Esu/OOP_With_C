@@ -1,0 +1,19 @@
+
+qc:S1186"YAdd a nested comment explaining why this method is empty, or complete the implementation.(™ ú™üÿÿÿÿ
+@c:S1172"!Remove the unused parameter "me".(™ ú™üÿÿÿÿ8ıËÔĞ1
+c:S995"oMake the type of this parameter a pointer-to-const. The current type of "me" is "struct MedicalDisplay *const".(™ ú™üÿÿÿÿ8şËÔĞ1
+lc:S1186
+"YAdd a nested comment explaining why this method is empty, or complete the implementation.(Æ“Ïœ
+;c:S1172
+"!Remove the unused parameter "me".(Æ“Ïœ8€ÌÔĞ1
+ˆc:S995
+"oMake the type of this parameter a pointer-to-const. The current type of "me" is "struct MedicalDisplay *const".(Æ“Ïœ8ÌÔĞ1
+;c:S1172"!Remove the unused parameter "me".(‘Ñ¯ø8‚ÌÔĞ1
+ˆc:S995"oMake the type of this parameter a pointer-to-const. The current type of "me" is "struct MedicalDisplay *const".(‘Ñ¯ø8„ÌÔĞ1
+@c:S1172""!Remove the unused parameter "me".(–¼ø®şÿÿÿÿ8…ÌÔĞ1
+c:S995""oMake the type of this parameter a pointer-to-const. The current type of "me" is "struct MedicalDisplay *const".(–¼ø®şÿÿÿÿ8†ÌÔĞ1
+;c:S1172%"!Remove the unused parameter "me".(»ÀÏ8†ÌÔĞ1
+ˆc:S995%"oMake the type of this parameter a pointer-to-const. The current type of "me" is "struct MedicalDisplay *const".(»ÀÏ8‡ÌÔĞ1
+:c:S1172("!Remove the unused parameter "me".(˜üÙ"8ˆÌÔĞ1
+‡c:S995("oMake the type of this parameter a pointer-to-const. The current type of "me" is "struct MedicalDisplay *const".(˜üÙ"8ˆÌÔĞ1
+Qc:S5488"2Call to 'malloc' has an allocation size of 0 bytes(ñ×»¦şÿÿÿÿ8ŸÌÔĞ1

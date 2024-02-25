@@ -1,0 +1,5 @@
+
+Дc:S819"rcall to undeclared function 'GasSensorThread_run'; ISO C99 and later do not support implicit function declarations(Е£Ч≥
+Лc:S819"tcall to undeclared function 'GasActuatorThread_run'; ISO C99 and later do not support implicit function declarations(дытЊю€€€€
+Кc:S819"scall to undeclared function 'GasDisplayThread_run'; ISO C99 and later do not support implicit function declarations(ЖЃнєэ€€€€
+Кc:S819"scall to undeclared function 'epochTimerHasElapsed'; ISO C99 and later do not support implicit function declarations(Г—”„щ€€€€

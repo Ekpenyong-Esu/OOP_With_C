@@ -1,0 +1,9 @@
+
+…	cpp:S5502"dExpression statements should have at most one resource allocation. Consider using factory functions.(„¶Ãåşÿÿÿÿ8¤–ÁÎ1
+r	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(„¶Ãåşÿÿÿÿ8¥–ÁÎ1
+l	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(Ì€—8¥–ÁÎ1
+l	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(éªĞ^8¥–ÁÎ1
+m	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(ªÛÓ¯8¥–ÁÎ1
+m	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(îâå–8¦–ÁÎ1
+r	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(Åœ…üúÿÿÿÿ8ÖšÁÎ1
+m	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(ÛÑ¼8ÒôšÁÎ1

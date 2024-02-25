@@ -1,0 +1,6 @@
+
+{c:S819"icall to undeclared function 'Mutex_lock'; ISO C99 and later do not support implicit function declarations(¾À
+—c:S819M"…call to undeclared library function 'free' with type 'void (void *)'; ISO C99 and later do not support implicit function declarations(íê»
+tc:S3973"\Use curly braces or indentation to denote the code conditionally executed by this statement.(„¶áìøÿÿÿÿ
+dc:S134+"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(ÛÖÒÿÿÿÿÿ
+Hc:S1659&"0Define each identifier in a dedicated statement.(µ„ëŞùÿÿÿÿ

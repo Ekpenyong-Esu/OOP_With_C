@@ -1,0 +1,3 @@
+
+ß	cpp:S5952"ÃAdd a using-declaration to this derived class to inherit the constructors of "Motor", and remove the ones you manually duplicated. Note that this may add other constructors to your derived class.(™åİ8›§ÿÀÎ1
+S	cpp:S3471"2Annotate this function with "override" or "final".(ìòÖÊûÿÿÿÿ8Û…€ÁÎ1

@@ -1,0 +1,8 @@
+
+yc:S995;"bMake the type of this parameter a pointer-to-const. The current type of "book" is "struct Book *".(Øá–æùÿÿÿÿ
+xc:S995A"fMake the type of this parameter a pointer-to-const. The current type of "patron" is "struct Patron *".(¾ÓŒü
+.c:S3584†"Potential memory leak(ø‰óîþÿÿÿÿ
+.c:S3584‡"Potential memory leak(ø·©ˆÿÿÿÿÿ
+.c:S3584Š"Potential memory leak(àˆäÁùÿÿÿÿ
+.c:S3584‹"Potential memory leak(ó—ôðÿÿÿÿÿ
+)c:S3584Ž"Potential memory leak(ï—¯Ê

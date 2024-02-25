@@ -1,0 +1,13 @@
+
+;c:S1172"!Remove the unused parameter "me".(ÓÑŸØ8šÏ–Ğ1
+c:S995"fMake the type of this parameter a pointer-to-const. The current type of "me" is "struct Timer *const".(ÓÑŸØ8„šÏ–Ğ1
+lc:S1186
+"YAdd a nested comment explaining why this method is empty, or complete the implementation.(€—ç
+;c:S1172
+"!Remove the unused parameter "me".(€—ç8‰šÏ–Ğ1
+c:S995
+"fMake the type of this parameter a pointer-to-const. The current type of "me" is "struct Timer *const".(€—ç8ŠšÏ–Ğ1
+qc:S1186"YAdd a nested comment explaining why this method is empty, or complete the implementation.(÷Ëçòúÿÿÿÿ
+@c:S1172"!Remove the unused parameter "me".(÷Ëçòúÿÿÿÿ8“šÏ–Ğ1
+Bc:S1172"#Remove the unused parameter "time".(÷Ëçòúÿÿÿÿ8“šÏ–Ğ1
+„c:S995"fMake the type of this parameter a pointer-to-const. The current type of "me" is "struct Timer *const".(÷Ëçòúÿÿÿÿ8”šÏ–Ğ1

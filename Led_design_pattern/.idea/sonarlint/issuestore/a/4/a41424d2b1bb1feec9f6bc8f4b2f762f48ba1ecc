@@ -1,0 +1,7 @@
+
+ˆc:S819"qcall to undeclared function 'HAL_GPIO_TogglePin'; ISO C99 and later do not support implicit function declarations(Í¯úžÿÿÿÿÿ
+yc:S819#"gcall to undeclared function 'HAL_Init'; ISO C99 and later do not support implicit function declarations(â¸„ê
+ˆc:S819&"qcall to undeclared function 'SystemClock_Config'; ISO C99 and later do not support implicit function declarations(Ì„­Óûÿÿÿÿ
+zc:S8192"hcall to undeclared function 'HAL_Delay'; ISO C99 and later do not support implicit function declarations(âÆÿÑ
+:c:S1172""Remove the unused parameter "led".(€…¬§ùÿÿÿÿ
+Èc:S995"°Make the type of this parameter a pointer-to-const. The current type of "led" is "struct (unnamed at C:\Users\mahon\VS_CODE_LAB\OOP_With_C\Led_design_pattern\led_stm.c:7:9) *".(€…¬§ùÿÿÿÿ

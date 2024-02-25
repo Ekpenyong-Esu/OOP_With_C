@@ -1,0 +1,14 @@
+
+kc:S859"Tcast from 'const struct ECG_Module *' to 'struct ECG_Module *' drops const qualifier(¨Íé«ùÿÿÿÿ
+rc:S859"`cast from 'const struct HistogramDisplay *' to 'struct HistogramDisplay *' drops const qualifier(Ò¿…
+gc:S859%"Pcast from 'const struct TMDQueue *' to 'struct TMDQueue *' drops const qualifier(ü×˜‰üÿÿÿÿ
+0c:S125"Remove the commented out code.(Ÿ·îí
+5c:S125 "Remove the commented out code.(Æî©ùÿÿÿÿ
+5c:S125("Remove the commented out code.(Ç©Èúÿÿÿÿ
+5c:S125>"Remove the commented out code.(¨ğÁ×úÿÿÿÿ
+0c:S125A"Remove the commented out code.(¼¡®
+5c:S125C"Remove the commented out code.(ò×Šôøÿÿÿÿ
+5c:S125G"Remove the commented out code.(İÕ…øÿÿÿÿ
+/c:S125M"Remove the commented out code.(Ÿ¥
+0c:S125O"Remove the commented out code.(¾¦±¼
+5c:S125R"Remove the commented out code.(Â«˜äüÿÿÿÿ

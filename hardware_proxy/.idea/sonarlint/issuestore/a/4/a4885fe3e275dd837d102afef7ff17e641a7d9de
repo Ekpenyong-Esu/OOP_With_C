@@ -1,0 +1,17 @@
+
+4c:S1481`"unused variable 'dPi'(üÌŸÕıÿÿÿÿ8¡¯®Í1
+_c:S1768‚"?result of comparison of unsigned expression >= 0 is always true(Ìû¤üÿÿÿÿ8¢¯®Í1
+nc:S5276±"Nimplicit conversion loses integer precision: 'unsigned int' to 'unsigned char'(éÓ…ìÿÿÿÿÿ8£¯®Í1
+nc:S5276²"Nimplicit conversion loses integer precision: 'unsigned int' to 'unsigned char'(ï™—Şıÿÿÿÿ8£¯®Í1
+nc:S5276³"Nimplicit conversion loses integer precision: 'unsigned int' to 'unsigned char'(İºøÿÿÿÿ8¤¯®Í1
+hc:S5276´"Nimplicit conversion loses integer precision: 'unsigned int' to 'unsigned char'(´±Şr8¤¯®Í1
+nc:S5276µ"Nimplicit conversion loses integer precision: 'unsigned int' to 'unsigned char'(›¡é¡ÿÿÿÿÿ8¥¯®Í1
+hc:S5276¶"Nimplicit conversion loses integer precision: 'unsigned int' to 'unsigned char'(´˜û{8¦¯®Í1
+nc:S5276·"Nimplicit conversion loses integer precision: 'unsigned int' to 'unsigned char'(®¯‰¸ıÿÿÿÿ8¦¯®Í1
+ic:S5276¸"Nimplicit conversion loses integer precision: 'unsigned int' to 'unsigned char'(·Î¨à8§¯®Í1
+;c:S1172"!Remove the unused parameter "me".(Ìß…Á8°¯®Í1
+„c:S995"kMake the type of this parameter a pointer-to-const. The current type of "me" is "struct MotorProxy *const".(Ìß…Á8²¯®Í1
+„c:S995"kMake the type of this parameter a pointer-to-const. The current type of "me" is "struct MotorProxy *const".(É«æ½8³¯®Í1
+„c:S995 "kMake the type of this parameter a pointer-to-const. The current type of "me" is "struct MotorProxy *const".(ÖÈ¬Ñ8µ¯®Í1
+‰c:S995("kMake the type of this parameter a pointer-to-const. The current type of "me" is "struct MotorProxy *const".(‡€©Ìıÿÿÿÿ8¶¯®Í1
+Oc:S1659`"0Define each identifier in a dedicated statement.(üÌŸÕıÿÿÿÿ8Ê¯®Í1

@@ -1,0 +1,13 @@
+
+–c:S819"xcall to undeclared function 'OS_disable_task_switching'; ISO C99 and later do not support implicit function declarations(Œ¤¡ýÿÿÿÿ8ßÇÙ‹Ô1
+‡c:S819"ncall to undeclared function 'RobotArm_moveTo'; ISO C99 and later do not support implicit function declarations(Ê’—¾8àÇÙ‹Ô1
+•c:S819"wcall to undeclared function 'OS_enable_task_switching'; ISO C99 and later do not support implicit function declarations(Û‰ºúÿÿÿÿ8àÇÙ‹Ô1
+Šc:S819!"qcall to undeclared function 'CRDisplay_printMsg'; ISO C99 and later do not support implicit function declarations(€Ô‘Ä8áÇÙ‹Ô1
+„c:S8190"mcall to undeclared function 'UserInput_getX'; ISO C99 and later do not support implicit function declarations(­‘¥ùÿÿÿÿ
+‹c:S8191"mcall to undeclared function 'UserInput_getY'; ISO C99 and later do not support implicit function declarations(Ì×ø’øÿÿÿÿ8áÇÙ‹Ô1
+–c:S8195"xcall to undeclared function 'OS_disable_task_switching'; ISO C99 and later do not support implicit function declarations(Œ¤¡ýÿÿÿÿ8áÇÙ‹Ô1
+‡c:S8198"ncall to undeclared function 'RobotArm_moveTo'; ISO C99 and later do not support implicit function declarations(·ä«ê8áÇÙ‹Ô1
+•c:S819;"wcall to undeclared function 'OS_enable_task_switching'; ISO C99 and later do not support implicit function declarations(Û‰ºúÿÿÿÿ8âÇÙ‹Ô1
+c:S819>"qcall to undeclared function 'CRDisplay_printInt'; ISO C99 and later do not support implicit function declarations(ðê™Ìüÿÿÿÿ8âÇÙ‹Ô1
+žc:S819g"…call to undeclared library function 'free' with type 'void (void *)'; ISO C99 and later do not support implicit function declarations(íê»8ãÇÙ‹Ô1
+Jc:S1659&"0Define each identifier in a dedicated statement.(ü½ßÿ8ãÇÙ‹Ô1

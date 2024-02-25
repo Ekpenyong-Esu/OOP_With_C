@@ -1,0 +1,41 @@
+
+‚c:S819"icall to undeclared function 'Mutex_lock'; ISO C99 and later do not support implicit function declarations(¾À8÷§­ÿÖ1
+šc:S819"|call to undeclared function 'LightController_enter_OnState'; ISO C99 and later do not support implicit function declarations(Æ„É¹ûÿÿÿÿ8ø§­ÿÖ1
+…c:S819#"lcall to undeclared function 'Mutex_release'; ISO C99 and later do not support implicit function declarations(¾¿À8ø§­ÿÖ1
+‚c:S819)"icall to undeclared function 'Mutex_lock'; ISO C99 and later do not support implicit function declarations(¾À8ø§­ÿÖ1
+™c:S819."{call to undeclared function 'LightController_exit_OnState'; ISO C99 and later do not support implicit function declarations(ç¡«éıÿÿÿÿ8ø§­ÿÖ1
+–c:S8194"}call to undeclared function 'LightController_enter_OffState'; ISO C99 and later do not support implicit function declarations(­ÎØ8ù§­ÿÖ1
+…c:S819;"lcall to undeclared function 'Mutex_release'; ISO C99 and later do not support implicit function declarations(¾¿À8ù§­ÿÖ1
+‚c:S819A"icall to undeclared function 'Mutex_lock'; ISO C99 and later do not support implicit function declarations(¾À8ù§­ÿÖ1
+šc:S819J"|call to undeclared function 'LightController_enter_OnState'; ISO C99 and later do not support implicit function declarations(Æ„É¹ûÿÿÿÿ8ù§­ÿÖ1
+…c:S819R"lcall to undeclared function 'Mutex_release'; ISO C99 and later do not support implicit function declarations(¾¿À8ù§­ÿÖ1
+‚c:S819Z"icall to undeclared function 'Mutex_lock'; ISO C99 and later do not support implicit function declarations(¾À8ù§­ÿÖ1
+…c:S819t"lcall to undeclared function 'Mutex_release'; ISO C99 and later do not support implicit function declarations(¾¿À8ú§­ÿÖ1
+‚c:S819|"icall to undeclared function 'Mutex_lock'; ISO C99 and later do not support implicit function declarations(¾À8ú§­ÿÖ1
+†c:S819–"lcall to undeclared function 'Mutex_release'; ISO C99 and later do not support implicit function declarations(¾¿À8ú§­ÿÖ1
+ƒc:S819Ÿ"icall to undeclared function 'Mutex_lock'; ISO C99 and later do not support implicit function declarations(¾À8ú§­ÿÖ1
+†c:S819¹"lcall to undeclared function 'Mutex_release'; ISO C99 and later do not support implicit function declarations(¾¿À8ú§­ÿÖ1
+ƒc:S819Á"icall to undeclared function 'Mutex_lock'; ISO C99 and later do not support implicit function declarations(¾À8ú§­ÿÖ1
+†c:S819Û"lcall to undeclared function 'Mutex_release'; ISO C99 and later do not support implicit function declarations(¾¿À8ú§­ÿÖ1
+ƒc:S819ã"icall to undeclared function 'Mutex_lock'; ISO C99 and later do not support implicit function declarations(¾À8û§­ÿÖ1
+†c:S819ı"lcall to undeclared function 'Mutex_release'; ISO C99 and later do not support implicit function declarations(¾¿À8û§­ÿÖ1
+ƒc:S819†"icall to undeclared function 'Mutex_lock'; ISO C99 and later do not support implicit function declarations(¾À8ş§­ÿÖ1
+šc:S819œ"{call to undeclared function 'LightController_exit_OnState'; ISO C99 and later do not support implicit function declarations(ç¡«éıÿÿÿÿ8ş§­ÿÖ1
+£c:S819¤"ƒcall to undeclared function 'LightController_enter_EmergencyState'; ISO C99 and later do not support implicit function declarations(ğ´ñ°ûÿÿÿÿ8ÿ§­ÿÖ1
+†c:S819¬"lcall to undeclared function 'Mutex_release'; ISO C99 and later do not support implicit function declarations(¾¿À8ÿ§­ÿÖ1
+Ÿc:S819¸"…call to undeclared library function 'free' with type 'void (void *)'; ISO C99 and later do not support implicit function declarations(íê»8€¨­ÿÖ1
+fc:S134f"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Úìö8†¨­ÿÖ1
+fc:S134l"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Úìö8‡¨­ÿÖ1
+gc:S134ˆ"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Úìö8ˆ¨­ÿÖ1
+gc:S134"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Úìö8ˆ¨­ÿÖ1
+gc:S134«"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Úìö8‰¨­ÿÖ1
+gc:S134±"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Úìö8‰¨­ÿÖ1
+gc:S134Í"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Úìö8‹¨­ÿÖ1
+gc:S134Ó"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Úìö8Œ¨­ÿÖ1
+gc:S134ï"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Úìö8¨­ÿÖ1
+gc:S134õ"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Úìö8¨­ÿÖ1
+lc:S134"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(ü€Í”ıÿÿÿÿ8‘¨­ÿÖ1
+lc:S134•"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(ü€Í”ıÿÿÿÿ8‘¨­ÿÖ1
+Pc:S1659„"0Define each identifier in a dedicated statement.(æ¦ìËúÿÿÿÿ8“¨­ÿÖ1
+gc:S134ü"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Úìö8˜¨­ÿÖ1
+gc:S134"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Úìö8š¨­ÿÖ1

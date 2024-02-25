@@ -1,0 +1,16 @@
+
+|c:S819§"icall to undeclared function 'Mutex_lock'; ISO C99 and later do not support implicit function declarations(¾À
+Cc:S5261·"*add explicit braces to avoid dangling else(„¶áìøÿÿÿÿ
+Cc:S5261¼"*add explicit braces to avoid dangling else(„¶áìøÿÿÿÿ
+Cc:S5261Á"*add explicit braces to avoid dangling else(„¶áìøÿÿÿÿ
+c:S819È"lcall to undeclared function 'Mutex_release'; ISO C99 and later do not support implicit function declarations(¾¿À
+˜c:S819ı"…call to undeclared library function 'free' with type 'void (void *)'; ISO C99 and later do not support implicit function declarations(íê»
+wc:S819"dcall to undeclared function 'digit'; ISO C99 and later do not support implicit function declarations(Ä…ø©
+mc:S3776¥"TRefactor this function to reduce its Cognitive Complexity from 53 to the 25 allowed.(È¸éÅıÿÿÿÿ
+ec:S134®"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(»ÙñŠúÿÿÿÿ
+`c:S134³"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Æ÷³
+rc:S1186Ó"YAdd a nested comment explaining why this method is empty, or complete the implementation.(Ä½ˆ›ÿÿÿÿÿ
+mc:S1186Û"YAdd a nested comment explaining why this method is empty, or complete the implementation.(š±¨è
+rc:S1186ß"YAdd a nested comment explaining why this method is empty, or complete the implementation.(ËıÆ“úÿÿÿÿ
+rc:S1186ã"YAdd a nested comment explaining why this method is empty, or complete the implementation.(¾Óğùûÿÿÿÿ
+mc:S1186ç"YAdd a nested comment explaining why this method is empty, or complete the implementation.(ˆ›ø

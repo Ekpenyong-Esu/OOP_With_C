@@ -1,0 +1,29 @@
+
+~c:S819"lcall to undeclared function 'SimMutex_lock'; ISO C99 and later do not support implicit function declarations(΄Ω“ϊ
+c:S819"ocall to undeclared function 'SimMutex_release'; ISO C99 and later do not support implicit function declarations(ρχ¥ωÿÿÿÿ8Ύ‰‹ΪΤ1
+~c:S819"lcall to undeclared function 'SimMutex_lock'; ISO C99 and later do not support implicit function declarations(΄Ω“ϊ
+c:S819"ocall to undeclared function 'SimMutex_release'; ISO C99 and later do not support implicit function declarations(ρχ¥ωÿÿÿÿ8Ώ‰‹ΪΤ1
+…c:S819!"lcall to undeclared function 'SimMutex_lock'; ISO C99 and later do not support implicit function declarations(΄Ω“ϊ8ρΫΪΤ1
+c:S819#"ocall to undeclared function 'SimMutex_release'; ISO C99 and later do not support implicit function declarations(ρχ¥ωÿÿÿÿ8ΐ‰‹ΪΤ1
+…c:S819("lcall to undeclared function 'SimMutex_lock'; ISO C99 and later do not support implicit function declarations(΄Ω“ϊ8ςΫΪΤ1
+c:S819*"ocall to undeclared function 'SimMutex_release'; ISO C99 and later do not support implicit function declarations(ρχ¥ωÿÿÿÿ8Α‰‹ΪΤ1
+…c:S819/"lcall to undeclared function 'SimMutex_lock'; ISO C99 and later do not support implicit function declarations(΄Ω“ϊ8Α‰‹ΪΤ1
+c:S8191"ocall to undeclared function 'SimMutex_release'; ISO C99 and later do not support implicit function declarations(ρχ¥ωÿÿÿÿ8Β‰‹ΪΤ1
+…c:S8195"lcall to undeclared function 'SimMutex_lock'; ISO C99 and later do not support implicit function declarations(΄Ω“ϊ8Β‰‹ΪΤ1
+c:S8197"ocall to undeclared function 'SimMutex_release'; ISO C99 and later do not support implicit function declarations(ρχ¥ωÿÿÿÿ8Γ‰‹ΪΤ1
+…c:S819;"lcall to undeclared function 'SimMutex_lock'; ISO C99 and later do not support implicit function declarations(΄Ω“ϊ8Γ‰‹ΪΤ1
+c:S819="ocall to undeclared function 'SimMutex_release'; ISO C99 and later do not support implicit function declarations(ρχ¥ωÿÿÿÿ8Γ‰‹ΪΤ1
+c:S819D"ocall to undeclared function 'SimMutex_release'; ISO C99 and later do not support implicit function declarations(ρχ¥ωÿÿÿÿ8Δ‰‹ΪΤ1
+…c:S819I"lcall to undeclared function 'SimMutex_lock'; ISO C99 and later do not support implicit function declarations(΄Ω“ϊ8Δ‰‹ΪΤ1
+c:S819K"ocall to undeclared function 'SimMutex_release'; ISO C99 and later do not support implicit function declarations(ρχ¥ωÿÿÿÿ8Ε‰‹ΪΤ1
+…c:S819O"lcall to undeclared function 'SimMutex_lock'; ISO C99 and later do not support implicit function declarations(΄Ω“ϊ8Ζ‰‹ΪΤ1
+c:S819Q"ocall to undeclared function 'SimMutex_release'; ISO C99 and later do not support implicit function declarations(ρχ¥ωÿÿÿÿ8Ζ‰‹ΪΤ1
+…c:S819U"lcall to undeclared function 'SimMutex_lock'; ISO C99 and later do not support implicit function declarations(΄Ω“ϊ8Η‰‹ΪΤ1
+c:S819W"ocall to undeclared function 'SimMutex_release'; ISO C99 and later do not support implicit function declarations(ρχ¥ωÿÿÿÿ8Η‰‹ΪΤ1
+…c:S819\"lcall to undeclared function 'SimMutex_lock'; ISO C99 and later do not support implicit function declarations(΄Ω“ϊ8Η‰‹ΪΤ1
+c:S819^"ocall to undeclared function 'SimMutex_release'; ISO C99 and later do not support implicit function declarations(ρχ¥ωÿÿÿÿ8Θ‰‹ΪΤ1
+c:S819"…call to undeclared library function 'free' with type 'void (void *)'; ISO C99 and later do not support implicit function declarations(νκ»8Θ‰‹ΪΤ1
+:c:S1905c"Remove this redundant cast.(ÿ‡ªοώÿÿÿÿ8Λ‰‹ΪΤ1
+:c:S1905k"Remove this redundant cast.(¤Υϊÿÿÿÿ8Μ‰‹ΪΤ1
+5c:S1905s"Remove this redundant cast.(—δΗΧ8Μ‰‹ΪΤ1
+5c:S1905{"Remove this redundant cast.(ίµλ…8Ν‰‹ΪΤ1

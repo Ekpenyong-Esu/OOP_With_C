@@ -1,0 +1,43 @@
+
+‚c:S819"icall to undeclared function 'Mutex_lock'; ISO C99 and later do not support implicit function declarations(¾À8ÁÙŠİÔ1
+Tc:S3562 "5enumeration value 'NULL_SSTATE' not handled in switch(¡½ş½ùÿÿÿÿ8ÃÙŠİÔ1
+Sc:S3562"4enumeration value 'NULL_STATE' not handled in switch(¾ÖÆÀûÿÿÿÿ8ÄÙŠİÔ1
+~c:S8191"lcall to undeclared function 'Mutex_release'; ISO C99 and later do not support implicit function declarations(¾¿À
+‚c:S8198"icall to undeclared function 'Mutex_lock'; ISO C99 and later do not support implicit function declarations(¾À8ÇÙŠİÔ1
+{c:S3562D"\enumeration values 'NULL_SSTATE' and 'PROCESSINGFRACTIONALPART_SSTATE' not handled in switch(¡½ş½ùÿÿÿÿ8ÇÙŠİÔ1
+Sc:S3562:"4enumeration value 'NULL_STATE' not handled in switch(¾ÖÆÀûÿÿÿÿ8ÈÙŠİÔ1
+~c:S819L"lcall to undeclared function 'Mutex_release'; ISO C99 and later do not support implicit function declarations(¾¿À
+‚c:S819S"icall to undeclared function 'Mutex_lock'; ISO C99 and later do not support implicit function declarations(¾À8ÉÙŠİÔ1
+Tc:S3562V"5enumeration value 'NULL_SSTATE' not handled in switch(¡½ş½ùÿÿÿÿ8ÊÙŠİÔ1
+ic:S3562T"Jenumeration values 'NULL_STATE' and 'NONUMBER_STATE' not handled in switch(¾ÖÆÀûÿÿÿÿ8ÊÙŠİÔ1
+~c:S819d"lcall to undeclared function 'Mutex_release'; ISO C99 and later do not support implicit function declarations(¾¿À
+‚c:S819k"icall to undeclared function 'Mutex_lock'; ISO C99 and later do not support implicit function declarations(¾À8ËÙŠİÔ1
+Tc:S3562n"5enumeration value 'NULL_SSTATE' not handled in switch(¡½ş½ùÿÿÿÿ8ÌÙŠİÔ1
+ic:S3562l"Jenumeration values 'NULL_STATE' and 'NONUMBER_STATE' not handled in switch(¾ÖÆÀûÿÿÿÿ8ÍÙŠİÔ1
+~c:S819|"lcall to undeclared function 'Mutex_release'; ISO C99 and later do not support implicit function declarations(¾¿À
+¯c:S819¤"”call to undeclared library function 'malloc' with type 'void *(unsigned long long)'; ISO C99 and later do not support implicit function declarations(úùİ‰8ÍÙŠİÔ1
+˜c:S819­"…call to undeclared library function 'free' with type 'void (void *)'; ISO C99 and later do not support implicit function declarations(íê»
+;c:S11160"Remove this empty statement.(ôŸìúÿÿÿÿ8ÎÙŠİÔ1
+;c:S1116/"Remove this empty statement.(ôŸìúÿÿÿÿ8ÏÙŠİÔ1
+;c:S1116K"Remove this empty statement.(ôŸìúÿÿÿÿ8ĞÙŠİÔ1
+;c:S1116J"Remove this empty statement.(ôŸìúÿÿÿÿ8ĞÙŠİÔ1
+cc:S1301D"KReplace this "switch" statement by "if" statements to increase readability.(¡½ş½ùÿÿÿÿ
+cc:S1301T"KReplace this "switch" statement by "if" statements to increase readability.(¾ÖÆÀûÿÿÿÿ
+;c:S1116c"Remove this empty statement.(ôŸìúÿÿÿÿ8ÒÙŠİÔ1
+;c:S1116]"Remove this empty statement.(ôŸìúÿÿÿÿ8ÒÙŠİÔ1
+cc:S1301l"KReplace this "switch" statement by "if" statements to increase readability.(¾ÖÆÀûÿÿÿÿ
+;c:S1116{"Remove this empty statement.(ôŸìúÿÿÿÿ8ÔÙŠİÔ1
+;c:S1116u"Remove this empty statement.(ôŸìúÿÿÿÿ8ÕÙŠİÔ1
+rc:S1186Š"YAdd a nested comment explaining why this method is empty, or complete the implementation.(«ïğ±ıÿÿÿÿ
+Ac:S1172Š"!Remove the unused parameter "me".(«ïğ±ıÿÿÿÿ8ÖÙŠİÔ1
+–c:S995Š"wMake the type of this parameter a pointer-to-const. The current type of "me" is "struct TokenizerMultiReceptor *const".(«ïğ±ıÿÿÿÿ8×ÙŠİÔ1
+rc:S1186–"YAdd a nested comment explaining why this method is empty, or complete the implementation.(àğƒåüÿÿÿÿ
+Ac:S1172–"!Remove the unused parameter "me".(àğƒåüÿÿÿÿ8ØÙŠİÔ1
+–c:S995–"wMake the type of this parameter a pointer-to-const. The current type of "me" is "struct TokenizerMultiReceptor *const".(àğƒåüÿÿÿÿ8ÙÙŠİÔ1
+lc:S1186š"YAdd a nested comment explaining why this method is empty, or complete the implementation.(ÕÆ˜@
+;c:S1172š"!Remove the unused parameter "me".(ÕÆ˜@8ÚÙŠİÔ1
+c:S995š"wMake the type of this parameter a pointer-to-const. The current type of "me" is "struct TokenizerMultiReceptor *const".(ÕÆ˜@8ÛÙŠİÔ1
+lc:S1186"YAdd a nested comment explaining why this method is empty, or complete the implementation.(¼‡¸!
+;c:S1172"!Remove the unused parameter "me".(¼‡¸!8ÜÙŠİÔ1
+c:S995"wMake the type of this parameter a pointer-to-const. The current type of "me" is "struct TokenizerMultiReceptor *const".(¼‡¸!8İÙŠİÔ1
+6c:S1905½"Remove this redundant cast.(¥ÁôÙ8åÙŠİÔ1

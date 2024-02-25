@@ -1,0 +1,7 @@
+
+ƒc:S819"qcall to undeclared function 'OSSemaphore_Create'; ISO C99 and later do not support implicit function declarations(‚ÂÍ
+†c:S819"ocall to undeclared function 'OSSemaphore_lock'; ISO C99 and later do not support implicit function declarations(ÒÚˆûÿÿÿÿ
+¤c:S819"‘call to undeclared library function 'printf' with type 'int (const char *, ...)'; ISO C99 and later do not support implicit function declarations(¾‡ñÜ
+c:S819""ocall to undeclared function 'OSSemaphore_lock'; ISO C99 and later do not support implicit function declarations(çÓ—Û
+„c:S819$"rcall to undeclared function 'OSSemaphore_release'; ISO C99 and later do not support implicit function declarations(ñÿçš
+—c:S819D"…call to undeclared library function 'free' with type 'void (void *)'; ISO C99 and later do not support implicit function declarations(íê»
