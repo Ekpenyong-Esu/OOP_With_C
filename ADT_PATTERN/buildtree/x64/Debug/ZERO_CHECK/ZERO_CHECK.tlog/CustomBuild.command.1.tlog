@@ -1,0 +1,10 @@
+^C:\USERS\MAHON\VS_CODE_LAB\OOP_WITH_C\ADT_PATTERN\BUILDTREE\CMAKEFILES\356D69D26B467152C6E328AAA379419E\GENERATE.STAMP.RULE
+setlocal
+C:\Strawberry\c\bin\cmake.exe -SC:/Users/mahon/VS_CODE_LAB/OOP_With_C/ADT_PATTERN -BC:/Users/mahon/VS_CODE_LAB/OOP_With_C/ADT_PATTERN/buildtree --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/mahon/VS_CODE_LAB/OOP_With_C/ADT_PATTERN/buildtree/ADT_PATTERN.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

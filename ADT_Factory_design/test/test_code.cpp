@@ -2,8 +2,9 @@
 // Created by mahon on 3/9/2024.
 //
 // Test fixture for Task-related tests
-#include "gtest/gtest.h"
-#include "task.h"
+#include "../include/gtest/gtest.h"
+#include "../include/Task.h"
+
 
 class TaskTest : public ::testing::Test {
 protected:

@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/mahon/VS_CODE_LAB/OOP_With_C/ADT_PATTERN/buildtree/test_task[1]_tests.cmake")
+  include("C:/Users/mahon/VS_CODE_LAB/OOP_With_C/ADT_PATTERN/buildtree/test_task[1]_tests.cmake")
+else()
+  add_test(test_task_NOT_BUILT test_task_NOT_BUILT)
+endif()

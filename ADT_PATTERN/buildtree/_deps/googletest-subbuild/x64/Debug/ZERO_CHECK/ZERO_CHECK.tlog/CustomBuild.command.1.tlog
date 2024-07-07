@@ -1,0 +1,10 @@
+^C:\USERS\MAHON\VS_CODE_LAB\OOP_WITH_C\ADT_PATTERN\BUILDTREE\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\6E5ED2796D6F9735F5C1D1A15B1AE35F\GENERATE.STAMP.RULE
+setlocal
+C:\Strawberry\c\bin\cmake.exe -SC:/Users/mahon/VS_CODE_LAB/OOP_With_C/ADT_PATTERN/buildtree/_deps/googletest-subbuild -BC:/Users/mahon/VS_CODE_LAB/OOP_With_C/ADT_PATTERN/buildtree/_deps/googletest-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/mahon/VS_CODE_LAB/OOP_With_C/ADT_PATTERN/buildtree/_deps/googletest-subbuild/googletest-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,7 @@
+# ninja log v5
+2	1562	7317033815662251	CMakeFiles/ADT_Factory_design.dir/main.c.obj	4d8a331ccdc625d5
+74	1574	7317033817043080	CMakeFiles/ADT_Factory_design.dir/factoryImplementation.c.obj	151195e1748c2d43
+374	707	7317040616236345	ADT_Factory_design.exe	e9df5407aa91453a
+66	320	7317040612606208	CMakeFiles/ADT_Factory_design.dir/test/test_task.c.obj	db7ed8b82e72494d
+41	356	7317040612976199	CMakeFiles/ADT_Factory_design.dir/src/main.c.obj	69cb9cc7f8891fb3
+1	373	7317040613176146	CMakeFiles/ADT_Factory_design.dir/src/factoryImplementation.c.obj	2da6c13b5bb42b1c

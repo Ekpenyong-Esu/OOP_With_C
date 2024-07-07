@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Strawberry/c/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake
+C:/Strawberry/c/share/cmake-3.26/Modules/CheckIncludeFile.cmake
+C:/Strawberry/c/share/cmake-3.26/Modules/CheckLibraryExists.cmake
+C:/Strawberry/c/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake
+C:/Strawberry/c/share/cmake-3.26/Modules/FindPackageMessage.cmake
+C:/Strawberry/c/share/cmake-3.26/Modules/FindThreads.cmake
+C:/Users/mahon/VS_CODE_LAB/OOP_With_C/ADT_PATTERN/buildtree/_deps/googletest-src/googlemock/CMakeLists.txt
+C:/Users/mahon/VS_CODE_LAB/OOP_With_C/ADT_PATTERN/buildtree/_deps/googletest-src/googlemock/cmake/gmock.pc.in
+C:/Users/mahon/VS_CODE_LAB/OOP_With_C/ADT_PATTERN/buildtree/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in

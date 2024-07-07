@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\mahon\VS_CODE_LAB\OOP_With_C\ADT_PATTERN\test\test_code.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\mahon\VS_CODE_LAB\OOP_With_C\ADT_PATTERN\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{25F73862-315F-34C3-9172-058D16CFE7F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
