@@ -53,8 +53,7 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1,
-				2
+				1
 			]
 		}
 	],
@@ -113,8 +112,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "test/test_code.c",
+			"path" : "test/test_code.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
