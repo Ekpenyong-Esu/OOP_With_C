@@ -1,0 +1,1 @@
+/usr/bin/gcc-12 -g CMakeFiles/UnitTestRectangle.dir/test_rectangle.c.o -o UnitTestRectangle  ../src/rectangle/libLibRectangle.a ../_deps/unity-build/libunity.a ../src/shape/libLibShape.a 

@@ -1,0 +1,1 @@
+/usr/bin/gcc-12 -g CMakeFiles/UnitTestFactoryShape.dir/test_factory_shape.c.o -o UnitTestFactoryShape  ../src/shape_factory/libLibShapeFactory.a ../_deps/unity-build/libunity.a ../src/circle/libLibCircle.a ../src/rectangle/libLibRectangle.a ../src/triangle/libLibTriangle.a ../src/shape/libLibShape.a 

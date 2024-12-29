@@ -1,0 +1,111 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"app/main"
+			],
+			"targetId" : "main::@5f5a17c01335469806cb",
+			"targetIndex" : 41,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/circle/libLibCircle.a"
+			],
+			"targetId" : "LibCircle::@0b11e24cfe2290e465c1",
+			"targetIndex" : 18,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/rectangle/libLibRectangle.a"
+			],
+			"targetId" : "LibRectangle::@9c1cb0d856274958cffe",
+			"targetIndex" : 19,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/shape/libLibShape.a"
+			],
+			"targetId" : "LibShape::@64d6598ea5196db2acd1",
+			"targetIndex" : 20,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/triangle/libLibTriangle.a"
+			],
+			"targetId" : "LibTriangle::@349df3000f81e4dbbd5d",
+			"targetIndex" : 22,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/shape_factory/libLibShapeFactory.a"
+			],
+			"targetId" : "LibShapeFactory::@4cc5cc657cf0cd4f85ae",
+			"targetIndex" : 21,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

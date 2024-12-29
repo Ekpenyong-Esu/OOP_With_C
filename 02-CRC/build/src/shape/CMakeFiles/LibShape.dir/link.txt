@@ -1,0 +1,2 @@
+"/usr/bin/gcc-ar-12" cr libLibShape.a CMakeFiles/LibShape.dir/shape.c.o
+"/usr/bin/gcc-ranlib-12" libLibShape.a

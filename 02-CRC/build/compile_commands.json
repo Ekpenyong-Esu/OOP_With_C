@@ -1,0 +1,72 @@
+[
+{
+  "directory": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/_deps/unity-build",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/_deps/unity-src/src -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/_deps/unity-build -g -Waddress -Waggregate-return -Wformat-nonliteral -Wformat-security -Wformat -Winit-self -Wmissing-declarations -Wmissing-include-dirs -Wno-multichar -Wno-parentheses -Wno-type-limits -Wno-unused-parameter -Wunreachable-code -Wwrite-strings -Wpointer-arith -Werror -Wall -std=c11 -o CMakeFiles/unity.dir/src/unity.c.o -c /home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/_deps/unity-src/src/unity.c",
+  "file": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/_deps/unity-src/src/unity.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/_deps/argparse-build",
+  "command": "/usr/bin/gcc-12 -Dargparse_shared_EXPORTS -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/_deps/argparse-src/. -O3 -g -fPIC -std=c99 -o CMakeFiles/argparse_shared.dir/argparse.c.o -c /home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/_deps/argparse-src/argparse.c",
+  "file": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/_deps/argparse-src/argparse.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/_deps/argparse-build",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/_deps/argparse-src/. -O3 -g -std=c99 -o CMakeFiles/argparse.dir/argparse.c.o -c /home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/_deps/argparse-src/argparse.c",
+  "file": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/_deps/argparse-src/argparse.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/external",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/external/log/src -g -std=c99 -o CMakeFiles/log.dir/log/src/log.c.o -c /home/mahonri/Desktop/Factory_Design_Pattern_COOP/external/log/src/log.c",
+  "file": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/external/log/src/log.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/src/circle",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/circle/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/configured_files/include -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/shape/. -g -flto -fno-fat-lto-objects -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -std=c99 -o CMakeFiles/LibCircle.dir/circle.c.o -c /home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/circle/circle.c",
+  "file": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/circle/circle.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/src/rectangle",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/rectangle/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/configured_files/include -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/shape/. -g -flto -fno-fat-lto-objects -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -std=c99 -o CMakeFiles/LibRectangle.dir/rectangle.c.o -c /home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/rectangle/rectangle.c",
+  "file": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/rectangle/rectangle.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/src/shape",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/shape/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/configured_files/include -g -flto -fno-fat-lto-objects -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -std=c99 -o CMakeFiles/LibShape.dir/shape.c.o -c /home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/shape/shape.c",
+  "file": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/shape/shape.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/src/triangle",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/triangle/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/configured_files/include -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/shape/. -g -flto -fno-fat-lto-objects -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -std=c99 -o CMakeFiles/LibTriangle.dir/triangle.c.o -c /home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/triangle/triangle.c",
+  "file": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/triangle/triangle.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/src/shape_factory",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/shape_factory/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/configured_files/include -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/shape/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/circle/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/rectangle/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/triangle/. -g -flto -fno-fat-lto-objects -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -std=c99 -o CMakeFiles/LibShapeFactory.dir/shape_factory.c.o -c /home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/shape_factory/shape_factory.c",
+  "file": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/shape_factory/shape_factory.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/app",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/app/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/configured_files/include -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/shape_factory/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/shape/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/circle/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/rectangle/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/triangle/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/external/log/src -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/_deps/argparse-src/. -g -flto -fno-fat-lto-objects -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -std=c99 -o CMakeFiles/main.dir/main.c.o -c /home/mahonri/Desktop/Factory_Design_Pattern_COOP/app/main.c",
+  "file": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/app/main.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/tests",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/circle/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/configured_files/include -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/shape/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/_deps/unity-src/src -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/_deps/unity-build -g -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -std=c99 -o CMakeFiles/UnitTestCircle.dir/test_circle.c.o -c /home/mahonri/Desktop/Factory_Design_Pattern_COOP/tests/test_circle.c",
+  "file": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/tests/test_circle.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/tests",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/rectangle/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/configured_files/include -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/shape/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/_deps/unity-src/src -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/_deps/unity-build -g -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -std=c99 -o CMakeFiles/UnitTestRectangle.dir/test_rectangle.c.o -c /home/mahonri/Desktop/Factory_Design_Pattern_COOP/tests/test_rectangle.c",
+  "file": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/tests/test_rectangle.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/tests",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/shape_factory/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/configured_files/include -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/shape/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/circle/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/rectangle/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/triangle/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/_deps/unity-src/src -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/_deps/unity-build -g -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -std=c99 -o CMakeFiles/UnitTestFactoryShape.dir/test_factory_shape.c.o -c /home/mahonri/Desktop/Factory_Design_Pattern_COOP/tests/test_factory_shape.c",
+  "file": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/tests/test_factory_shape.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/tests",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/triangle/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/configured_files/include -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/src/shape/. -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/_deps/unity-src/src -I/home/mahonri/Desktop/Factory_Design_Pattern_COOP/build/_deps/unity-build -g -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -std=c99 -o CMakeFiles/UnitTestTriangle.dir/test_triangle.c.o -c /home/mahonri/Desktop/Factory_Design_Pattern_COOP/tests/test_triangle.c",
+  "file": "/home/mahonri/Desktop/Factory_Design_Pattern_COOP/tests/test_triangle.c"
+}
+]

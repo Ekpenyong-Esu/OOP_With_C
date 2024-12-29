@@ -1,0 +1,1 @@
+/usr/bin/gcc-12 -g CMakeFiles/UnitTestCircle.dir/test_circle.c.o -o UnitTestCircle  ../src/circle/libLibCircle.a ../_deps/unity-build/libunity.a ../src/shape/libLibShape.a 

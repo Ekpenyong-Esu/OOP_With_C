@@ -1,0 +1,1 @@
+/usr/bin/gcc-12 -g -flto -fno-fat-lto-objects CMakeFiles/main.dir/main.c.o -o main  ../src/shape_factory/libLibShapeFactory.a ../external/liblog.a ../_deps/argparse-build/libargparse.a ../src/circle/libLibCircle.a ../src/rectangle/libLibRectangle.a ../src/triangle/libLibTriangle.a ../src/shape/libLibShape.a 
