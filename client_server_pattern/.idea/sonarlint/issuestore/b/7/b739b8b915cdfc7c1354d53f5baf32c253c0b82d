@@ -1,4 +1,0 @@
-
-kc:S859"Tcast from 'const struct ECG_Module *' to 'struct ECG_Module *' drops const qualifier(¨Íé«ùÿÿÿÿ
-rc:S859"`cast from 'const struct HistogramDisplay *' to 'struct HistogramDisplay *' drops const qualifier(Ò¿…
-gc:S859"Pcast from 'const struct TMDQueue *' to 'struct TMDQueue *' drops const qualifier(ü×˜‰üÿÿÿÿ
