@@ -7,7 +7,6 @@
 
 #include "ECGPkg.h"
 #include "TMDQueue.h"
-#include "TimeMarkedData.h"
 
 // https://en.wikipedia.org/wiki/QRS_complex
 
@@ -21,16 +20,16 @@ struct QRSDetector
 };
 
 // constructions and desctructions
-void QRSDetector_Init(QRSDetector* const me);
-void QRSDetector_Cleanup(QRSDetector* const me);
+void QRSDetector_Init(QRSDetector* const self);
+void QRSDetector_Cleanup(QRSDetector* const self);
 
-void QRSDetector_computeHR(QRSDetector* const me);
-void QRSDetector_getDataSample(QRSDetector* const me);
-void QRSDetector_setItsTMDQueue(QRSDetector* const me, struct TMDQueue* p_TMDQueue);
-struct TMDQueue* QRSDetector_getItsTMDQueue(const QRSDetector* const me);
+void QRSDetector_computeHR(QRSDetector* const self);
+void QRSDetector_getDataSample(QRSDetector* const self);
+void QRSDetector_setItsTMDQueue(QRSDetector* const self, struct TMDQueue* p_TMDQueue);
+struct TMDQueue* QRSDetector_getItsTMDQueue(const QRSDetector* const self);
 
 QRSDetector * QRSDetector_Create(void);
-QRSDetector * QRSDetector_Destroy(QRSDetector* const me);
+QRSDetector * QRSDetector_Destroy(QRSDetector* const self);
 
 
 

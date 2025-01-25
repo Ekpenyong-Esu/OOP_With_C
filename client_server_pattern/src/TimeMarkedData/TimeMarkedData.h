@@ -20,9 +20,9 @@ struct TimeMarkedData {
     struct TMDQueue* itsTMDQueue;
 };
 
-void TimeMarkedData_Init (TimeMarkedData* const me);
-void TimeMarkedData_Cleanup (TimeMarkedData* const me);
-void TimeMarkedData_setItsTMDQueue(TimeMarkedData* const me, struct TMDQueue* p_TMDQueue);
+void TimeMarkedData_Init (TimeMarkedData* const self);
+void TimeMarkedData_Cleanup (TimeMarkedData* const self);
+void TimeMarkedData_setItsTMDQueue(TimeMarkedData* const self, struct TMDQueue* p_TMDQueue);
 
 
 #endif //CLIENT_SERVER_PATTERN_TIMEMARKEDDATA_H

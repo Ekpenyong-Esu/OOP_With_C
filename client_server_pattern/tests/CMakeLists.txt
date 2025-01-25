@@ -1,6 +1,6 @@
 add_executable("UnitTestBuilder" "test_testbuilder.c")
 target_link_libraries("UnitTestBuilder" PUBLIC "LibTestBuilder")
-target_link_libraries("UnitTestBuilder" PRIVATE gtest_main gtest)
+target_link_libraries("UnitTestBuilder" PRIVATE unity)
 
 add_test(NAME "RunUnitTestBuilder" COMMAND "UnitTestBuilder")
 

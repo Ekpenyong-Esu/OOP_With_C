@@ -6,85 +6,87 @@
 #include <stdlib.h>
 #include "TMDQueue.h"
 
-static void initRelations(TMDQueue* const me);
-static void cleanUpRelations(TMDQueue* const me);
+static void initRelations(TMDQueue* const self);
+static void cleanUpRelations(TMDQueue* const self);
 
-void TMDQueue_Init(TMDQueue* const me) {
-    me->head = 0;
-    me->size = 0;
-    initRelations(me);
+void TMDQueue_Init(TMDQueue* const self) {
+    self->head = 0;
+    self->size = 0;
+    initRelations(self);
 }
-void TMDQueue_Cleanup(TMDQueue* const me) {
-    cleanUpRelations(me);
+void TMDQueue_Cleanup(TMDQueue* const self) {
+    cleanUpRelations(self);
 }
 /* operation getNextIndex(int) */
-int TMDQueue_getNextIndex(TMDQueue* const me, int index) {
+int TMDQueue_getNextIndex(TMDQueue* const self, int index) {
     /* this operation computes the next index from the first using modulo arithmetic
     */
     return (index + 1) % QUEUE_SIZE;
 }
 /* operation insert(TimeMarkedData) */
-void TMDQueue_insert(TMDQueue* const me, const struct TimeMarkedData tmd) {
+void TMDQueue_insert(TMDQueue* const self, const struct TimeMarkedData tmd) {
     /* note that because we never ’remove’ data from this leaky queue, size only increases to
     the queue size and then stops increasing. Insertion always takes place at the head.
     */
-    printf("Inserting at: %d Data #: %d", me->head, tmd.timeInterval);
-    me->buffer[me->head] = tmd;
-    me->head = TMDQueue_getNextIndex(me, me->head);
-    if (me->size < QUEUE_SIZE) ++me->size;
+    printf("Inserting at: %d Data #: %ld", self->head, tmd.timeInterval);
+    self->buffer[self->head] = tmd;
+    self->head = TMDQueue_getNextIndex(self, self->head);
+    if (self->size < QUEUE_SIZE) {
+        ++self->size;
+        }
     printf(" Storing data value: %d\n", tmd.dataValue);
 }
 /* operation isEmpty() */
-int TMDQueue_isEmpty(TMDQueue* const me) {
-    return (me->size == 0);
+int TMDQueue_isEmpty(TMDQueue* const self) {
+    return (self->size == 0);
 }
 /* operation remove(int) */
-struct TimeMarkedData TMDQueue_remove(TMDQueue* const me, int index) {
+struct TimeMarkedData TMDQueue_remove(TMDQueue* const self, int index) {
     TimeMarkedData tmd;
     tmd.timeInterval = -1; /* sentinel values */
     tmd.dataValue = -9999;
-    if (!TMDQueue_isEmpty(me) &&
+    if (!TMDQueue_isEmpty(self) &&
         (index >= 0) && (index < QUEUE_SIZE)
-        && (index < me->size)) {
-        tmd = me->buffer[index];
+        && (index < self->size)) {
+        tmd = self->buffer[index];
     }
     return tmd;
 }
 
-int TMDQueue_getBuffer(const TMDQueue* const me) {
+int TMDQueue_getBuffer(const TMDQueue* const self) {
     int iter = 0;
     return iter;
 }
 TMDQueue * TMDQueue_Create(void) {
-    TMDQueue* me = (TMDQueue *) malloc(sizeof(TMDQueue));
-    if (me != NULL){
-        TMDQueue_Init(me);
+    TMDQueue* self = (TMDQueue *) malloc(sizeof(TMDQueue));
+    if (self != NULL){
+        TMDQueue_Init(self);
     }
-    return me;
+    return self;
 }
 
-void TMDQueue_Destroy(TMDQueue* const me) {
-    if (me != NULL){
-        TMDQueue_Cleanup(me);
+void TMDQueue_Destroy(TMDQueue* const self) {
+    if (self != NULL){
+        TMDQueue_Cleanup(self);
     }
-    free(me);
+    free(self);
 }
 
-static void initRelations(TMDQueue* const me) {
+static void initRelations(TMDQueue* const self) {
     int iter = 0;
     while (iter < QUEUE_SIZE) {
-        TimeMarkedData_Init(&((me->buffer)[iter]));
-        TimeMarkedData__setItsTMDQueue(&((me->buffer)[iter]), me);
+        TimeMarkedData_Init(&((self->buffer)[iter]));
+        TimeMarkedData_setItsTMDQueue(&((self->buffer)[iter]), self);
         iter++;
     }
 }
 
 
-static void cleanUpRelations(TMDQueue* const me) {
+static void cleanUpRelations(TMDQueue* const self) {
     {
         int iter = 0;
         while (iter < QUEUE_SIZE) {
-            TimeMarkedData_Cleanup(&((me->buffer)[iter]));
+            TimeMarkedData_Cleanup(&((self->buffer)[iter]));
             iter++;
         }
     }

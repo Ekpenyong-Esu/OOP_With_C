@@ -30,14 +30,12 @@ struct TestBuilder {
 void TestBuilder_Init(TestBuilder* const self);
 void TestBuilder_Cleanup(TestBuilder* const self);
 
-struct ArrythmiaDetector* TestBuilder_getItsArrythmiaDetector(const TestBuilder*
-const self);
+struct ArrythmiaDetector* TestBuilder_getItsArrythmiaDetector(const TestBuilder* const self);
 struct QRSDetector* TestBuilder_getItsQRSDetector(const TestBuilder* const self);
 struct ECG_Module* TestBuilder_getItsECG_Module(const TestBuilder* const self);
 struct HistogramDisplay* TestBuilder_getItsHistogramDisplay(const TestBuilder* const self);
 struct TMDQueue* TestBuilder_getItsTMDQueue(const TestBuilder* const self);
-struct WaveformDisplay* TestBuilder_getItsWaveformDisplay(const TestBuilder* const
-self);
+struct WaveformDisplay* TestBuilder_getItsWaveformDisplay(const TestBuilder* const self);
 
 TestBuilder * TestBuilder_Create(void);
 void TestBuilder_Destroy(TestBuilder* const self);

@@ -13,21 +13,21 @@ typedef struct TMDQueue TMDQueue;
 struct TMDQueue {
     int head;
     int size;
-    TimeMarkedData buffer[100];
+    TimeMarkedData buffer[QUEUE_SIZE];
 };
 /* Constructors and destructors:*/
-void TMDQueue_Init(TMDQueue* const me);
-void TMDQueue_Cleanup(TMDQueue* const me);
+void TMDQueue_Init(TMDQueue* const self);
+void TMDQueue_Cleanup(TMDQueue* const self);
 
 /* Operations */
-int  TMDQueue_getNextIndex(TMDQueue* const me, int index);
-void TMDQueue_insert(TMDQueue* const me, const struct TimeMarkedData tmd);
-int  TMDQueue_isEmpty(TMDQueue* const me);
-struct TimeMarkedData TMDQueue_remove(TMDQueue* const me, int index);
-int  TMDQueue_getBuffer(const TMDQueue* const me);
+int  TMDQueue_getNextIndex(TMDQueue* const self, int index);
+void TMDQueue_insert(TMDQueue* const self, const struct TimeMarkedData tmd);
+int  TMDQueue_isEmpty(TMDQueue* const self);
+struct TimeMarkedData TMDQueue_remove(TMDQueue* const self, int index);
+int  TMDQueue_getBuffer(const TMDQueue* const self);
 
 TMDQueue * TMDQueue_Create(void);
-void TMDQueue_Destroy(TMDQueue* const me);
+void TMDQueue_Destroy(TMDQueue* const self);
 
 
 #endif //CLIENT_SERVER_PATTERN_TMDQUEUE_H
