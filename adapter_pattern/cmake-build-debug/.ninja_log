@@ -1,9 +1,0 @@
-# ninja log v5
-16	500	7260692286517671	CMakeFiles/adapter_pattern.dir/AcmeO2SensorProxy.c.obj	ade36f40726e7521
-30	876	7260692289375009	CMakeFiles/adapter_pattern.dir/Acme02Adapter.c.obj	150b286add96b4bc
-48	966	7260692291571387	CMakeFiles/adapter_pattern.dir/UltimateO2SensorProxy.c.obj	756b9e5f83b9b1e
-57	495	7260692740399709	CMakeFiles/adapter_pattern.dir/GasDisplay.c.obj	873048ad36180ab
-23	499	7260692740239761	CMakeFiles/adapter_pattern.dir/UltimateO2Adapter.c.obj	2123c7ad2af31d47
-6	534	7260692741289690	CMakeFiles/adapter_pattern.dir/main.c.obj	63a3d7f42945dba9
-41	569	7260692741639649	CMakeFiles/adapter_pattern.dir/GasMixer.c.obj	2181cd4c8528af3
-570	855	7260692744441570	adapter_pattern.exe	8761d3775b41dd05

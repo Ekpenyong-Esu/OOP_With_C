@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/_deps/unity-build",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/_deps/unity-src/src -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/_deps/unity-build  -g3 -O0 --coverage -g -Waddress -Waggregate-return -Wformat-nonliteral -Wformat-security -Wformat -Winit-self -Wmissing-declarations -Wmissing-include-dirs -Wno-multichar -Wno-parentheses -Wno-type-limits -Wno-unused-parameter -Wunreachable-code -Wwrite-strings -Wpointer-arith -Werror -Wall -std=c11 -o CMakeFiles/unity.dir/src/unity.c.o -c /home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/_deps/unity-src/src/unity.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/_deps/unity-src/src/unity.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/_deps/argparse-build",
+  "command": "/usr/bin/gcc-12 -Dargparse_shared_EXPORTS -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/_deps/argparse-src/.  -g3 -O0 --coverage -g -fPIC -std=c99 -o CMakeFiles/argparse_shared.dir/argparse.c.o -c /home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/_deps/argparse-src/argparse.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/_deps/argparse-src/argparse.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/_deps/argparse-build",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/_deps/argparse-src/.  -g3 -O0 --coverage -g -std=c99 -o CMakeFiles/argparse.dir/argparse.c.o -c /home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/_deps/argparse-src/argparse.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/_deps/argparse-src/argparse.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/external",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/external/log/src  -g3 -O0 --coverage -g -std=c99 -o CMakeFiles/log.dir/log/src/log.c.o -c /home/mahonri/Desktop/OOP_With_C/adapter_pattern/external/log/src/log.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/external/log/src/log.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/src/Ultimate02Adapter",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/Ultimate02Adapter/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/configured_files/include -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/UltimateO2SensorProxy/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/i02Sensor/.  -g3 -O0 --coverage -g -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -std=c99 -o CMakeFiles/LibUltimate02Adapter.dir/Ultimate02Adapter.c.o -c /home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/Ultimate02Adapter/Ultimate02Adapter.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/Ultimate02Adapter/Ultimate02Adapter.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/src/Acme02Adapter",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/Acme02Adapter/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/configured_files/include -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/i02Sensor/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/AcmeO2SensorProxy/.  -g3 -O0 --coverage -g -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -std=c99 -o CMakeFiles/LibAcme02Adapter.dir/Acme02Adapter.c.o -c /home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/Acme02Adapter/Acme02Adapter.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/Acme02Adapter/Acme02Adapter.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/src/UltimateO2SensorProxy",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/UltimateO2SensorProxy/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/configured_files/include  -g3 -O0 --coverage -g -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -std=c99 -o CMakeFiles/LibUltimateO2SensorProxy.dir/Ultimate02SensorProxy.c.o -c /home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/UltimateO2SensorProxy/Ultimate02SensorProxy.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/UltimateO2SensorProxy/Ultimate02SensorProxy.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/src/AcmeO2SensorProxy",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/AcmeO2SensorProxy/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/configured_files/include  -g3 -O0 --coverage -g -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -std=c99 -o CMakeFiles/LibAcmeO2SensorProxy.dir/Acme02SensorProxy.c.o -c /home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/AcmeO2SensorProxy/Acme02SensorProxy.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/AcmeO2SensorProxy/Acme02SensorProxy.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/src/GasMixer",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/GasMixer/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/configured_files/include -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/i02Sensor/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/Ultimate02Adapter/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/UltimateO2SensorProxy/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/Acme02Adapter/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/AcmeO2SensorProxy/.  -g3 -O0 --coverage -g -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -std=c99 -o CMakeFiles/LibGasMixer.dir/GasMixer.c.o -c /home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/GasMixer/GasMixer.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/GasMixer/GasMixer.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/src/GasDisplay",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/GasDisplay/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/configured_files/include -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/i02Sensor/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/Ultimate02Adapter/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/UltimateO2SensorProxy/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/Acme02Adapter/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/AcmeO2SensorProxy/.  -g3 -O0 --coverage -g -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -std=c99 -o CMakeFiles/LibGasDisplay.dir/GasDisplay.c.o -c /home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/GasDisplay/GasDisplay.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/GasDisplay/GasDisplay.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/app",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/app/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/configured_files/include -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/GasMixer/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/i02Sensor/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/Ultimate02Adapter/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/UltimateO2SensorProxy/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/Acme02Adapter/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/AcmeO2SensorProxy/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/GasDisplay/. -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/external/log/src -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/_deps/argparse-src/.  -g3 -O0 --coverage -g -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -std=c99 -o CMakeFiles/main.dir/main.c.o -c /home/mahonri/Desktop/OOP_With_C/adapter_pattern/app/main.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/app/main.c"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/tests",
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/_deps/unity-src/src -I/home/mahonri/Desktop/OOP_With_C/adapter_pattern/build/_deps/unity-build  -g3 -O0 --coverage -g -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -std=c99 -o CMakeFiles/UnitTestBuilder.dir/test_testbuilder.c.o -c /home/mahonri/Desktop/OOP_With_C/adapter_pattern/tests/test_testbuilder.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/adapter_pattern/tests/test_testbuilder.c"
+}
+]

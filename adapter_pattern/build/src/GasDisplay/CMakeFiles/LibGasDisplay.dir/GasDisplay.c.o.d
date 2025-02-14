@@ -1,0 +1,32 @@
+src/GasDisplay/CMakeFiles/LibGasDisplay.dir/GasDisplay.c.o: \
+ /home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/GasDisplay/GasDisplay.c \
+ /usr/include/stdc-predef.h \
+ /home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/GasDisplay/GasDisplay.h \
+ /home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/i02Sensor/./i02Sensor.h \
+ /home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/Ultimate02Adapter/./Ultimate02Adapter.h \
+ /home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/UltimateO2SensorProxy/./Ultimate02SensorProxy.h \
+ /home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/Acme02Adapter/./Acme02Adapter.h \
+ /home/mahonri/Desktop/OOP_With_C/adapter_pattern/src/AcmeO2SensorProxy/./Acme02SensorProxy.h \
+ /usr/lib/gcc/x86_64-linux-gnu/12/include/stdbool.h /usr/include/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h

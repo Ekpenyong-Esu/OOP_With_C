@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLibAcme02Adapter.a CMakeFiles/LibAcme02Adapter.dir/Acme02Adapter.c.o
+/usr/bin/ranlib libLibAcme02Adapter.a

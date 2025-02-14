@@ -1,0 +1,1 @@
+/usr/bin/clang -g CMakeFiles/myObserver2.dir/main.c.o -o myObserver2 

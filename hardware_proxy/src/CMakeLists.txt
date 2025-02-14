@@ -1,0 +1,3 @@
+add_subdirectory(HardwareProxyExample)
+add_subdirectory(MotorData)
+add_subdirectory(MotorProxy)

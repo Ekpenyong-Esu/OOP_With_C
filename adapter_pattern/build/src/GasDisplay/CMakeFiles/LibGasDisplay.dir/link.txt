@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLibGasDisplay.a CMakeFiles/LibGasDisplay.dir/GasDisplay.c.o
+/usr/bin/ranlib libLibGasDisplay.a

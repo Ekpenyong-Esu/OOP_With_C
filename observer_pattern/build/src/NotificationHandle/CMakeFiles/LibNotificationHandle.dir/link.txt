@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLibNotificationHandle.a CMakeFiles/LibNotificationHandle.dir/NotificationHandle.c.o
+/usr/bin/ranlib libLibNotificationHandle.a

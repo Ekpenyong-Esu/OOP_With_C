@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLibECG_Module.a CMakeFiles/LibECG_Module.dir/ECG_Module.c.o
+/usr/bin/ranlib libLibECG_Module.a

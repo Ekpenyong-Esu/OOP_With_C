@@ -1,0 +1,74 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_clang_tidy_to_target"
+		],
+		"files" : 
+		[
+			"cmake/Tools.cmake",
+			"src/UltimateO2SensorProxy/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 100,
+				"parent" : 1
+			}
+		]
+	},
+	"id" : "LibUltimateO2SensorProxy_clangtidy::@c38db29f5d7b6fa3addf",
+	"name" : "LibUltimateO2SensorProxy_clangtidy",
+	"paths" : 
+	{
+		"build" : "src/UltimateO2SensorProxy",
+		"source" : "src/UltimateO2SensorProxy"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/src/UltimateO2SensorProxy/CMakeFiles/LibUltimateO2SensorProxy_clangtidy",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/UltimateO2SensorProxy/CMakeFiles/LibUltimateO2SensorProxy_clangtidy.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

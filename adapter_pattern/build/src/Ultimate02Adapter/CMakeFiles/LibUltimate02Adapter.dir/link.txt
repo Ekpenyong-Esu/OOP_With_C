@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLibUltimate02Adapter.a CMakeFiles/LibUltimate02Adapter.dir/Ultimate02Adapter.c.o
+/usr/bin/ranlib libLibUltimate02Adapter.a

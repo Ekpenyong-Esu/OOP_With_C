@@ -1,0 +1,159 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 107,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"app/main"
+			],
+			"targetId" : "main::@5f5a17c01335469806cb",
+			"targetIndex" : 53,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/QRSDetector/libLibQRSDetector.a"
+			],
+			"targetId" : "LibQRSDetector::@f0713fa6f976e7fde8a9",
+			"targetIndex" : 27,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/TestBuilder/libLibTestBuilder.a"
+			],
+			"targetId" : "LibTestBuilder::@7810093ea5f528697a0d",
+			"targetIndex" : 31,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/TimeMarkedData/libLibTimeMarkedData.a"
+			],
+			"targetId" : "LibTimeMarkedData::@07d63b8f449fbbcdf534",
+			"targetIndex" : 33,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/ECG_Module/libLibECG_Module.a"
+			],
+			"targetId" : "LibECG_Module::@685afa9f86042a1f390b",
+			"targetIndex" : 21,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/ArrhythmiaDetector/libLibArrhythmiaDetector.a"
+			],
+			"targetId" : "LibArrhythmiaDetector::@dc2886cfd509ab431ef4",
+			"targetIndex" : 18,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/HistogramDisplay/libLibHistogramDisplay.a"
+			],
+			"targetId" : "LibHistogramDisplay::@22bf0770093501b21bec",
+			"targetIndex" : 23,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/TMDQueue/libLibTMDQueue.a"
+			],
+			"targetId" : "LibTMDQueue::@4f838fc876cd1fafcde3",
+			"targetIndex" : 29,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/WaveFormDisplay/libLibWaveFormDisplay.a"
+			],
+			"targetId" : "LibWaveFormDisplay::@94426473c773b51f04e7",
+			"targetIndex" : 35,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/NotificationHandle/libLibNotificationHandle.a"
+			],
+			"targetId" : "LibNotificationHandle::@8778d72ae22bdb356345",
+			"targetIndex" : 25,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

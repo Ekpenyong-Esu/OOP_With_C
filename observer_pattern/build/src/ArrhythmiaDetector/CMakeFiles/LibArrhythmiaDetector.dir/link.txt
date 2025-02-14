@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLibArrhythmiaDetector.a CMakeFiles/LibArrhythmiaDetector.dir/ArrhythmiaDetector.c.o
+/usr/bin/ranlib libLibArrhythmiaDetector.a

@@ -1,0 +1,1 @@
+/usr/bin/gcc-12 -fPIC  -g3 -O0 --coverage -g -shared -Wl,-soname,libargparse.so -o libargparse.so CMakeFiles/argparse_shared.dir/argparse.c.o  -lgcov 

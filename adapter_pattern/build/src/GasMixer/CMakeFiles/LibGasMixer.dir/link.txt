@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLibGasMixer.a CMakeFiles/LibGasMixer.dir/GasMixer.c.o
+/usr/bin/ranlib libLibGasMixer.a

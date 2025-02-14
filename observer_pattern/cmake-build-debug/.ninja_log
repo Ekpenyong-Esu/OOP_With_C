@@ -1,9 +1,0 @@
-# ninja log v5
-80	554	7257564874291208	CMakeFiles/Observer_pattern.dir/TimeMarkedData.c.obj	b3a4685ef9dff111
-15	640	7257564875391253	CMakeFiles/Observer_pattern.dir/ECG_Module.c.obj	19394ae070add7cc
-63	694	7257564875911252	CMakeFiles/Observer_pattern.dir/TMDQueue.c.obj	3311a1fc8a63a507
-29	647	7257564875421273	CMakeFiles/Observer_pattern.dir/HistogramDisplay.c.obj	ebbc32316e758ee5
-20	341	7257565282137789	CMakeFiles/Observer_pattern.dir/TestBuilder.c.obj	f14654f63bf0d7cd
-8	244	7257567468167021	CMakeFiles/Observer_pattern.dir/main.c.obj	4907e0df6d126dd9
-29	287	7257565281517775	CMakeFiles/Observer_pattern.dir/NotificationHandle.c.obj	5e12a7c0e92275e0
-245	489	7257567470617483	Observer_pattern.exe	7356eb44292161cc

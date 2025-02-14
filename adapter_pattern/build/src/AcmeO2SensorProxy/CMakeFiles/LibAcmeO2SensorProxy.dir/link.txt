@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLibAcmeO2SensorProxy.a CMakeFiles/LibAcmeO2SensorProxy.dir/Acme02SensorProxy.c.o
+/usr/bin/ranlib libLibAcmeO2SensorProxy.a

@@ -1,0 +1,9 @@
+add_subdirectory(Ultimate02Adapter)
+add_subdirectory(Acme02Adapter)
+add_subdirectory(UltimateO2SensorProxy)
+add_subdirectory(AcmeO2SensorProxy)
+add_subdirectory(i02Sensor)
+add_subdirectory(GasMixer)
+add_subdirectory(GasDisplay)
+
+

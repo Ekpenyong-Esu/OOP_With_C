@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLibMotorProxy.a CMakeFiles/LibMotorProxy.dir/MotorProxy.c.o
+/usr/bin/ranlib libLibMotorProxy.a

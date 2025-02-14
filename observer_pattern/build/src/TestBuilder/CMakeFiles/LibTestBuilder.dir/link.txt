@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLibTestBuilder.a CMakeFiles/LibTestBuilder.dir/TestBuilder.c.o
+/usr/bin/ranlib libLibTestBuilder.a

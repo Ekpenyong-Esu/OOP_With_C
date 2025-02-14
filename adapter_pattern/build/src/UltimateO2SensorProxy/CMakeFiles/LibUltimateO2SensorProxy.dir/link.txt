@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLibUltimateO2SensorProxy.a CMakeFiles/LibUltimateO2SensorProxy.dir/Ultimate02SensorProxy.c.o
+/usr/bin/ranlib libLibUltimateO2SensorProxy.a
