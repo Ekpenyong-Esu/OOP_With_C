@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/hardware_observer/build/_deps/unity-build",
+  "command": "/usr/bin/clang  -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/build/_deps/unity-src/src -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/build/_deps/unity-build  -g3 -O0 --coverage -g -std=c11 -Wcast-align -Wcast-qual -Wconversion -Wexit-time-destructors -Wglobal-constructors -Wmissing-noreturn -Wmissing-prototypes -Wno-missing-braces -Wold-style-cast -Wshadow -Wweak-vtables -Werror -Wall -o CMakeFiles/unity.dir/src/unity.c.o -c /home/mahonri/Desktop/OOP_With_C/hardware_observer/build/_deps/unity-src/src/unity.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_observer/build/_deps/unity-src/src/unity.c",
+  "output": "_deps/unity-build/CMakeFiles/unity.dir/src/unity.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/hardware_observer/build/_deps/argparse-build",
+  "command": "/usr/bin/clang -Dargparse_shared_EXPORTS -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/build/_deps/argparse-src/.  -g3 -O0 --coverage -g -std=c99 -fPIC -o CMakeFiles/argparse_shared.dir/argparse.c.o -c /home/mahonri/Desktop/OOP_With_C/hardware_observer/build/_deps/argparse-src/argparse.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_observer/build/_deps/argparse-src/argparse.c",
+  "output": "_deps/argparse-build/CMakeFiles/argparse_shared.dir/argparse.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/hardware_observer/build/_deps/argparse-build",
+  "command": "/usr/bin/clang  -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/build/_deps/argparse-src/.  -g3 -O0 --coverage -g -std=c99 -o CMakeFiles/argparse.dir/argparse.c.o -c /home/mahonri/Desktop/OOP_With_C/hardware_observer/build/_deps/argparse-src/argparse.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_observer/build/_deps/argparse-src/argparse.c",
+  "output": "_deps/argparse-build/CMakeFiles/argparse.dir/argparse.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/hardware_observer/build/external",
+  "command": "/usr/bin/clang  -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/external/log/src  -g3 -O0 --coverage -g -std=c99 -o CMakeFiles/log.dir/log/src/log.c.o -c /home/mahonri/Desktop/OOP_With_C/hardware_observer/external/log/src/log.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_observer/external/log/src/log.c",
+  "output": "external/CMakeFiles/log.dir/log/src/log.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/hardware_observer/build/src/DisplayClient",
+  "command": "/usr/bin/clang  -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/src/DisplayClient/. -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/build/configured_files/include -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/src/GasSensor/. -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/src/GasData/. -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/src/GasNotification/.  -g3 -O0 --coverage -g -std=c99 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -o CMakeFiles/LibDisplayClient.dir/DisplayClient.c.o -c /home/mahonri/Desktop/OOP_With_C/hardware_observer/src/DisplayClient/DisplayClient.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_observer/src/DisplayClient/DisplayClient.c",
+  "output": "src/DisplayClient/CMakeFiles/LibDisplayClient.dir/DisplayClient.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/hardware_observer/build/src/GasData",
+  "command": "/usr/bin/clang  -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/src/GasData/. -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/build/configured_files/include  -g3 -O0 --coverage -g -std=c99 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -o CMakeFiles/LibGasData.dir/GasData.c.o -c /home/mahonri/Desktop/OOP_With_C/hardware_observer/src/GasData/GasData.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_observer/src/GasData/GasData.c",
+  "output": "src/GasData/CMakeFiles/LibGasData.dir/GasData.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/hardware_observer/build/src/GasNotification",
+  "command": "/usr/bin/clang  -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/src/GasNotification/. -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/build/configured_files/include -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/src/GasData/.  -g3 -O0 --coverage -g -std=c99 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -o CMakeFiles/LibGasNotificationHandle.dir/GasNotificationHandle.c.o -c /home/mahonri/Desktop/OOP_With_C/hardware_observer/src/GasNotification/GasNotificationHandle.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_observer/src/GasNotification/GasNotificationHandle.c",
+  "output": "src/GasNotification/CMakeFiles/LibGasNotificationHandle.dir/GasNotificationHandle.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/hardware_observer/build/src/GasSensor",
+  "command": "/usr/bin/clang  -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/src/GasSensor/. -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/build/configured_files/include -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/src/GasData/. -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/src/GasNotification/.  -g3 -O0 --coverage -g -std=c99 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -o CMakeFiles/LibGasSensor.dir/GasSensor.c.o -c /home/mahonri/Desktop/OOP_With_C/hardware_observer/src/GasSensor/GasSensor.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_observer/src/GasSensor/GasSensor.c",
+  "output": "src/GasSensor/CMakeFiles/LibGasSensor.dir/GasSensor.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/hardware_observer/build/app",
+  "command": "/usr/bin/clang  -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/app/. -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/build/configured_files/include -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/src/DisplayClient/. -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/src/GasSensor/. -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/src/GasData/. -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/src/GasNotification/. -I/home/mahonri/Desktop/OOP_With_C/hardware_observer/external/log/src -isystem /home/mahonri/Desktop/OOP_With_C/hardware_observer/build/_deps/argparse-src/.  -g3 -O0 --coverage -g -std=c99 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -o CMakeFiles/main.dir/main.c.o -c /home/mahonri/Desktop/OOP_With_C/hardware_observer/app/main.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_observer/app/main.c",
+  "output": "app/CMakeFiles/main.dir/main.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/hardware_observer/build/tests",
+  "command": "/usr/bin/clang  -isystem /home/mahonri/Desktop/OOP_With_C/hardware_observer/build/_deps/unity-src/src -isystem /home/mahonri/Desktop/OOP_With_C/hardware_observer/build/_deps/unity-build  -g3 -O0 --coverage -g -std=c99 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -o CMakeFiles/UnitTestBuilder.dir/test_testbuilder.c.o -c /home/mahonri/Desktop/OOP_With_C/hardware_observer/tests/test_testbuilder.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_observer/tests/test_testbuilder.c",
+  "output": "tests/CMakeFiles/UnitTestBuilder.dir/test_testbuilder.c.o"
+}
+]

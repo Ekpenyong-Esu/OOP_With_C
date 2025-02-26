@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar qc libLibGasNotificationHandle.a CMakeFiles/LibGasNotificationHandle.dir/GasNotificationHandle.c.o
+/usr/bin/llvm-ranlib libLibGasNotificationHandle.a

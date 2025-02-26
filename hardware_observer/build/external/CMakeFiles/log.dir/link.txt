@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar qc liblog.a CMakeFiles/log.dir/log/src/log.c.o
+/usr/bin/llvm-ranlib liblog.a

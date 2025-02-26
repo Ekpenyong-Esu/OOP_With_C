@@ -1,0 +1,1 @@
+/usr/bin/clang  -g3 -O0 --coverage -g CMakeFiles/main.dir/main.c.o -o main  ../src/DisplayClient/libLibDisplayClient.a ../external/liblog.a ../_deps/argparse-build/libargparse.a ../src/GasSensor/libLibGasSensor.a ../src/GasNotification/libLibGasNotificationHandle.a ../src/GasData/libLibGasData.a 

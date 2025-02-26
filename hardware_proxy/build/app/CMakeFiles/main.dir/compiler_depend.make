@@ -32,16 +32,15 @@ app/CMakeFiles/main.dir/main.c.o: ../app/main.c \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  ../src/MotorProxy/MotorProxy.h \
-  ../src/HardwareProxyExample/HWProxyExample.h \
-  ../src/MotorData/MotorData.h \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  ../src/MotorProxy/MotorProxy.h \
+  ../src/HardwareProxyExample/HWProxyExample.h
 
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 ../src/MotorProxy/MotorProxy.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 ../src/HardwareProxyExample/HWProxyExample.h:
 
@@ -60,8 +59,6 @@ app/CMakeFiles/main.dir/main.c.o: ../app/main.c \
 /usr/include/stdint.h:
 
 /usr/include/stdlib.h:
-
-../src/MotorData/MotorData.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 

@@ -1,0 +1,10 @@
+<map id="TestBuilder" name="TestBuilder">
+<area shape="rect" id="node1" title=" " alt="" coords="500,184,595,211"/>
+<area shape="rect" id="node2" href="$structQRSDetector.html" title=" " alt="" coords="118,95,223,121"/>
+<area shape="rect" id="node3" href="$structTMDQueue.html" title=" " alt="" coords="418,5,512,32"/>
+<area shape="rect" id="node4" href="$structTimeMarkedData.html" title=" " alt="" coords="247,95,382,121"/>
+<area shape="rect" id="node5" href="$structArrhythmiaDetector.html" title=" " alt="" coords="406,95,556,121"/>
+<area shape="rect" id="node6" href="$structECG__Module.html" title=" " alt="" coords="581,95,685,121"/>
+<area shape="rect" id="node7" href="$structWaveformDisplay.html" title=" " alt="" coords="709,95,848,121"/>
+<area shape="rect" id="node8" href="$structHistogramDisplay.html" title=" " alt="" coords="872,95,1010,121"/>
+</map>

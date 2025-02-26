@@ -11,6 +11,17 @@ int main(int argc, char const *argv[])
     uint32_t location = (*(uint32_t *)0x396a2730);
     unsigned int motorData = 100;
 
+    
+    //  // Allocate memory for motor control
+    // unsigned int rotaryArmLength = 10;
+    // unsigned int *location = (unsigned int *)malloc(sizeof(unsigned int));
+    // unsigned int *motorData = (unsigned int *)malloc(sizeof(unsigned int));
+    
+    // // Initialize allocated memory
+    // *location = 0;
+    // *motorData = 100;
+
+
     DirectionType direction;
     unsigned int speed;
 
@@ -41,5 +52,8 @@ int main(int argc, char const *argv[])
     printf("Motor current direction:%d, speed:%d, state:%d\n", getdirection, getspeed, getstate);
 
     MotorProxy_Destroy(motor);
+    // free(location);
+    // free(motorData);
+
     return 0;
 }

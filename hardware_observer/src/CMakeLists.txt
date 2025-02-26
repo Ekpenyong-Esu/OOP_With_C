@@ -1,0 +1,4 @@
+add_subdirectory(DisplayClient)
+add_subdirectory(GasData)
+add_subdirectory(GasNotification)
+add_subdirectory(GasSensor)

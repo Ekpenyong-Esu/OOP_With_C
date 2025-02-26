@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar qc libargparse.a CMakeFiles/argparse.dir/argparse.c.o
+/usr/bin/llvm-ranlib libargparse.a

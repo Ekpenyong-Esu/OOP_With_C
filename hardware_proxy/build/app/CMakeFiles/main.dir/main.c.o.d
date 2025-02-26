@@ -26,8 +26,7 @@ app/CMakeFiles/main.dir/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /home/mahonri/Desktop/OOP_With_C/hardware_proxy/src/MotorProxy/./MotorProxy.h \
- /home/mahonri/Desktop/OOP_With_C/hardware_proxy/src/HardwareProxyExample/./HWProxyExample.h \
- /home/mahonri/Desktop/OOP_With_C/hardware_proxy/src/MotorData/./MotorData.h \
- /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /home/mahonri/Desktop/OOP_With_C/hardware_proxy/src/HardwareProxyExample/./HWProxyExample.h

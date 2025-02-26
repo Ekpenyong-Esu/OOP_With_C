@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar qc libLibGasSensor.a CMakeFiles/LibGasSensor.dir/GasSensor.c.o
+/usr/bin/llvm-ranlib libLibGasSensor.a

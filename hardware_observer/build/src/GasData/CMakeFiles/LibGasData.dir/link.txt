@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar qc libLibGasData.a CMakeFiles/LibGasData.dir/GasData.c.o
+/usr/bin/llvm-ranlib libLibGasData.a

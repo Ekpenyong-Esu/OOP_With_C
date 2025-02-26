@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar qc libLibDisplayClient.a CMakeFiles/LibDisplayClient.dir/DisplayClient.c.o
+/usr/bin/llvm-ranlib libLibDisplayClient.a
