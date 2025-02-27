@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Site BuildName="Linux-clang++"
-	BuildStamp="20250226-1840-Experimental"
+	BuildStamp="20250227-0622-Experimental"
 	Name="mahonri-Surface-Pro-3"
 	Generator="ctest-3.28.3"
 	CompilerName="/usr/bin/clang++"
@@ -21,14 +21,14 @@
 	TotalVirtualMemory="2047"
 	TotalPhysicalMemory="7846"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="2594.07"
+	ProcessorClockFrequency="2594.03"
 	>
 	<Testing>
-		<StartDateTime>Feb 26 21:10 CET</StartDateTime>
-		<StartTestTime>1740600633</StartTestTime>
+		<StartDateTime>Feb 27 18:42 CET</StartDateTime>
+		<StartTestTime>1740678171</StartTestTime>
 		<TestList/>
-		<EndDateTime>Feb 26 21:10 CET</EndDateTime>
-		<EndTestTime>1740600633</EndTestTime>
+		<EndDateTime>Feb 27 18:42 CET</EndDateTime>
+		<EndTestTime>1740678171</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

@@ -1,51 +1,57 @@
-//
-// Created by mahon on 1/8/2024.
-//
-
-#ifndef UNTITLED_GASSENSOR_H
-#define UNTITLED_GASSENSOR_H
+#ifndef GASSENSOR_H
+#define GASSENSOR_H
 
 #include "GasData.h"
-#include "GasNotificationHandle.h"
-#include <stdio.h>
-#include <stdlib.h>
 
+#define MAX_OBSERVERS 10
 
-/* the function pointer type
-  The first value of the function pointer is to the instance
-  data of the class. The second is a ptr to the new gas data
-*/
-typedef void(*gasDataAcceptorPtr)(void *, struct GasData*);
+/**
+ * Observer Pattern: Callback function type for observers
+ * This function pointer allows the subject to notify observers
+ * without knowing the concrete observer types
+ */
+typedef void (*gasDataAcceptorPtr)(void* observer, GasData* gasData);
 
-struct GasNotificationHandle;
+/**
+ * Observer Pattern: SUBJECT class
+ * GasSensor acts as the Subject (Observable) in the Observer pattern.
+ * It maintains a list of observers and notifies them of state changes.
+ */
+typedef struct GasSensor {
+    GasData* itsGasData;                      // The state that observers are monitoring
+    void* observers[MAX_OBSERVERS];           // Array of observer objects
+    gasDataAcceptorPtr callbacks[MAX_OBSERVERS]; // Callback functions for each observer
+    int numObservers;                         // Number of registered observers
+} GasSensor;
 
-/* class GasSensor */
-typedef struct GasSensor GasSensor;
-struct GasSensor {
-    struct GasData* itsGasData;
-    struct GasNotificationHandle* itsGasNH[100];
-};
-
-/* Constructors and destructors:*/
+// Initialization and cleanup
 void GasSensor_Init(GasSensor* const me);
 void GasSensor_Cleanup(GasSensor* const me);
 
-
-/* Operations */
-void GasSensor_dumpList(GasSensor* const me);
-void GasSensor_newData(GasSensor* const me, unsigned int flow, unsigned int n2, unsigned int o2);
-void GasSensor_notify(GasSensor* const me);
-void GasSensor_subscribe(GasSensor* const me, void * instancePtr, gasDataAcceptorPtr aPtr);
-void GasSensor_unsubscribe(GasSensor* const me, const gasDataAcceptorPtr* aPtr);
-struct GasData* GasSensor_getItsGasData(const GasSensor* const me);
-void GasSensor_setItsGasData(GasSensor* const me, struct GasData* p_GasData);
-int GasSensor_getItsGasNH(const GasSensor* const me);
-void GasSensor_addItsGasNH(GasSensor* const me, struct GasNotificationHandle * p_GasNotificationHandle);
-void GasSensor_removeItsGasNH(GasSensor* const me, struct GasNotificationHandle * p_GasNotificationHandle);
-void GasSensor_clearItsGasNH(GasSensor* const me);
-GasSensor * GasSensor_Create(void);
+// Creation and destruction
+GasSensor* GasSensor_Create(void);
 void GasSensor_Destroy(GasSensor* const me);
 
+/**
+ * Observer Pattern: Subject registration methods
+ * These methods allow observers to register and unregister for notifications
+ */
+void GasSensor_subscribe(GasSensor* const me, void* observer, gasDataAcceptorPtr callback);
+void GasSensor_unsubscribe(GasSensor* const me, void* observer);
 
+/**
+ * Observer Pattern: Notification method
+ * This method notifies all registered observers when state changes
+ */
+void GasSensor_notify(GasSensor* const me);
 
-#endif //UNTITLED_GASSENSOR_H
+/**
+ * Updates the sensor data and notifies observers of the change
+ */
+void GasSensor_readSensor(GasSensor* const me);
+
+// Getters and setters
+GasData* GasSensor_getItsGasData(const GasSensor* const me);
+void GasSensor_setItsGasData(GasSensor* const me, GasData* p_GasData);
+
+#endif /* GASSENSOR_H */

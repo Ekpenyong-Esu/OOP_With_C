@@ -1,8 +1,5 @@
 app/CMakeFiles/main.dir/main.c.o: \
   /home/mahonri/Desktop/OOP_With_C/hardware_observer/app/main.c \
-  /home/mahonri/Desktop/OOP_With_C/hardware_observer/src/DisplayClient/./DisplayClient.h \
-  /home/mahonri/Desktop/OOP_With_C/hardware_observer/src/GasSensor/./GasSensor.h \
-  /home/mahonri/Desktop/OOP_With_C/hardware_observer/src/GasData/./GasData.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h /usr/include/features-time64.h \
@@ -29,7 +26,12 @@ app/CMakeFiles/main.dir/main.c.o: \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /home/mahonri/Desktop/OOP_With_C/hardware_observer/src/GasSensor/./GasSensor.h \
+  /home/mahonri/Desktop/OOP_With_C/hardware_observer/src/GasData/./GasData.h \
+  /home/mahonri/Desktop/OOP_With_C/hardware_observer/src/DisplayClient/./DisplayClient.h \
   /usr/include/stdlib.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stddef_wchar_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /home/mahonri/Desktop/OOP_With_C/hardware_observer/src/GasNotification/./GasNotificationHandle.h
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
