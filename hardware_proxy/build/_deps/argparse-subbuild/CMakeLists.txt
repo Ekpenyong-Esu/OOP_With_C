@@ -1,7 +1,13 @@
 # Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
 # file Copyright.txt or https://cmake.org/licensing for details.
 
-cmake_minimum_required(VERSION 3.22.1)
+cmake_minimum_required(VERSION 3.28.3)
+
+# Reject any attempt to use a toolchain file. We must not use one because
+# we could be downloading it here. If the CMAKE_TOOLCHAIN_FILE environment
+# variable is set, the cache variable will have been initialized from it.
+unset(CMAKE_TOOLCHAIN_FILE CACHE)
+unset(ENV{CMAKE_TOOLCHAIN_FILE})
 
 # We name the project and the target for the ExternalProject_Add() call
 # to something that will highlight to the user what we are working on if
@@ -13,15 +19,15 @@ project(argparse-populate NONE)
 # Pass through things we've already detected in the main project to avoid
 # paying the cost of redetecting them again in ExternalProject_Add()
 set(GIT_EXECUTABLE [==[/usr/bin/git]==])
-set(GIT_VERSION_STRING [==[2.34.1]==])
+set(GIT_VERSION_STRING [==[2.43.0]==])
 set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
-  [==[/usr/bin/git;2.34.1]==]
+  [==[/usr/bin/git;2.43.0]==]
 )
 
 
 include(ExternalProject)
 ExternalProject_Add(argparse-populate
-                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/cofyc/argparse.git" "GIT_TAG" "v1.1.0"
+                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/cofyc/argparse.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "v1.1.0"
                     SOURCE_DIR          "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/argparse-src"
                     BINARY_DIR          "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/argparse-build"
                     CONFIGURE_COMMAND   ""
@@ -30,6 +36,7 @@ ExternalProject_Add(argparse-populate
                     TEST_COMMAND        ""
                     USES_TERMINAL_DOWNLOAD  YES
                     USES_TERMINAL_UPDATE    YES
+                    USES_TERMINAL_PATCH     YES
 )
 
 

@@ -11,9 +11,12 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/tests/test_testbuilder.c" "tests/CMakeFiles/UnitTestBuilder.dir/test_testbuilder.c.o" "gcc" "tests/CMakeFiles/UnitTestBuilder.dir/test_testbuilder.c.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/unity-build/CMakeFiles/unity.dir/DependInfo.cmake"
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

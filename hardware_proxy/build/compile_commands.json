@@ -1,37 +1,44 @@
 [
 {
   "directory": "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/unity-build",
-  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/unity-src/src -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/unity-build  -g3 -O0 --coverage -g -Waddress -Waggregate-return -Wformat-nonliteral -Wformat-security -Wformat -Winit-self -Wmissing-declarations -Wmissing-include-dirs -Wno-multichar -Wno-parentheses -Wno-type-limits -Wno-unused-parameter -Wunreachable-code -Wwrite-strings -Wpointer-arith -Werror -Wall -std=c11 -o CMakeFiles/unity.dir/src/unity.c.o -c /home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/unity-src/src/unity.c",
-  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/unity-src/src/unity.c"
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/unity-src/src -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/unity-build  -g3 -O0 --coverage -g -std=c11 -Waddress -Waggregate-return -Wformat-nonliteral -Wformat-security -Wformat -Winit-self -Wmissing-declarations -Wmissing-include-dirs -Wno-multichar -Wno-parentheses -Wno-type-limits -Wno-unused-parameter -Wunreachable-code -Wwrite-strings -Wpointer-arith -Werror -Wall -o CMakeFiles/unity.dir/src/unity.c.o -c /home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/unity-src/src/unity.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/unity-src/src/unity.c",
+  "output": "_deps/unity-build/CMakeFiles/unity.dir/src/unity.c.o"
 },
 {
   "directory": "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/argparse-build",
-  "command": "/usr/bin/gcc-12 -Dargparse_shared_EXPORTS -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/argparse-src/.  -g3 -O0 --coverage -g -fPIC -std=c99 -o CMakeFiles/argparse_shared.dir/argparse.c.o -c /home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/argparse-src/argparse.c",
-  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/argparse-src/argparse.c"
+  "command": "/usr/bin/gcc-12 -Dargparse_shared_EXPORTS -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/argparse-src/.  -g3 -O0 --coverage -g -std=c99 -fPIC -o CMakeFiles/argparse_shared.dir/argparse.c.o -c /home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/argparse-src/argparse.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/argparse-src/argparse.c",
+  "output": "_deps/argparse-build/CMakeFiles/argparse_shared.dir/argparse.c.o"
 },
 {
   "directory": "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/argparse-build",
   "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/argparse-src/.  -g3 -O0 --coverage -g -std=c99 -o CMakeFiles/argparse.dir/argparse.c.o -c /home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/argparse-src/argparse.c",
-  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/argparse-src/argparse.c"
+  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/argparse-src/argparse.c",
+  "output": "_deps/argparse-build/CMakeFiles/argparse.dir/argparse.c.o"
 },
 {
   "directory": "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/external",
   "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/external/log/src  -g3 -O0 --coverage -g -std=c99 -o CMakeFiles/log.dir/log/src/log.c.o -c /home/mahonri/Desktop/OOP_With_C/hardware_proxy/external/log/src/log.c",
-  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/external/log/src/log.c"
+  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/external/log/src/log.c",
+  "output": "external/CMakeFiles/log.dir/log/src/log.c.o"
 },
 {
   "directory": "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/src/MotorProxy",
-  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/src/MotorProxy/. -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/configured_files/include -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/src/HardwareProxyExample/. -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/src/MotorData/.  -g3 -O0 --coverage -g -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -std=c99 -o CMakeFiles/LibMotorProxy.dir/MotorProxy.c.o -c /home/mahonri/Desktop/OOP_With_C/hardware_proxy/src/MotorProxy/MotorProxy.c",
-  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/src/MotorProxy/MotorProxy.c"
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/src/MotorProxy/. -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/configured_files/include -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/src/HardwareProxyExample/. -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/src/MotorData/.  -g3 -O0 --coverage -g -std=c99 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -o CMakeFiles/LibMotorProxy.dir/MotorProxy.c.o -c /home/mahonri/Desktop/OOP_With_C/hardware_proxy/src/MotorProxy/MotorProxy.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/src/MotorProxy/MotorProxy.c",
+  "output": "src/MotorProxy/CMakeFiles/LibMotorProxy.dir/MotorProxy.c.o"
 },
 {
   "directory": "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/app",
-  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/app/. -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/configured_files/include -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/src/MotorProxy/. -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/src/HardwareProxyExample/. -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/src/MotorData/. -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/external/log/src -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/argparse-src/.  -g3 -O0 --coverage -g -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -std=c99 -o CMakeFiles/main.dir/main.c.o -c /home/mahonri/Desktop/OOP_With_C/hardware_proxy/app/main.c",
-  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/app/main.c"
+  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/app/. -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/configured_files/include -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/src/MotorProxy/. -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/src/HardwareProxyExample/. -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/src/MotorData/. -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/external/log/src -isystem /home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/argparse-src/.  -g3 -O0 --coverage -g -std=c99 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -o CMakeFiles/main.dir/main.c.o -c /home/mahonri/Desktop/OOP_With_C/hardware_proxy/app/main.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/app/main.c",
+  "output": "app/CMakeFiles/main.dir/main.c.o"
 },
 {
   "directory": "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/tests",
-  "command": "/usr/bin/gcc-12  -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/unity-src/src -I/home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/unity-build  -g3 -O0 --coverage -g -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -std=c99 -o CMakeFiles/UnitTestBuilder.dir/test_testbuilder.c.o -c /home/mahonri/Desktop/OOP_With_C/hardware_proxy/tests/test_testbuilder.c",
-  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/tests/test_testbuilder.c"
+  "command": "/usr/bin/gcc-12  -isystem /home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/unity-src/src -isystem /home/mahonri/Desktop/OOP_With_C/hardware_proxy/build/_deps/unity-build  -g3 -O0 --coverage -g -std=c99 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -o CMakeFiles/UnitTestBuilder.dir/test_testbuilder.c.o -c /home/mahonri/Desktop/OOP_With_C/hardware_proxy/tests/test_testbuilder.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/hardware_proxy/tests/test_testbuilder.c",
+  "output": "tests/CMakeFiles/UnitTestBuilder.dir/test_testbuilder.c.o"
 }
 ]
