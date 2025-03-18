@@ -1,0 +1,15 @@
+var searchData=
+[
+  ['qrsdetector_55',['QRSDetector',['../QRSDetector_8h.html#a48bea4c265ada8f45948a4d787ac0715',1,'QRSDetector():&#160;QRSDetector.h'],['../structQRSDetector.html',1,'QRSDetector']]],
+  ['qrsdetector_2ec_56',['QRSDetector.c',['../QRSDetector_8c.html',1,'']]],
+  ['qrsdetector_2eh_57',['QRSDetector.h',['../QRSDetector_8h.html',1,'']]],
+  ['qrsdetector_5fcleanup_58',['QRSDetector_Cleanup',['../QRSDetector_8c.html#a504bd32e1738be054f5aeffbdc3a447e',1,'QRSDetector_Cleanup(QRSDetector *const self):&#160;QRSDetector.c'],['../QRSDetector_8h.html#a504bd32e1738be054f5aeffbdc3a447e',1,'QRSDetector_Cleanup(QRSDetector *const self):&#160;QRSDetector.c']]],
+  ['qrsdetector_5fcomputehr_59',['QRSDetector_computeHR',['../QRSDetector_8c.html#a5b53f567e08266a1386f7fd9e3d04937',1,'QRSDetector_computeHR(QRSDetector *const self):&#160;QRSDetector.c'],['../QRSDetector_8h.html#a5b53f567e08266a1386f7fd9e3d04937',1,'QRSDetector_computeHR(QRSDetector *const self):&#160;QRSDetector.c']]],
+  ['qrsdetector_5fcreate_60',['QRSDetector_Create',['../QRSDetector_8c.html#ade8834ac683b5797ca5bb65a9a879503',1,'QRSDetector_Create(void):&#160;QRSDetector.c'],['../QRSDetector_8h.html#ade8834ac683b5797ca5bb65a9a879503',1,'QRSDetector_Create(void):&#160;QRSDetector.c']]],
+  ['qrsdetector_5fdestroy_61',['QRSDetector_Destroy',['../QRSDetector_8c.html#ab54817e7781264146ece1d6cbe7c799f',1,'QRSDetector_Destroy(QRSDetector *const self):&#160;QRSDetector.c'],['../QRSDetector_8h.html#ab54817e7781264146ece1d6cbe7c799f',1,'QRSDetector_Destroy(QRSDetector *const self):&#160;QRSDetector.c']]],
+  ['qrsdetector_5fgetdatasample_62',['QRSDetector_getDataSample',['../QRSDetector_8c.html#a03652fdae3dab606433b25f3b4c1c641',1,'QRSDetector_getDataSample(QRSDetector *const self):&#160;QRSDetector.c'],['../QRSDetector_8h.html#a03652fdae3dab606433b25f3b4c1c641',1,'QRSDetector_getDataSample(QRSDetector *const self):&#160;QRSDetector.c']]],
+  ['qrsdetector_5fgetitstmdqueue_63',['QRSDetector_getItsTMDQueue',['../QRSDetector_8c.html#af1bcc7935704d95b15444b881bb74426',1,'QRSDetector_getItsTMDQueue(const QRSDetector *const self):&#160;QRSDetector.c'],['../QRSDetector_8h.html#af1bcc7935704d95b15444b881bb74426',1,'QRSDetector_getItsTMDQueue(const QRSDetector *const self):&#160;QRSDetector.c']]],
+  ['qrsdetector_5finit_64',['QRSDetector_Init',['../QRSDetector_8c.html#a6aa33cd8bdb2abe77f7718eb83587d72',1,'QRSDetector_Init(QRSDetector *const self):&#160;QRSDetector.c'],['../QRSDetector_8h.html#a6aa33cd8bdb2abe77f7718eb83587d72',1,'QRSDetector_Init(QRSDetector *const self):&#160;QRSDetector.c']]],
+  ['qrsdetector_5fsetitstmdqueue_65',['QRSDetector_setItsTMDQueue',['../QRSDetector_8c.html#aed522723095e228e50909adf451d926f',1,'QRSDetector_setItsTMDQueue(QRSDetector *const self, struct TMDQueue *p_TMDQueue):&#160;QRSDetector.c'],['../QRSDetector_8h.html#aed522723095e228e50909adf451d926f',1,'QRSDetector_setItsTMDQueue(QRSDetector *const self, struct TMDQueue *p_TMDQueue):&#160;QRSDetector.c']]],
+  ['queue_5fsize_66',['QUEUE_SIZE',['../ECGPkg_8h.html#a142810068f1b99cd93d3fc9f0e160e02',1,'ECGPkg.h']]]
+];

@@ -1,0 +1,99 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 107,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"app/main"
+			],
+			"targetId" : "main::@5f5a17c01335469806cb",
+			"targetIndex" : 42,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/BCPeriodicPoller/libLibBCPeriodicPoller.a"
+			],
+			"targetId" : "LibBCPeriodicPoller::@8f5e59499aac26ab3b47",
+			"targetIndex" : 18,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/BCTimer/libLibBCTimer.a"
+			],
+			"targetId" : "LibBCTimer::@d1bb8555d462d5d6849a",
+			"targetIndex" : 20,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/BreathingCircuitSensor/libLibBreathingCircuitSensor.a"
+			],
+			"targetId" : "LibBreathingCircuitSensor::@c95d5ba0c5961ee821a1",
+			"targetIndex" : 22,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/MedicalDisplay/libLibMedicalDisplay.a"
+			],
+			"targetId" : "LibMedicalDisplay::@1e022283b8673050bc68",
+			"targetIndex" : 24,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

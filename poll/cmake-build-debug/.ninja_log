@@ -1,7 +1,0 @@
-# ninja log v5
-1	985	7268622769182158	CMakeFiles/poll.dir/BCTimer.c.obj	8191abf7783000a4
-51	1013	7268622769192201	CMakeFiles/poll.dir/BreathingCircuitSensor.c.obj	96ff6974768b839e
-91	1015	7268622771993037	CMakeFiles/poll.dir/MedicalDisplay.c.obj	e4bb57d5fa21e0df
-36	1017	7268622772823057	CMakeFiles/poll.dir/main.c.obj	b0a3d4442fe3befe
-22	1019	7268622773303121	CMakeFiles/poll.dir/BCPeriodicPoller.c.obj	2035ec40c11b87ab
-1026	1357	7268622777368459	poll.exe	79f385fc1e47739b

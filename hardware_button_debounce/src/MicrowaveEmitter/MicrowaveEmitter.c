@@ -6,33 +6,41 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void MicrowaveEmitter_Init(MicrowaveEmitter* const me){
-    // me->
+void MicrowaveEmitter_Init(MicrowaveEmitter* const me) {
+    if (me != NULL) {
+        me->deviceState = EMITTER_OFF;
+    }
 }
-void MicrowaveEmitter_Cleanup(MicrowaveEmitter* const me){
 
+void MicrowaveEmitter_Cleanup(MicrowaveEmitter* const me) {
+    // Currently no resources to clean up
 }
 
-MicrowaveEmitter* MicrowaveEmitter_Create(void){
+MicrowaveEmitter* MicrowaveEmitter_Create(void) {
     MicrowaveEmitter* me = (MicrowaveEmitter*)malloc(sizeof(MicrowaveEmitter));
-    if (me != NULL)
-    {
+    if (me != NULL) {
         MicrowaveEmitter_Init(me);
     }
     return me;
 }
 
-void MicrowaveEmitter_Destroy(MicrowaveEmitter* const me){
-    if (me != NULL)
-    {
+void MicrowaveEmitter_Destroy(MicrowaveEmitter* const me) {
+    if (me != NULL) {
         MicrowaveEmitter_Cleanup(me);
+        free(me);
     }
-    free(me);
 }
 
-void MicrowaveEmitter_startEmitting(MicrowaveEmitter* const me){
-    printf("call MicrowaveEmitter_startEmitting\n");
+void MicrowaveEmitter_startEmitting(MicrowaveEmitter* const me) {
+    if (me != NULL) {
+        me->deviceState = EMITTER_ON;
+        printf("MicrowaveEmitter: Starting emission\n");
+    }
 }
-void MicrowaveEmitter_stopEmitting(MicrowaveEmitter* const me){
-    printf("call MicrowaveEmitter_stopEmitting\n");
+
+void MicrowaveEmitter_stopEmitting(MicrowaveEmitter* const me) {
+    if (me != NULL) {
+        me->deviceState = EMITTER_OFF;
+        printf("MicrowaveEmitter: Stopping emission\n");
+    }
 }

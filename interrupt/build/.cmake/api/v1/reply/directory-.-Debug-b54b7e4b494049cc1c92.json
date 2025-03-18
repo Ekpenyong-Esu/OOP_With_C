@@ -1,0 +1,123 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 107,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"app/main"
+			],
+			"targetId" : "main::@5f5a17c01335469806cb",
+			"targetIndex" : 47,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/ButtonDriver/libLibButtonDriver.a"
+			],
+			"targetId" : "LibButtonDriver::@29ab28485a95561a6aa7",
+			"targetIndex" : 19,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/button/libLibButton.a"
+			],
+			"targetId" : "LibButton::@b223c6ff6bf9c66d56e9",
+			"targetIndex" : 18,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/MicrowaveEmitter/libLibMicrowaveEmitter.a"
+			],
+			"targetId" : "LibMicrowaveEmitter::@62b6f9f4cfdbad73fc94",
+			"targetIndex" : 26,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/Timer/libLibTimer.a"
+			],
+			"targetId" : "LibTimer::@b4dde0cfc420a511fee4",
+			"targetIndex" : 29,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/Led/libLibLED.a"
+			],
+			"targetId" : "LibLED::@2f1d1355749faf4793f0",
+			"targetIndex" : 24,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/ButtonHandler/libLibButtonHandler.a"
+			],
+			"targetId" : "LibButtonHandler::@2de86b2eda9eb65732ad",
+			"targetIndex" : 21,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}
