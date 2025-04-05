@@ -3,6 +3,7 @@
 //
 
 #include "BCTimer.h"
+#include <stdlib.h>
 
 
 void BCTimer_Init(BCTimer* const me){

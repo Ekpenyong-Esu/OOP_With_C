@@ -12,7 +12,7 @@ void BreathingCircuitSensor_Cleanup(BreathingCircuitSensor* const me){
 
 }
 
-BreathingCircuitSensor* BreathingCircuitSensor_Create(){
+BreathingCircuitSensor* BreathingCircuitSensor_Create(void){
     BreathingCircuitSensor* me = (BreathingCircuitSensor*)malloc(sizeof(BreathingCircuitSensor));
     if (me != NULL)
     {

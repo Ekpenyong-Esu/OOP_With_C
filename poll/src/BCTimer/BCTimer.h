@@ -6,8 +6,6 @@
 #define POLL_BCTIMER_H
 
 #include "BCPeriodicPoller.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 struct BCPeriodicPoller;
 

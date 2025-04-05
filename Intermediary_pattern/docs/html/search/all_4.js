@@ -1,0 +1,15 @@
+var searchData=
+[
+  ['ecg_5fmodule_16',['ECG_Module',['../structECG__Module.html',1,'ECG_Module'],['../ECG__Module_8h.html#ab64c735d3e3d2bf504b6aa914273c2ad',1,'ECG_Module():&#160;ECG_Module.h']]],
+  ['ecg_5fmodule_2ec_17',['ECG_Module.c',['../ECG__Module_8c.html',1,'']]],
+  ['ecg_5fmodule_2eh_18',['ECG_Module.h',['../ECG__Module_8h.html',1,'']]],
+  ['ecg_5fmodule_5facquirevalue_19',['ECG_Module_acquireValue',['../ECG__Module_8c.html#acc380cc25dadd63165498a5796d4b10a',1,'ECG_Module_acquireValue(ECG_Module *const self):&#160;ECG_Module.c'],['../ECG__Module_8h.html#acc380cc25dadd63165498a5796d4b10a',1,'ECG_Module_acquireValue(ECG_Module *const self):&#160;ECG_Module.c']]],
+  ['ecg_5fmodule_5fcleanup_20',['ECG_Module_Cleanup',['../ECG__Module_8c.html#a2472071adc9e64a049e1177a89120333',1,'ECG_Module_Cleanup(ECG_Module *const self):&#160;ECG_Module.c'],['../ECG__Module_8h.html#a2472071adc9e64a049e1177a89120333',1,'ECG_Module_Cleanup(ECG_Module *const self):&#160;ECG_Module.c']]],
+  ['ecg_5fmodule_5fcreate_21',['ECG_Module_Create',['../ECG__Module_8h.html#a65ded17ece711d77536a9b3749081bcf',1,'ECG_Module_Create(void):&#160;ECG_Module.c'],['../ECG__Module_8c.html#a65ded17ece711d77536a9b3749081bcf',1,'ECG_Module_Create(void):&#160;ECG_Module.c']]],
+  ['ecg_5fmodule_5fdestroy_22',['ECG_Module_Destroy',['../ECG__Module_8c.html#ae4d1796d5ef92a721fb6f412b7a232f3',1,'ECG_Module_Destroy(ECG_Module *const self):&#160;ECG_Module.c'],['../ECG__Module_8h.html#ae4d1796d5ef92a721fb6f412b7a232f3',1,'ECG_Module_Destroy(ECG_Module *const self):&#160;ECG_Module.c']]],
+  ['ecg_5fmodule_5fgetitstmdqueue_23',['ECG_Module_getItsTMDQueue',['../ECG__Module_8c.html#a4c13257832f963cba9155a8d165b5b6f',1,'ECG_Module_getItsTMDQueue(const ECG_Module *const self):&#160;ECG_Module.c'],['../ECG__Module_8h.html#a4c13257832f963cba9155a8d165b5b6f',1,'ECG_Module_getItsTMDQueue(const ECG_Module *const self):&#160;ECG_Module.c']]],
+  ['ecg_5fmodule_5finit_24',['ECG_Module_Init',['../ECG__Module_8c.html#aea0361273650c7ffd617f59baf2ee66a',1,'ECG_Module_Init(ECG_Module *const self):&#160;ECG_Module.c'],['../ECG__Module_8h.html#aea0361273650c7ffd617f59baf2ee66a',1,'ECG_Module_Init(ECG_Module *const self):&#160;ECG_Module.c']]],
+  ['ecg_5fmodule_5fsetitstmdqueue_25',['ECG_Module_setItsTMDQueue',['../ECG__Module_8c.html#a9790bbacef115ce42ac6f6f9f1adfea3',1,'ECG_Module_setItsTMDQueue(ECG_Module *const self, struct TMDQueue *p_TMDQueue):&#160;ECG_Module.c'],['../ECG__Module_8h.html#a9790bbacef115ce42ac6f6f9f1adfea3',1,'ECG_Module_setItsTMDQueue(ECG_Module *const self, struct TMDQueue *p_TMDQueue):&#160;ECG_Module.c']]],
+  ['ecg_5fmodule_5fsetleadpair_26',['ECG_Module_setLeadPair',['../ECG__Module_8c.html#a7826d22fff0004a5564b9ce71cedc353',1,'ECG_Module_setLeadPair(ECG_Module *const self, int lead1, int lead2):&#160;ECG_Module.c'],['../ECG__Module_8h.html#a7826d22fff0004a5564b9ce71cedc353',1,'ECG_Module_setLeadPair(ECG_Module *const self, int lead1, int lead2):&#160;ECG_Module.c']]],
+  ['ecgpkg_2eh_27',['ECGPkg.h',['../ECGPkg_8h.html',1,'']]]
+];

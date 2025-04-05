@@ -1,0 +1,68 @@
+[
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build",
+  "command": "/usr/bin/clang -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build/_deps/unity-src/src -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build/_deps/unity-build  -g3 -O0 --coverage -g -std=c11 -Wcast-align -Wcast-qual -Wconversion -Wexit-time-destructors -Wglobal-constructors -Wmissing-noreturn -Wmissing-prototypes -Wno-missing-braces -Wold-style-cast -Wshadow -Wweak-vtables -Werror -Wall -o _deps/unity-build/CMakeFiles/unity.dir/src/unity.c.o -c /home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build/_deps/unity-src/src/unity.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build/_deps/unity-src/src/unity.c",
+  "output": "_deps/unity-build/CMakeFiles/unity.dir/src/unity.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build",
+  "command": "/usr/bin/clang -Dargparse_shared_EXPORTS -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build/_deps/argparse-src/.  -g3 -O0 --coverage -g -std=c99 -fPIC -o _deps/argparse-build/CMakeFiles/argparse_shared.dir/argparse.c.o -c /home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build/_deps/argparse-src/argparse.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build/_deps/argparse-src/argparse.c",
+  "output": "_deps/argparse-build/CMakeFiles/argparse_shared.dir/argparse.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build",
+  "command": "/usr/bin/clang -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build/_deps/argparse-src/.  -g3 -O0 --coverage -g -std=c99 -o _deps/argparse-build/CMakeFiles/argparse.dir/argparse.c.o -c /home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build/_deps/argparse-src/argparse.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build/_deps/argparse-src/argparse.c",
+  "output": "_deps/argparse-build/CMakeFiles/argparse.dir/argparse.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build",
+  "command": "/usr/bin/clang -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/external/log/src  -g3 -O0 --coverage -g -std=c99 -o external/CMakeFiles/log.dir/log/src/log.c.o -c /home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/external/log/src/log.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/external/log/src/log.c",
+  "output": "external/CMakeFiles/log.dir/log/src/log.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build",
+  "command": "/usr/bin/clang -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/Action/. -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build/configured_files/include  -g3 -O0 --coverage -g -std=c99 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -o src/Action/CMakeFiles/LibAction.dir/Action.c.o -c /home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/Action/Action.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/Action/Action.c",
+  "output": "src/Action/CMakeFiles/LibAction.dir/Action.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build",
+  "command": "/usr/bin/clang -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/GraspingManipulator/. -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build/configured_files/include  -g3 -O0 --coverage -g -std=c99 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -o src/GraspingManipulator/CMakeFiles/LibGraspingManipulator.dir/GraspingManipulator.c.o -c /home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/GraspingManipulator/GraspingManipulator.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/GraspingManipulator/GraspingManipulator.c",
+  "output": "src/GraspingManipulator/CMakeFiles/LibGraspingManipulator.dir/GraspingManipulator.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build",
+  "command": "/usr/bin/clang -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/RobotArmManager/. -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build/configured_files/include -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/RotatingArmJoint/. -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/SlidingArmJoint/. -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/GraspingManipulator/. -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/Action/.  -g3 -O0 --coverage -g -std=c99 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -o src/RobotArmManager/CMakeFiles/LibRobotArmManager.dir/RobotArmManager.c.o -c /home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/RobotArmManager/RobotArmManager.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/RobotArmManager/RobotArmManager.c",
+  "output": "src/RobotArmManager/CMakeFiles/LibRobotArmManager.dir/RobotArmManager.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build",
+  "command": "/usr/bin/clang -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/RotatingArmJoint/. -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build/configured_files/include  -g3 -O0 --coverage -g -std=c99 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -o src/RotatingArmJoint/CMakeFiles/LibRotatingArmJoint.dir/RotatingArmJoint.c.o -c /home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/RotatingArmJoint/RotatingArmJoint.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/RotatingArmJoint/RotatingArmJoint.c",
+  "output": "src/RotatingArmJoint/CMakeFiles/LibRotatingArmJoint.dir/RotatingArmJoint.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build",
+  "command": "/usr/bin/clang -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/SlidingArmJoint/. -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build/configured_files/include  -g3 -O0 --coverage -g -std=c99 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -o src/SlidingArmJoint/CMakeFiles/LibSlidingArmJoint.dir/SlidingArmJoint.c.o -c /home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/SlidingArmJoint/SlidingArmJoint.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/SlidingArmJoint/SlidingArmJoint.c",
+  "output": "src/SlidingArmJoint/CMakeFiles/LibSlidingArmJoint.dir/SlidingArmJoint.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build",
+  "command": "/usr/bin/clang -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/app/. -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build/configured_files/include -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/RobotArmManager/. -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/RotatingArmJoint/. -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/SlidingArmJoint/. -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/GraspingManipulator/. -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/src/Action/. -I/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/external/log/src -isystem /home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build/_deps/argparse-src/.  -g3 -O0 --coverage -g -std=c99 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -o app/CMakeFiles/main.dir/main.c.o -c /home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/app/main.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/app/main.c",
+  "output": "app/CMakeFiles/main.dir/main.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build",
+  "command": "/usr/bin/clang -isystem /home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build/_deps/unity-src/src -isystem /home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/build/_deps/unity-build  -g3 -O0 --coverage -g -std=c99 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -o tests/CMakeFiles/UnitTestBuilder.dir/test_testbuilder.c.o -c /home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/tests/test_testbuilder.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/Intermediary_pattern/tests/test_testbuilder.c",
+  "output": "tests/CMakeFiles/UnitTestBuilder.dir/test_testbuilder.c.o"
+}
+]

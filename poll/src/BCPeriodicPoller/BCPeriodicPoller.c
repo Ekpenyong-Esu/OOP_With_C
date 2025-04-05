@@ -6,6 +6,7 @@
 #include "BCTimer.h"
 #include "BreathingCircuitSensor.h"
 #include "MedicalDisplay.h"
+#include <stdlib.h>
 
 static void cleanUpRelations(BCPeriodicPoller* const me);
 

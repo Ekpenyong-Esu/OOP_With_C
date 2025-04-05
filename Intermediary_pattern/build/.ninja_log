@@ -1,0 +1,21 @@
+# ninja log v5
+397	633	1742329141413745875	src/SlidingArmJoint/CMakeFiles/LibSlidingArmJoint.dir/SlidingArmJoint.c.o	dce3e4e6328ca31b
+352	501	1742329141280744143	src/RotatingArmJoint/CMakeFiles/LibRotatingArmJoint.dir/RotatingArmJoint.c.o	166ef33b223eaece
+160	352	1742329141074741460	src/GraspingManipulator/libLibGraspingManipulator.a	7c05061ca61fcd7
+13	160	1742329140942739740	src/GraspingManipulator/CMakeFiles/LibGraspingManipulator.dir/GraspingManipulator.c.o	21f41f53a1f6838a
+220	493	1742329141168742685	src/Action/libLibAction.a	96eb6f798768d66d
+317	409	1742329141182742867	_deps/argparse-build/libargparse.a	a8f17483e2d6febf
+1127	1342	1742329142135755275	app/main	ab2d433e44c0dc20
+5	770	1742329141536747477	_deps/unity-build/CMakeFiles/unity.dir/src/unity.c.o	b15ac9b5aded8ac0
+996	1285	1742329142072754456	tests/UnitTestBuilder	d8bf9eeb544e17e3
+15	398	1742329141174742763	src/RobotArmManager/CMakeFiles/LibRobotArmManager.dir/RobotArmManager.c.o	b15c67296cce2f02
+410	522	1742329141317744625	tests/CMakeFiles/UnitTestBuilder.dir/test_testbuilder.c.o	15a369d57f0e6b4e
+770	996	1742329141699749600	_deps/unity-build/libunity.a	d96dbf438afe1e70
+502	821	1742329141505747074	src/RotatingArmJoint/libLibRotatingArmJoint.a	40b7ca43dd6b3552
+9	220	1742329140998740471	src/Action/CMakeFiles/LibAction.dir/Action.c.o	a8e872f3ab649806
+633	884	1742329141593748220	src/SlidingArmJoint/libLibSlidingArmJoint.a	2fb5037ff1ef13ec
+398	621	1742329141400745706	app/CMakeFiles/main.dir/main.c.o	9baf0c8ac0d9f2ca
+186	397	1742329141102741825	external/liblog.a	73eebdaf4bf09563
+884	1127	1742329141831751319	src/RobotArmManager/libLibRobotArmManager.a	fd1d7f9a9fc594a8
+6	186	1742329140970740105	external/CMakeFiles/log.dir/log/src/log.c.o	3fa04df10af8ef89
+5	317	1742329141101741812	_deps/argparse-build/CMakeFiles/argparse.dir/argparse.c.o	89c09a94c8d651d9
