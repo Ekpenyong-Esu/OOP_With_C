@@ -1,0 +1,6 @@
+add_subdirectory(GasControlExecutive)
+add_subdirectory(ShareData)
+add_subdirectory(GasActuatorThread)
+add_subdirectory(GasControlEpochtime)
+add_subdirectory(GasSensorThread)
+add_subdirectory(GasDisplayThread)

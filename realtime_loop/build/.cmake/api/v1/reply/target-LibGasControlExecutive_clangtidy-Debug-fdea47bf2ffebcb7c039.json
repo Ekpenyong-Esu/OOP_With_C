@@ -1,0 +1,74 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_clang_tidy_to_target"
+		],
+		"files" : 
+		[
+			"cmake/Tools.cmake",
+			"src/GasControlExecutive/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 100,
+				"parent" : 1
+			}
+		]
+	},
+	"id" : "LibGasControlExecutive_clangtidy::@e7674eae8ccadb60550e",
+	"name" : "LibGasControlExecutive_clangtidy",
+	"paths" : 
+	{
+		"build" : "src/GasControlExecutive",
+		"source" : "src/GasControlExecutive"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/src/GasControlExecutive/CMakeFiles/LibGasControlExecutive_clangtidy",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/GasControlExecutive/CMakeFiles/LibGasControlExecutive_clangtidy.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

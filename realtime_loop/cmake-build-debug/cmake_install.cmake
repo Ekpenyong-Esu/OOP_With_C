@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/mahon/VS_CODE_LAB/OOP_With_C/realtime_loop
+# Install script for directory: C:/Users/mahon/VS_CODE_LAB/OOP_With_C/hardware_proxy
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/realtime_loop")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/hardware_proxy")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/mahon/VS_CODE_LAB/OOP_With_C/realtime_loop/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/mahon/VS_CODE_LAB/OOP_With_C/hardware_proxy/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

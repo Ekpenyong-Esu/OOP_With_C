@@ -1,0 +1,111 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 102,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"app/main"
+			],
+			"targetId" : "main::@5f5a17c01335469806cb",
+			"targetIndex" : 46,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/GasControlEpochtime/libLibGasControlEpochTime.a"
+			],
+			"targetId" : "LibGasControlEpochTime::@332fabe348a590d436c7",
+			"targetIndex" : 20,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/GasActuatorThread/libLibGasActuatorThread.a"
+			],
+			"targetId" : "LibGasActuatorThread::@10521a948849b6e055ca",
+			"targetIndex" : 18,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/GasDisplayThread/libLibGasDisplayThread.a"
+			],
+			"targetId" : "LibGasDisplayThread::@0911da2d0f3160ca979a",
+			"targetIndex" : 24,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/GasSensorThread/libLibGasSensorThread.a"
+			],
+			"targetId" : "LibGasSensorThread::@a41a95e4ff9a06d90ab3",
+			"targetIndex" : 26,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/ShareData/libLibShareData.a"
+			],
+			"targetId" : "LibShareData::@7ee754ce6b905ed45926",
+			"targetIndex" : 28,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

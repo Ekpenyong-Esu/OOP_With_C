@@ -1,0 +1,745 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						12,
+						13
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-0fba81e2c46dfcf84fcc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						44,
+						48,
+						49
+					]
+				},
+				{
+					"build" : "_deps/unity-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.unity-build-Debug-7a2054c276089ddb4b59.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/unity-src",
+					"targetIndexes" : 
+					[
+						50
+					]
+				},
+				{
+					"build" : "_deps/argparse-build",
+					"jsonFile" : "directory-_deps.argparse-build-Debug-5adf9955f0792e5a96df.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "build/_deps/argparse-src",
+					"targetIndexes" : 
+					[
+						41,
+						42
+					]
+				},
+				{
+					"build" : "configured",
+					"jsonFile" : "directory-configured-Debug-3578f59e8a9efbe19381.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "configured"
+				},
+				{
+					"build" : "external",
+					"jsonFile" : "directory-external-Debug-8482bb5b6989bf536f1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "external",
+					"targetIndexes" : 
+					[
+						45
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/GasControlExecutive",
+					"jsonFile" : "directory-src.GasControlExecutive-Debug-0e642c4a66994f90f2ce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/GasControlExecutive",
+					"targetIndexes" : 
+					[
+						22,
+						23
+					]
+				},
+				{
+					"build" : "src/ShareData",
+					"jsonFile" : "directory-src.ShareData-Debug-cb9744ad3435d3435ece.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/ShareData",
+					"targetIndexes" : 
+					[
+						28,
+						29
+					]
+				},
+				{
+					"build" : "src/GasActuatorThread",
+					"jsonFile" : "directory-src.GasActuatorThread-Debug-b685ae93a385c2fafdd7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/GasActuatorThread",
+					"targetIndexes" : 
+					[
+						18,
+						19
+					]
+				},
+				{
+					"build" : "src/GasControlEpochtime",
+					"jsonFile" : "directory-src.GasControlEpochtime-Debug-e36abd00dc8b3cdc9f4a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/GasControlEpochtime",
+					"targetIndexes" : 
+					[
+						20,
+						21
+					]
+				},
+				{
+					"build" : "src/GasSensorThread",
+					"jsonFile" : "directory-src.GasSensorThread-Debug-d8d98e27869a2c8e4439.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/GasSensorThread",
+					"targetIndexes" : 
+					[
+						26,
+						27
+					]
+				},
+				{
+					"build" : "src/GasDisplayThread",
+					"jsonFile" : "directory-src.GasDisplayThread-Debug-2a0de8ea7e82ca0c73c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/GasDisplayThread",
+					"targetIndexes" : 
+					[
+						24,
+						25
+					]
+				},
+				{
+					"build" : "app",
+					"jsonFile" : "directory-app-Debug-94c5f210ca04b1028ae5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "app",
+					"targetIndexes" : 
+					[
+						46,
+						47
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-Debug-b01f6abb0ab61427ef3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						40,
+						43
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					],
+					"name" : "RealTimeLoop",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "unity",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						50
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "argparse",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						41,
+						42
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Continuous::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Continuous-Debug-7af772e6b7830f3e07be.json",
+					"name" : "Continuous",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ContinuousBuild::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ContinuousBuild-Debug-5640733a4315b261a501.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ContinuousConfigure::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ContinuousConfigure-Debug-0abb87df9766df821f75.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ContinuousCoverage::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ContinuousCoverage-Debug-880c842aa526a854c70d.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ContinuousMemCheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ContinuousMemCheck-Debug-d8bcaf8a5dda275ffaf4.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ContinuousStart::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ContinuousStart-Debug-2bf562e4bebc66a07908.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ContinuousSubmit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ContinuousSubmit-Debug-ee9e9f35de6dd2dd6f8f.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ContinuousTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ContinuousTest-Debug-1655b90fea0719547bba.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ContinuousUpdate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ContinuousUpdate-Debug-0202455cc53117686797.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Experimental::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Experimental-Debug-32694c850e1404e500ee.json",
+					"name" : "Experimental",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExperimentalBuild::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExperimentalBuild-Debug-b224273bef08501d2714.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExperimentalConfigure::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExperimentalConfigure-Debug-6bd7c522769354756520.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExperimentalCoverage::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExperimentalCoverage-Debug-7b06d6566365ba40acab.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExperimentalMemCheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExperimentalMemCheck-Debug-d60d0632a6ac4130a56e.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExperimentalStart::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExperimentalStart-Debug-c7fdf7be33dae6c3becd.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExperimentalSubmit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExperimentalSubmit-Debug-e42107f5fe7eff16c098.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExperimentalTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExperimentalTest-Debug-7380ba84dc520a194c39.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExperimentalUpdate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExperimentalUpdate-Debug-7b875a32e1278a27007b.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "LibGasActuatorThread::@10521a948849b6e055ca",
+					"jsonFile" : "target-LibGasActuatorThread-Debug-1ba81d26ed8e276ac2b7.json",
+					"name" : "LibGasActuatorThread",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "LibGasActuatorThread_clangtidy::@10521a948849b6e055ca",
+					"jsonFile" : "target-LibGasActuatorThread_clangtidy-Debug-cb9ef2a23cc5d7983326.json",
+					"name" : "LibGasActuatorThread_clangtidy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "LibGasControlEpochTime::@332fabe348a590d436c7",
+					"jsonFile" : "target-LibGasControlEpochTime-Debug-7955f4be20c7973ef9e3.json",
+					"name" : "LibGasControlEpochTime",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "LibGasControlEpochTime_clangtidy::@332fabe348a590d436c7",
+					"jsonFile" : "target-LibGasControlEpochTime_clangtidy-Debug-276665b755044988af6b.json",
+					"name" : "LibGasControlEpochTime_clangtidy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "LibGasControlExecutive::@e7674eae8ccadb60550e",
+					"jsonFile" : "target-LibGasControlExecutive-Debug-41154b839182dd8f3b2c.json",
+					"name" : "LibGasControlExecutive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "LibGasControlExecutive_clangtidy::@e7674eae8ccadb60550e",
+					"jsonFile" : "target-LibGasControlExecutive_clangtidy-Debug-fdea47bf2ffebcb7c039.json",
+					"name" : "LibGasControlExecutive_clangtidy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "LibGasDisplayThread::@0911da2d0f3160ca979a",
+					"jsonFile" : "target-LibGasDisplayThread-Debug-511d652c5700248094cd.json",
+					"name" : "LibGasDisplayThread",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "LibGasDisplayThread_clangtidy::@0911da2d0f3160ca979a",
+					"jsonFile" : "target-LibGasDisplayThread_clangtidy-Debug-cb03f579c943764ceb76.json",
+					"name" : "LibGasDisplayThread_clangtidy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "LibGasSensorThread::@a41a95e4ff9a06d90ab3",
+					"jsonFile" : "target-LibGasSensorThread-Debug-163dc1c418bcc2a18090.json",
+					"name" : "LibGasSensorThread",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "LibGasSensorThread_clangtidy::@a41a95e4ff9a06d90ab3",
+					"jsonFile" : "target-LibGasSensorThread_clangtidy-Debug-55879d9b511aa29bf79d.json",
+					"name" : "LibGasSensorThread_clangtidy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "LibShareData::@7ee754ce6b905ed45926",
+					"jsonFile" : "target-LibShareData-Debug-389fc71d374c4761d2c7.json",
+					"name" : "LibShareData",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "LibShareData_clangtidy::@7ee754ce6b905ed45926",
+					"jsonFile" : "target-LibShareData_clangtidy-Debug-57daa33428eefb622fd4.json",
+					"name" : "LibShareData_clangtidy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Nightly::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Nightly-Debug-81e6e158a0041e3ab5c3.json",
+					"name" : "Nightly",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NightlyBuild::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NightlyBuild-Debug-57dc8edb33ec32ad01f9.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NightlyConfigure::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NightlyConfigure-Debug-360adea8400b2662787e.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NightlyCoverage::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NightlyCoverage-Debug-647b3fbc7dcf84079f44.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NightlyMemCheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NightlyMemCheck-Debug-a9455f0c351af51c589e.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NightlyMemoryCheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NightlyMemoryCheck-Debug-b14b446b89282d07c08c.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NightlyStart::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NightlyStart-Debug-c622bc604c4681a76d8d.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NightlySubmit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NightlySubmit-Debug-ad569031e3d7f77c531f.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NightlyTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NightlyTest-Debug-64d4c5485cfaa3f80253.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NightlyUpdate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NightlyUpdate-Debug-c8ee3a0f90031a247bbc.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "UnitTestBuilder::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-UnitTestBuilder-Debug-07bbda1847050f70f9c8.json",
+					"name" : "UnitTestBuilder",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "argparse::@d758cd22b6a9b8f5af42",
+					"jsonFile" : "target-argparse-Debug-a840cfe29648d051aae9.json",
+					"name" : "argparse",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "argparse_shared::@d758cd22b6a9b8f5af42",
+					"jsonFile" : "target-argparse_shared-Debug-074786e7c5585d9205dc.json",
+					"name" : "argparse_shared",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "coverage::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-coverage-Debug-8202025cd439bd5a0864.json",
+					"name" : "coverage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "docs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-docs-Debug-dae1991b849e99abf06f.json",
+					"name" : "docs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "log::@89556154f30252d09d22",
+					"jsonFile" : "target-log-Debug-8d778fc0d5471d4d8378.json",
+					"name" : "log",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "main::@5f5a17c01335469806cb",
+					"jsonFile" : "target-main-Debug-ef1d7a715e72644628f3.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "main_clangtidy::@5f5a17c01335469806cb",
+					"jsonFile" : "target-main_clangtidy-Debug-db9d888491b51627451a.json",
+					"name" : "main_clangtidy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_clang_format::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_clang_format-Debug-56bcc7255b91c3d23f37.json",
+					"name" : "run_clang_format",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_cmake_format::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_cmake_format-Debug-a1817d14b891972b81d0.json",
+					"name" : "run_cmake_format",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "unity::@e7b0562af20a4d8c3b3c",
+					"jsonFile" : "target-unity-Debug-b9b49d2ca8390f3e2580.json",
+					"name" : "unity",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mahonri/Desktop/OOP_With_C/realtime_loop/build",
+		"source" : "/home/mahonri/Desktop/OOP_With_C/realtime_loop"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
