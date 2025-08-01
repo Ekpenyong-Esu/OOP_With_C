@@ -1,2 +1,0 @@
-/usr/bin/ar qc libLibQRSDetector.a CMakeFiles/LibQRSDetector.dir/QRSDetector.c.o
-/usr/bin/ranlib libLibQRSDetector.a

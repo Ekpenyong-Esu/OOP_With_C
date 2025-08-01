@@ -18,7 +18,7 @@
 /* class TestBuilder */
 typedef struct TestBuilder TestBuilder;
 struct TestBuilder {
-    struct ArrhythmiaDetector* itsArrythmiaDetector;
+    struct ArrhythmiaDetector* itsArrhythmiaDetector;
     struct ECG_Module* itsECG_Module;
     struct HistogramDisplay* itsHistogramDisplay;
     struct TMDQueue* itsTMDQueue;
@@ -30,7 +30,7 @@ struct TestBuilder {
 void TestBuilder_Init(TestBuilder* const self);
 void TestBuilder_Cleanup(TestBuilder* const self);
 
-struct ArrythmiaDetector* TestBuilder_getItsArrythmiaDetector(const TestBuilder* const self);
+struct ArrhythmiaDetector* TestBuilder_getItsArrythmiaDetector(const TestBuilder* const self);
 struct QRSDetector* TestBuilder_getItsQRSDetector(const TestBuilder* const self);
 struct ECG_Module* TestBuilder_getItsECG_Module(const TestBuilder* const self);
 struct HistogramDisplay* TestBuilder_getItsHistogramDisplay(const TestBuilder* const self);

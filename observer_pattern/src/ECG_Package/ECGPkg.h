@@ -5,19 +5,27 @@
 #ifndef CLIENT_SERVER_PATTERN_ECGPKG_H
 #define CLIENT_SERVER_PATTERN_ECGPKG_H
 
+/**
+ * Observer Pattern: Common Definitions
+ *
+ * This file provides common definitions and forward declarations for
+ * the Observer pattern implementation in the ECG system.
+ */
 
-/* forward declarations */
+/* Forward declarations for Observer pattern components */
+struct ArrhythmiaDetector;  // Observer
+struct ECG_Module;          // Data provider
+struct HistogramDisplay;    // Observer
+struct QRSDetector;         // Observer
+struct TMDQueue;            // Subject
+struct TestBuilder;         // Test framework
+struct TimeMarkedData;      // Subject state
+struct WaveformDisplay;     // Observer
 
-struct ArrhythmiaDetector;
-struct ECG_Module;
-struct HistogramDisplay;
-struct QRSDetector;
-struct TMDQueue;
-struct TestBuilder;
-struct TimeMarkedData;
-struct WaveformDisplay;
-
+/* Common type definitions */
 typedef unsigned char boolean;
-#define QUEUE_SIZE (20000)
+
+/* Configuration for Subject data storage */
+#define QUEUE_SIZE (20000)   // Size of circular buffer in Subject
 
 #endif //CLIENT_SERVER_PATTERN_ECGPKG_H

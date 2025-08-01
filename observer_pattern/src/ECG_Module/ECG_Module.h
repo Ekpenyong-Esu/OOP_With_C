@@ -8,18 +8,22 @@
 #include "ECGPkg.h"
 #include "TMDQueue.h"
 
-
-/* class ECG_Module */
+/**
+ * ECG_Module - Data Provider for the Observer Pattern
+ * 
+ * This module generates ECG data and sends it to the TMDQueue subject,
+ * which then notifies all observers of the new data.
+ */
 
 typedef struct ECG_Module ECG_Module;
 struct ECG_Module {
-    int dataNum;
-    int lead1;
-    int lead2;
-    struct TMDQueue* itsTMDQueue;
+    int dataNum;                  // Counter for data samples
+    int lead1;                    // ECG lead 1 selection
+    int lead2;                    // ECG lead 2 selection
+    struct TMDQueue* itsTMDQueue; // Subject that notifies observers
 };
-/* Constructors and destructors:*/
 
+/* Constructors and destructors:*/
 void ECG_Module_Init(ECG_Module* const self);
 void ECG_Module_Cleanup(ECG_Module* const self);
 

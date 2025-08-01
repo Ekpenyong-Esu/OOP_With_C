@@ -7,10 +7,19 @@
 #include "TMDQueue.h"
 #include "NotificationHandle.h"
 
+/**
+ * Observer Pattern: Subject Implementation
+ * 
+ * This file implements the Subject in the Observer pattern.
+ * It maintains a list of observers and notifies them of state changes.
+ */
 
 static void initRelations(TMDQueue* const me);
 static void cleanUpRelations(TMDQueue* const me);
 
+/**
+ * Initialize the subject
+ */
 void TMDQueue_Init(TMDQueue* const me) {
     me->head = 0;
     me->nSubscribers = 0;
@@ -19,6 +28,9 @@ void TMDQueue_Init(TMDQueue* const me) {
     initRelations(me);
 }
 
+/**
+ * Clean up the subject
+ */
 void TMDQueue_Cleanup(TMDQueue* const me) {
     cleanUpRelations(me);
 }
@@ -47,13 +59,20 @@ boolean TMDQueue_isEmpty(TMDQueue* const me) {
     return (boolean)(me->size == 0);
 }
 
+/**
+ * Observer Pattern: NOTIFY method
+ * 
+ * This is the key method in the Observer pattern that notifies
+ * all registered observers about state changes.
+ */
 void TMDQueue_notify(TMDQueue* const me, const struct TimeMarkedData tmd) {
     struct NotificationHandle *current = me->itsNotificationHandle;
 
-    // Traverse the list of NotificationHandle instances and call the updateAddr function for each one
+    // Traverse the list of observers and notify each one
     while (current != NULL) {
-        printf("----->> calling updateAddr on pNH %p\n", current);
-        current->updateAddr(NULL, tmd);
+        // Call the observer's update method
+        printf("Notifying observer with data value: %d\n", tmd.dataValue);
+        current->updateAddr(current->observerInstance, tmd);
         current = current->itsNotificationHandle;
     }
 }
@@ -72,29 +91,43 @@ struct TimeMarkedData TMDQueue_remove(TMDQueue* const me, int index) {
     return tmd;
 }
 
-void TMDQueue_subscribe(TMDQueue* const me, const UpdateFuncPtr updateFuncAddr) {
+/**
+ * Observer Pattern: SUBSCRIBE method
+ * 
+ * This method registers an observer to receive notifications
+ * when the subject's state changes.
+ */
+void TMDQueue_subscribe(TMDQueue* const me, void* observerInstance, const UpdateFuncPtr updateFuncAddr) {
     struct NotificationHandle *pNH = me->itsNotificationHandle;
 
     if (pNH == NULL) {
-        // Empty list, create a new Notification Handle
+        // Empty list - create first observer node
         me->itsNotificationHandle = NotificationHandle_Create();
         pNH = me->itsNotificationHandle;
     } else {
-        // Search for the end of the list
+        // Find end of observer list
         while (pNH->itsNotificationHandle != NULL) {
             pNH = pNH->itsNotificationHandle;
         }
 
-        // Add a new Notification Handle at the end of the list
+        // Add new observer at the end
         pNH->itsNotificationHandle = NotificationHandle_Create();
         pNH = pNH->itsNotificationHandle;
     }
 
-    // Set the callback address and increment the subscriber count
+    // Store the update function, observer instance, and increment subscriber count
     pNH->updateAddr = updateFuncAddr;
+    pNH->observerInstance = observerInstance;
     ++me->nSubscribers;
+    printf("Added new observer - total subscribers: %d\n", me->nSubscribers);
 }
 
+/**
+ * Observer Pattern: UNSUBSCRIBE method
+ * 
+ * This method removes an observer from the notification list
+ * so it no longer receives updates when the subject changes.
+ */
 int TMDQueue_unsubscribe(TMDQueue* const me, const UpdateFuncPtr updateFuncAddr) {
     
     if (!me || !updateFuncAddr) {
@@ -104,30 +137,32 @@ int TMDQueue_unsubscribe(TMDQueue* const me, const UpdateFuncPtr updateFuncAddr)
     struct NotificationHandle *current = me->itsNotificationHandle;
     struct NotificationHandle *previous = NULL;
 
-    // If the list is empty, return 0
+    // If no observers, return 0
     if (current == NULL) {
         return 0;
     }
 
-    // If the first element matches the target, update the head of the list and free the old head
+    // If first observer matches, remove it
     if (current->updateAddr == updateFuncAddr) {
         me->itsNotificationHandle = current->itsNotificationHandle;
-        free(current);
+        NotificationHandle_Destroy(current);
         --me->nSubscribers;
+        printf("Removed observer (first in list) - remaining subscribers: %d\n", me->nSubscribers);
         return 1;
     }
 
-    // Traverse the list to find the target element
+    // Search for the observer in the list
     while (current != NULL) {
-        // If the current element matches the target, update the previous element's next pointer and free the current element
         if (current->updateAddr == updateFuncAddr) {
+            // Found the observer - remove it
             previous->itsNotificationHandle = current->itsNotificationHandle;
-            free(current);
+            NotificationHandle_Destroy(current);
             --me->nSubscribers;
+            printf("Removed observer - remaining subscribers: %d\n", me->nSubscribers);
             return 1;
         }
 
-        // Move on to the next element
+        // Move to next observer
         previous = current;
         current = current->itsNotificationHandle;
     }

@@ -1,3 +1,0 @@
-C:/Users/mahon/VS_CODE_LAB/OOP_With_C/realtime_guard/cmake-build-debug/CMakeFiles/realtime_guard.dir
-C:/Users/mahon/VS_CODE_LAB/OOP_With_C/realtime_guard/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/mahon/VS_CODE_LAB/OOP_With_C/realtime_guard/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libLibTMDQueue.a CMakeFiles/LibTMDQueue.dir/TMDQueue.c.o
-/usr/bin/ranlib libLibTMDQueue.a

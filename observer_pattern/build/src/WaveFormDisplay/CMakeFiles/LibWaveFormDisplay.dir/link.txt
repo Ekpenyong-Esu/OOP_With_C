@@ -1,2 +1,0 @@
-/usr/bin/ar qc libLibWaveFormDisplay.a CMakeFiles/LibWaveFormDisplay.dir/WaveformDisplay.c.o
-/usr/bin/ranlib libLibWaveFormDisplay.a

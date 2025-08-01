@@ -1,0 +1,4 @@
+add_subdirectory(MotorData)
+add_subdirectory(MotorController)
+add_subdirectory(MotorPositionSensor)
+add_subdirectory(MotorDisplay)

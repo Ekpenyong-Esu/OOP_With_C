@@ -1,3 +1,5 @@
+// Refactored for readability and maintainability
+
 #include "GasActuatorThread.h"
 #include "GasSensorThread.h"  // To access sensor readings
 
@@ -25,13 +27,10 @@ static void setValvePosition(int position) {
     // Clamp position to valid range
     if (position < 0) position = 0;
     if (position > 100) position = 100;
-    
+
     // In a real system, this would control hardware
     // For simulation, we just update our internal state
     state.valvePosition = position;
-    
-    // Hardware control code would go here:
-    // e.g., outputToDAC(VALVE_DAC_CHANNEL, position * DAC_SCALE_FACTOR);
 }
 
 /**
@@ -40,15 +39,15 @@ static void setValvePosition(int position) {
 static void processControlLogic(void) {
     // Example control logic - in a real system this would be more sophisticated
     // Get current gas measurement from the sensor module
-    int gasLevel = GasSensorThread_getGasLevel();  // This function would need to be defined
-    
+    int gasLevel = GasSensorThread_getGasLevel();
+
     // Simplified proportional control example
     const int setPoint = 50;  // Desired gas level
     const float Kp = 0.5f;    // Proportional gain
-    
+
     int error = setPoint - gasLevel;
     state.targetPosition = state.valvePosition + (int)(Kp * error);
-    
+
     // Implement the new valve position
     setValvePosition(state.targetPosition);
 }
@@ -58,7 +57,7 @@ static void processControlLogic(void) {
  */
 void GasActuatorThread_run(void) {
     if (!state.isActive) return;
-    
+
     // Process control logic to determine new actuator settings
     processControlLogic();
 }
@@ -71,14 +70,14 @@ void GasActuatorThread_run(void) {
 int GasActuatorThread_init(void) {
     // Initialize hardware - would include actual code for your specific hardware
     // For simulation, we just initialize our internal state
-    
+
     state.valvePosition = 0;
     state.targetPosition = 0;
     state.isActive = 1;
-    
+
     // Set actuators to safe initial positions
     setValvePosition(0);
-    
+
     return 0;  // Success
 }
 

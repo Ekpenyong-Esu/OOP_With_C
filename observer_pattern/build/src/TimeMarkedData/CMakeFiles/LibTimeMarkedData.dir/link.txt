@@ -1,2 +1,0 @@
-/usr/bin/ar qc libLibTimeMarkedData.a CMakeFiles/LibTimeMarkedData.dir/TimeMarkedData.c.o
-/usr/bin/ranlib libLibTimeMarkedData.a

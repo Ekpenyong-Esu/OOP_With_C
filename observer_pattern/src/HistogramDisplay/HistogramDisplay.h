@@ -8,19 +8,25 @@
 #include "ECGPkg.h"
 #include "TMDQueue.h"
 
-
-/* class HistogramDisplay */
+/**
+ * Observer Pattern: OBSERVER class
+ *
+ * HistogramDisplay is an observer in the Observer pattern.
+ * It receives updates from the TMDQueue (Subject) when new data is available.
+ */
 typedef struct HistogramDisplay HistogramDisplay;
 
-
 struct HistogramDisplay {
-    int index;
-    struct TMDQueue* itsTMDQueue;
+    int index;                   // Current position in the queue
+    struct TMDQueue* itsTMDQueue; // Reference to the subject
 };
 
 /* Constructors and destructors:*/
 void HistogramDisplay_Init(HistogramDisplay* const me);
 void HistogramDisplay_Cleanup(HistogramDisplay* const me);
+
+/* Observer update method */
+void HistogramDisplay_update(void* instance, const struct TimeMarkedData tmd);
 
 /* Operations */
 void HistogramDisplay_getValue(HistogramDisplay* const me);

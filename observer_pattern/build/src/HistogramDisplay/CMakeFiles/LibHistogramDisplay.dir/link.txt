@@ -1,2 +1,0 @@
-/usr/bin/ar qc libLibHistogramDisplay.a CMakeFiles/LibHistogramDisplay.dir/HistogramDisplay.c.o
-/usr/bin/ranlib libLibHistogramDisplay.a

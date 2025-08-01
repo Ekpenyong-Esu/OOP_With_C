@@ -7,47 +7,54 @@
 
 #include "ECGPkg.h"
 #include "TimeMarkedData.h"
+#include "NotificationHandle.h" // Include NotificationHandle.h which has the UpdateFuncPtr definition
 
 typedef struct TMDQueue TMDQueue;
 
-typedef void (*UpdateFuncPtr)(struct HistogramDisplay* const me, const struct TimeMarkedData tmd);
-
-/*
- This queue is meant to operate as a "leaky" queue. In this queue,
- data is never removed per se, but is instead overwritten when the
- buffer pointer wraps around. This allows for many clients to read
- the same data from the queue. */
+/**
+ * Observer Pattern: SUBJECT class
+ * 
+ * TMDQueue acts as the Subject in the Observer pattern.
+ * It maintains a list of observers (NotificationHandles) and notifies 
+ * them when new data is added to the queue.
+ */
 struct TMDQueue {
-    int head;
-    int nSubscribers;
-    int size;
-    struct TimeMarkedData buffer[QUEUE_SIZE];
-    struct NotificationHandle* itsNotificationHandle;
+    int head;                                   // Current position in circular buffer
+    int nSubscribers;                           // Number of observers
+    int size;                                   // Current size of data in the buffer
+    struct TimeMarkedData buffer[QUEUE_SIZE];   // Circular buffer of data
+    struct NotificationHandle* itsNotificationHandle; // Linked list of observers
 };
-
-
 
 /* Constructors and destructors:*/
 void TMDQueue_Init(TMDQueue* const me);
 void TMDQueue_Cleanup(TMDQueue* const me);
 
-/* Operations */
+/* Queue operations */
 int TMDQueue_getNextIndex(TMDQueue* const me, int index);
 void TMDQueue_insert(TMDQueue* const me, const struct TimeMarkedData tmd);
 boolean TMDQueue_isEmpty(TMDQueue* const me);
-void TMDQueue_notify(TMDQueue* const me, const struct TimeMarkedData tmd);
 struct TimeMarkedData TMDQueue_remove(TMDQueue* const me, int index);
 
-/* The NotificationHandle is managed as a linked list, with insertions coming at the end.  */
-void TMDQueue_subscribe(TMDQueue* const me, const UpdateFuncPtr updateFuncAddr);
+/**
+ * Observer Pattern: Core Subject Methods
+ * 
+ * These methods implement the key Subject functionality:
+ * - notify: Inform all observers of state changes
+ * - subscribe: Register an observer to receive notifications
+ * - unsubscribe: Remove an observer from notification list
+ */
+void TMDQueue_notify(TMDQueue* const me, const struct TimeMarkedData tmd);
+void TMDQueue_subscribe(TMDQueue* const me, void* observerInstance, const UpdateFuncPtr updateFuncAddr);
 int TMDQueue_unsubscribe(TMDQueue* const me, const UpdateFuncPtr updateFuncAddr);
 
+/* Accessor methods */
 int TMDQueue_getBuffer(const TMDQueue* const me);
-
 struct NotificationHandle* TMDQueue_getItsNotificationHandle(const TMDQueue* const me);
 void TMDQueue_setItsNotificationHandle(TMDQueue* const me, struct NotificationHandle* p_NotificationHandle);
 
-TMDQueue * TMDQueue_Create(void);
+/* Creation and destruction */
+TMDQueue* TMDQueue_Create(void);
 void TMDQueue_Destroy(TMDQueue* const me);
 
 

@@ -10,13 +10,13 @@
 #include <string.h>
 #include <stdlib.h>
 
-// Display configuration parameters
+// Grouped constants for better organization
 #define DISPLAY_REFRESH_INTERVAL_MS 500
 #define MAX_LINE_LENGTH 80
 #define HISTORY_LENGTH 10
 #define BAR_WIDTH 40
 
-// Display state
+// Display state structure
 typedef struct {
     int isInitialized;
     int errorCount;
@@ -26,6 +26,15 @@ typedef struct {
     char statusMessage[MAX_LINE_LENGTH];
 } DisplayState;
 
+// History buffer structure
+typedef struct {
+    int gasFlow[HISTORY_LENGTH];
+    float temperature[HISTORY_LENGTH];
+    float pressure[HISTORY_LENGTH];
+    int currentIndex;
+} DataHistory;
+
+// Static variables for display state and data history
 static DisplayState displayState = {
     .isInitialized = 0,
     .errorCount = 0,
@@ -34,14 +43,6 @@ static DisplayState displayState = {
     .displayMode = DISPLAY_MODE_DETAILED,
     .statusMessage = "System initialized"
 };
-
-// History buffer to track values over time
-typedef struct {
-    int gasFlow[HISTORY_LENGTH];
-    float temperature[HISTORY_LENGTH];
-    float pressure[HISTORY_LENGTH];
-    int currentIndex;
-} DataHistory;
 
 static DataHistory dataHistory = {
     .currentIndex = 0
@@ -69,10 +70,7 @@ static unsigned long getCurrentTimeMs(void) {
  * @brief Update the data history with current readings
  */
 static void updateDataHistory(void) {
-    // Advance index with wraparound
     dataHistory.currentIndex = (dataHistory.currentIndex + 1) % HISTORY_LENGTH;
-    
-    // Store current values
     dataHistory.gasFlow[dataHistory.currentIndex] = GasSensorThread_getGasLevel();
     dataHistory.temperature[dataHistory.currentIndex] = GasSensorThread_getTemperature();
     dataHistory.pressure[dataHistory.currentIndex] = GasSensorThread_getPressure();
@@ -88,7 +86,7 @@ static void displayBar(int value, int width) {
     int barLength = (value * width) / 100;
     printf("[");
     for (int i = 0; i < width; i++) {
-        printf(i < barLength ? "█" : "(U+2588)");
+        printf(i < barLength ? "█" : " ");
     }
     printf("] %3d%%", value);
 }
@@ -100,30 +98,25 @@ static void displayDetailedStatus(void) {
     int gasFlow = GasSensorThread_getGasLevel();
     float temperature = GasSensorThread_getTemperature();
     float pressure = GasSensorThread_getPressure();
-    
+
     clearScreen();
-    
-    // Display header with current time
+
     time_t now = time(NULL);
     char timeBuffer[30];
     strftime(timeBuffer, sizeof(timeBuffer), "%Y-%m-%d %H:%M:%S", localtime(&now));
     printf("╔══════════════════════════════════════════════════════════════╗\n");
-    printf("║ Gas Control System Status         %27s ║\n", timeBuffer);    
+    printf("║ Gas Control System Status         %27s ║\n", timeBuffer);
     printf("╠══════════════════════════════════════════════════════════════╣\n");
-    
-    // Display current values with bar graphs
+
     printf("║ Measured Gas Flow: ");
     displayBar(gasFlow, BAR_WIDTH);
     printf(" ║\n");
-    
+
     printf("║ Temperature: %6.2f °C                                     ║\n", temperature);
     printf("║ Pressure:    %6.2f kPa                                    ║\n", pressure);
-    
-    // Display status message
+
     printf("╠══════════════════════════════════════════════════════════════╣\n");
     printf("║ Status: %-52s ║\n", displayState.statusMessage);
-    
-    // Display footer
     printf("╚══════════════════════════════════════════════════════════════╝\n");
 }
 

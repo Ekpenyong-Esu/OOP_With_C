@@ -15,8 +15,8 @@ void TestBuilder_Cleanup(TestBuilder* const self) {
     cleanUpRelations(self);
 }
 
-struct ArrythmiaDetector* TestBuilder_getItsArrythmiaDetector(const TestBuilder* const self){
-return (struct ArrythmiaDetector*)(self->itsArrythmiaDetector);
+struct ArrhythmiaDetector* TestBuilder_getItsArrythmiaDetector(const TestBuilder* const self){
+return (struct ArrhythmiaDetector*)(self->itsArrhythmiaDetector);
 }
 
 struct ECG_Module* TestBuilder_getItsECG_Module(const TestBuilder* const self) {
@@ -55,7 +55,7 @@ void TestBuilder_Destroy(TestBuilder* const self) {
 
 static void initRelations(TestBuilder* const self) {
     // Allocate memory for each component
-    self->itsArrythmiaDetector = (struct ArrhythmiaDetector*)malloc(sizeof(struct ArrhythmiaDetector));
+    self->itsArrhythmiaDetector = (struct ArrhythmiaDetector*)malloc(sizeof(struct ArrhythmiaDetector));
     self->itsECG_Module = (struct ECG_Module*)malloc(sizeof(struct ECG_Module));
     self->itsHistogramDisplay = (struct HistogramDisplay*)malloc(sizeof(struct HistogramDisplay));
     self->itsQRSDetector = (struct QRSDetector*)malloc(sizeof(struct QRSDetector));
@@ -63,7 +63,7 @@ static void initRelations(TestBuilder* const self) {
     self->itsWaveformDisplay = (struct WaveformDisplay*)malloc(sizeof(struct WaveformDisplay));
 
     // Check if any allocation failed
-    if (!self->itsArrythmiaDetector || !self->itsECG_Module || !self->itsHistogramDisplay ||
+    if (!self->itsArrhythmiaDetector || !self->itsECG_Module || !self->itsHistogramDisplay ||
         !self->itsQRSDetector || !self->itsTMDQueue || !self->itsWaveformDisplay) {
         // Handle allocation failure
         cleanUpRelations(self);
@@ -71,7 +71,7 @@ static void initRelations(TestBuilder* const self) {
     }
 
     // Initialize components
-    ArrhythmiaDetector_Init(self->itsArrythmiaDetector);
+    ArrhythmiaDetector_Init(self->itsArrhythmiaDetector);
     ECG_Module_Init(self->itsECG_Module);
     HistogramDisplay_Init(self->itsHistogramDisplay);
     QRSDetector_Init(self->itsQRSDetector);
@@ -83,32 +83,59 @@ static void initRelations(TestBuilder* const self) {
     HistogramDisplay_setItsTMDQueue(self->itsHistogramDisplay, self->itsTMDQueue);
     QRSDetector_setItsTMDQueue(self->itsQRSDetector, self->itsTMDQueue);
     WaveformDisplay_setItsTMDQueue(self->itsWaveformDisplay, self->itsTMDQueue);
-    ArrhythmiaDetector_setItsTMDQueue(self->itsArrythmiaDetector, self->itsTMDQueue);
+    ArrhythmiaDetector_setItsTMDQueue(self->itsArrhythmiaDetector, self->itsTMDQueue);
 }
 
 static void cleanUpRelations(TestBuilder* const self) {
-    if (self->itsWaveformDisplay) {
-        WaveformDisplay_Cleanup(self->itsWaveformDisplay);
-        free(self->itsWaveformDisplay);
-    }
+    // First unsubscribe all observers from TMDQueue to avoid issues during cleanup
     if (self->itsTMDQueue) {
-        TMDQueue_Cleanup(self->itsTMDQueue);
-        free(self->itsTMDQueue);
+        if (self->itsHistogramDisplay) {
+            TMDQueue_unsubscribe(self->itsTMDQueue, HistogramDisplay_update);
+        }
+        if (self->itsQRSDetector) {
+            TMDQueue_unsubscribe(self->itsTMDQueue, QRSDetector_update);
+        }
+        if (self->itsWaveformDisplay) {
+            TMDQueue_unsubscribe(self->itsTMDQueue, WaveformDisplay_update);
+        }
+        if (self->itsArrhythmiaDetector) {
+            TMDQueue_unsubscribe(self->itsTMDQueue, ArrhythmiaDetector_update);
+        }
+    }
+    
+    // Clean up and free observers first
+    if (self->itsArrhythmiaDetector) {
+        ArrhythmiaDetector_Cleanup(self->itsArrhythmiaDetector);
+        free(self->itsArrhythmiaDetector);
+        self->itsArrhythmiaDetector = NULL;
     }
     if (self->itsQRSDetector) {
         QRSDetector_Cleanup(self->itsQRSDetector);
         free(self->itsQRSDetector);
+        self->itsQRSDetector = NULL;
+    }
+    if (self->itsWaveformDisplay) {
+        WaveformDisplay_Cleanup(self->itsWaveformDisplay);
+        free(self->itsWaveformDisplay);
+        self->itsWaveformDisplay = NULL;
     }
     if (self->itsHistogramDisplay) {
         HistogramDisplay_Cleanup(self->itsHistogramDisplay);
         free(self->itsHistogramDisplay);
+        self->itsHistogramDisplay = NULL;
     }
+    
+    // Clean up ECG Module (data source)
     if (self->itsECG_Module) {
         ECG_Module_Cleanup(self->itsECG_Module);
         free(self->itsECG_Module);
+        self->itsECG_Module = NULL;
     }
-    if (self->itsArrythmiaDetector) {
-        ArrhythmiaDetector_Cleanup(self->itsArrythmiaDetector);
-        free(self->itsArrythmiaDetector);
+    
+    // Finally clean up the TMDQueue (subject)
+    if (self->itsTMDQueue) {
+        TMDQueue_Cleanup(self->itsTMDQueue);
+        free(self->itsTMDQueue);
+        self->itsTMDQueue = NULL;
     }
 }

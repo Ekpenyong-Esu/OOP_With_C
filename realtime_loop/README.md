@@ -1,64 +1,64 @@
-# Template For C Projects
+# Real-Time Gas Control System
 
-![C++](https://img.shields.io/badge/C%2B%2B-11%2F14%2F17%2F20%2F23-blue)
+![C](https://img.shields.io/badge/C-99-blue)
 ![License](https://img.shields.io/github/license/franneck94/CProjectTemplate)
 ![Linux Build](https://github.com/franneck94/CProjectTemplate/workflows/Ubuntu%20CI%20Test/badge.svg)
 
-This is a template for C++ projects. What you get:
+This project implements a real-time gas control system using modular C programming. The system includes components for gas sensing, actuation, display, and control logic, designed to operate in a real-time loop.
 
-- Library, executable and test code separated in distinct folders.
-- Use of modern CMake for building and compiling.
-- External libraries fetched by CMake or cloned by Git.
-- Unit testing using [Unity](https://github.com/ThrowTheSwitch/Unity)
-- General purpose libraries:
-  - [log](https://github.com/rxi/log.c)
-  - [argparse](https://github.com/cofyc/argparse)
-- Continuous integration testing and coverage reports with Github Actions.
+## Features
+
+- Modular design with separate components for sensors, actuators, and display.
+- Real-time control loop for gas system management.
+- Unit testing using [Unity](https://github.com/ThrowTheSwitch/Unity).
 - Code documentation with [Doxygen](http://www.stack.nl/~dimitri/doxygen/).
-- Tooling: Clang-Format, Cmake-Format, Clang-tidy, Sanitizers
+- Tooling: Clang-Format, Cmake-Format, Clang-tidy, Sanitizers.
 
 ## Structure
 
 ``` text
 ├── CMakeLists.txt
 ├── app
-│   ├── CMakesLists.txt
-│   └── main.cc
+│   ├── CMakeLists.txt
+│   └── main.c
 ├── cmake
 │   └── cmake modules
 ├── docs
 │   ├── Doxyfile
 │   └── html/
 ├── external
-│   ├── CMakesLists.txt
+│   ├── CMakeLists.txt
 │   ├── ...
 ├── src
-│   ├── CMakesLists.txt
-│   ├── foo/
-│   └── bar/
+│   ├── CMakeLists.txt
+│   ├── GasActuatorThread/
+│   ├── GasControlEpochtime/
+│   ├── GasControlExecutive/
+│   ├── GasDisplayThread/
+│   ├── GasSensorThread/
+│   ├── Loop/
+│   └── ShareData/
 └── tests
     ├── CMakeLists.txt
-    └── main.c
+    └── test_testbuilder.c
 ```
 
-Library code goes into [src/](src/), main program code in [app/](app) and tests go in [tests/](tests/).
+Library code goes into [src/](src/), main program code in [app/](app), and tests go in [tests/](tests/).
 
 ## Software Requirements
 
 - CMake 3.21+
 - GNU Makefile
 - Doxygen
-- Conan or VCPKG
-- MSVC 2017 (or higher), G++9 (or higher), Clang++9 (or higher)
+- GCC 9+ or Clang 9+
 - Optional: Code Coverage (only on GNU|Clang): gcovr
-- Optional: Makefile, Doxygen, Conan, VCPKG
 
 ## Building
 
 First, clone this repo and do the preliminary work:
 
 ```shell
-git clone --recursive https://github.com/franneck94/CppProjectTemplate
+git clone --recursive https://github.com/franneck94/CProjectTemplate
 make prepare
 ```
 

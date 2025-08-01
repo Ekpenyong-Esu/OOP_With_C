@@ -1,0 +1,4 @@
+add_subdirectory(mutex)
+add_subdirectory(TSREventQueue)
+add_subdirectory(TokenizeAsyncSinglePkg)
+add_subdirectory(TSRSyncSingleReceptor)

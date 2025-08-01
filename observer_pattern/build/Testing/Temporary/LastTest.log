@@ -1,0 +1,23 @@
+Start testing: Jun 06 16:52 CEST
+----------------------------------------------------------
+1/1 Testing: RunUnitTestBuilder
+1/1 Test: RunUnitTestBuilder
+Command: "/home/mahonri/Desktop/OOP_With_C/observer_pattern/build/tests/UnitTestBuilder"
+Directory: /home/mahonri/Desktop/OOP_With_C/observer_pattern/build/tests
+"RunUnitTestBuilder" start time: Jun 06 16:52 CEST
+Output:
+----------------------------------------------------------
+/home/mahonri/Desktop/OOP_With_C/observer_pattern/tests/test_testbuilder.c:21:test_function_should_do_something:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RunUnitTestBuilder" end time: Jun 06 16:52 CEST
+"RunUnitTestBuilder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 06 16:52 CEST
