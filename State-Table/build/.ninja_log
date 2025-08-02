@@ -1,0 +1,13 @@
+# ninja log v5
+5	150	1754069911465369134	src/mutex/CMakeFiles/LibMutex.dir/Mutex.c.o	f7d97dee64ccc52a
+6	166	1754069911486368985	src/StateTable/CMakeFiles/LibStateTable.dir/StateTablePattern.c.o	e9671f6930b920e4
+5	209	1754069911533368652	_deps/argparse-build/CMakeFiles/argparse.dir/argparse.c.o	6aa1855ea5a23986
+6	256	1754069911578368332	src/TokenizerStateTable/CMakeFiles/LibTokenizerStateTable.dir/TokenizerStateTable.c.o	28b48ffa93c599ef
+166	294	1754069911569368396	src/StateTable/libLibStateTable.a	88cf1dacb210bf4c
+5	215	1754069911529368680	external/CMakeFiles/log.dir/log/src/log.c.o	71aeb6da033b6d99
+7	235	1754069911554368503	app/CMakeFiles/main.dir/main.c.o	5808c958a5c965ba
+151	280	1754069911561368453	src/mutex/libLibMutex.a	19cd97aad2e7d4c6
+294	388	1754069911686367565	src/TokenizerStateTable/libLibTokenizerStateTable.a	db6a49282c14b157
+209	339	1754069911630367963	_deps/argparse-build/libargparse.a	670c65222195ad6c
+215	348	1754069911626367991	external/liblog.a	d6ab9f651f6c6f67
+388	487	1754069911813366663	app/main	249a5ffabca7c456

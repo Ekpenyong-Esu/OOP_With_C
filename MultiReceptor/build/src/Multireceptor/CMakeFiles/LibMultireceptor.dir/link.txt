@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLibMultireceptor.a CMakeFiles/LibMultireceptor.dir/MultiReceptor.c.o
+/usr/bin/ranlib libLibMultireceptor.a

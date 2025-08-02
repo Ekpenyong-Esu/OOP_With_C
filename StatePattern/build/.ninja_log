@@ -1,0 +1,13 @@
+# ninja log v5
+29	385	1754167492631788200	src/mutex/CMakeFiles/LibMutex.dir/Mutex.c.o	dea82b8663263ed1
+23	396	1754167492639788137	_deps/argparse-build/CMakeFiles/argparse.dir/argparse.c.o	8a621accad274e02
+386	551	1754167492768787128	src/mutex/libLibMutex.a	19cd97aad2e7d4c6
+397	573	1754167492776787066	_deps/argparse-build/libargparse.a	670c65222195ad6c
+32	579	1754167492808786815	src/State/CMakeFiles/LibState.dir/State.c.o	b812af67e37ea968
+34	589	1754167492843786541	src/Context/CMakeFiles/LibContext.dir/Context.c.o	d1d04f203eb454bc
+27	763	1754167493013785211	external/CMakeFiles/log.dir/log/src/log.c.o	ddb8cd5e875a430d
+579	827	1754167493021785149	src/State/libLibState.a	a2f11b5f6fd90cd1
+589	852	1754167492968785563	src/Context/libLibContext.a	7e395fe8bc56db41
+39	874	1754167493128784312	app/CMakeFiles/main.dir/main.c.o	8a2407d5e89aea2c
+763	922	1754167493145784179	external/liblog.a	d6ab9f651f6c6f67
+922	1099	1754167493351782568	app/main	fc40bced3003599a

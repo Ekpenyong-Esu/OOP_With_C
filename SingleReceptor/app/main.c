@@ -7,10 +7,10 @@
 // - Thread-safe through mutex synchronization
 //
 #include <stdio.h>
-#include "../src/mutex/Mutex.h"
-#include "../src/TSREventQueue/TSREventQueue.h"
-#include "../src/TSRSyncSingleReceptor/TSRSyncSingleReceptor.h"
-#include "../src/TokenizeAsyncSinglePkg/TokenizeAsyncSinglePkg.h"
+#include "Mutex.h"
+#include "TSREventQueue.h"
+#include "TSRSyncSingleReceptor.h"
+#include "TokenizeAsyncSinglePkg.h"
 
 void demonstrate_single_receptor_pattern(const char* input_string) {
     printf("=== Single Receptor Pattern Demo ===\n");
@@ -18,6 +18,10 @@ void demonstrate_single_receptor_pattern(const char* input_string) {
 
     // Create and initialize mutex for single receptor access
     Mutex mutex;
+    if (Mutex_init(&mutex) != 0) {
+        printf("Error: Failed to initialize mutex\n");
+        return;
+    }
 
     // Create and initialize event queue
     TSREventQueue eventQueue;
@@ -26,9 +30,7 @@ void demonstrate_single_receptor_pattern(const char* input_string) {
 
     // Create and initialize the SINGLE receptor (this is the key pattern)
     TokenizerSyncSingleReceptor* receptor = TokenizerSyncSingleReceptor_Create();
-    TokenizerSyncSingleReceptor_setItsMutex(receptor, &mutex);
-
-    printf("Step 1: Converting input to events and posting to queue\n");
+    TokenizerSyncSingleReceptor_setItsMutex(receptor, &mutex);    printf("Step 1: Converting input to events and posting to queue\n");
     // Convert input string to events and post to queue
     for (const char* ptr = input_string; *ptr; ++ptr) {
         Event event;
@@ -67,11 +69,17 @@ void demonstrate_single_receptor_pattern(const char* input_string) {
 
     // Clean up
     TokenizerSyncSingleReceptor_Destroy(receptor);
+
+    // Destroy the mutex
+    if (Mutex_destroy(&mutex) != 0) {
+        printf("Warning: Failed to destroy mutex\n");
+    }
+
     printf("\nSingle Receptor Pattern demonstration complete.\n");
     printf("===========================================\n\n");
 }
 
-int main() {
+int main(void) {
     printf("Single Receptor Pattern Educational Demo\n");
     printf("TSR = Tokenizer Sync Receptor\n\n");
 

@@ -1,7 +1,8 @@
 #include <unity.h>
-#include "../src/TokenizeAsyncSinglePkg/TokenizeAsyncSinglePkg.h"
-#include "../src/TSREventQueue/TSREventQueue.h"
-#include "../src/TSRSyncSingleReceptor/TSRSyncSingleReceptor.h"
+#include "TokenizeAsyncSinglePkg.h"
+#include "TSREventQueue.h"
+#include "TSRSyncSingleReceptor.h"
+#include "Mutex.h"
 
 #define EXPECTED_DIGIT_VALUE 7.0
 
@@ -73,11 +74,33 @@ void test_single_receptor_pattern_should_process_digit_events(void) {
     TokenizerSyncSingleReceptor_Destroy(receptor);
 }
 
+// Test mutex functionality
+void test_mutex_should_initialize_and_work_correctly(void) {
+    Mutex mutex;
+
+    // Test initialization
+    TEST_ASSERT_EQUAL(0, Mutex_init(&mutex));
+
+    // Test locking and unlocking
+    TEST_ASSERT_EQUAL(0, Mutex_lock(&mutex));
+    TEST_ASSERT_EQUAL(0, Mutex_release(&mutex));
+
+    // Test trylock
+    TEST_ASSERT_EQUAL(0, Mutex_trylock(&mutex));
+    TEST_ASSERT_EQUAL(0, Mutex_release(&mutex));
+
+    // Test destruction
+    TEST_ASSERT_EQUAL(0, Mutex_destroy(&mutex));
+}
+
 int main(void) {
     UNITY_BEGIN();
 
     // Test basic utilities
     RUN_TEST(test_digit_function_should_convert_character_to_number);
+
+    // Test mutex functionality
+    RUN_TEST(test_mutex_should_initialize_and_work_correctly);
 
     // Test single receptor pattern implementation
     RUN_TEST(test_single_receptor_should_initialize_correctly);

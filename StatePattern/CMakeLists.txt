@@ -1,19 +1,116 @@
-cmake_minimum_required(VERSION 3.27)
-project(StatePattern C)
+cmake_minimum_required(VERSION 3.22)
 
-set(CMAKE_C_STANDARD 17)
+project(
+    "CTemplate"
+    VERSION 1.0.0
+    LANGUAGES C)
 
-add_executable(StatePattern main.c
-        Context.c
-        Context.h
-        GN_ProcessingFractionState.c
-        GN_ProcessingFractionState.h
-        GN_ProcessingWholeState.c
-        GN_ProcessingWholeState.h
-        NoNumberState.c
-        NoNumberState.h
-        StateActionSet.c
-        StateActionSet.h
-        SPClient.h
-        StatePattern.h
-        StatePatternBuilder.h)
+# Global CMake variables are set here
+set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+set(CMAKE_C_EXTENSIONS OFF)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+# Options
+option(USE_CONAN "Whether to use Conan." OFF)
+option(USE_VCPKG "Whether to use VCPKG." OFF)
+option(USE_CPM "Whether to use CPM." ON)
+
+option(ENABLE_WARNINGS "Enable to add warnings to a target." ON)
+option(ENABLE_WARNINGS_AS_ERRORS "Enable to treat warnings as errors." OFF)
+
+option(ENABLE_TESTING "Enable a Unit Testing build." ON)
+option(ENABLE_COVERAGE "Enable a Code Coverage build." ON)
+
+option(ENABLE_CLANG_TIDY "Enable to add clang tidy." ON)
+
+option(ENABLE_SANITIZE_ADDR "Enable address sanitize." OFF)
+option(ENABLE_SANITIZE_UNDEF "Enable undefined sanitize." OFF)
+option(ENABLE_SANITIZE_LEAK "Enable leak sanitize (Gcc/Clang only)." OFF)
+option(ENABLE_SANITIZE_THREAD "Enable thread sanitize (Gcc/Clang only)." OFF)
+
+option(ENABLE_CLANG_FORMAT "Enable to add clang-format." ON)
+option(ENABLE_CMAKE_FORMAT "Enable to add cmake-format." ON)
+
+option(ENABLE_LTO "Enable to add Link Time Optimization." OFF)
+
+# Project/Library Names
+
+# CMAKE MODULES
+set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake/)
+include(ConfigSafeGuards)
+include(AddGitSubmodule)
+include(Docs)
+include(Tools)
+
+if(ENABLE_WARNINGS)
+    include(Warnings)
+endif()
+
+add_cmake_format_target()
+add_clang_format_target()
+
+if(ENABLE_SANITIZE_ADDR OR ENABLE_SANITIZE_UNDEF)
+    include(Sanitizer)
+    add_sanitizer_flags(ENABLE_SANITIZE_ADDR ENABLE_SANITIZE_UNDEF)
+endif()
+
+if(ENABLE_COVERAGE)
+    include(CodeCoverage)
+    append_coverage_compiler_flags()
+endif()
+
+if(ENABLE_LTO)
+    include(LTO)
+endif()
+
+# EXTERNAL LIBRARIES
+
+include(CPM)
+cpmaddpackage("gh:ThrowTheSwitch/Unity#v2.5.2")
+if (TARGET unity)
+    target_compile_definitions("unity" PRIVATE UNITY_INCLUDE_DOUBLE)
+    
+else()
+    message(FATAL_ERROR "Unity library not found. Please check your CPM configuration.")
+endif()
+cpmaddpackage("gh:cofyc/argparse@1.1.0")
+
+
+# # FetchContent for Google Test
+# include(FetchContent)
+# FetchContent_Declare(
+#     googletest
+#     GIT_REPOSITORY https://github.com/google/googletest.git
+#     GIT_TAG release-1.12.1
+# )
+
+# For Windows: Prevent overriding the parent project's compiler/linker settings
+# set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+# FetchContent_MakeAvailable(googletest)
+
+# SUB DIRECTORIES
+add_subdirectory(configured)
+add_subdirectory(external)
+add_subdirectory(src)
+add_subdirectory(app)
+
+
+if(ENABLE_TESTING)
+    include(CTest)
+    enable_testing()
+    add_subdirectory(tests)
+endif()
+
+# INSTALL TARGETS
+
+install(
+    TARGETS "main"
+    ARCHIVE DESTINATION lib
+    LIBRARY DESTINATION lib
+    RUNTIME DESTINATION bin)
+
+install(
+    TARGETS "LibMutex" 
+    ARCHIVE DESTINATION lib
+    LIBRARY DESTINATION lib)

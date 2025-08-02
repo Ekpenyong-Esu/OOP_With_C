@@ -1,0 +1,68 @@
+[
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/State-Table/build",
+  "command": "/usr/bin/clang-14 -I/home/mahonri/Desktop/OOP_With_C/State-Table/build/_deps/unity-src/src -I/home/mahonri/Desktop/OOP_With_C/State-Table/build/_deps/unity-build  -g3 -O0 --coverage -g -std=c11 -Wcast-align -Wcast-qual -Wconversion -Wexit-time-destructors -Wglobal-constructors -Wmissing-noreturn -Wmissing-prototypes -Wno-missing-braces -Wold-style-cast -Wshadow -Wweak-vtables -Werror -Wall -o _deps/unity-build/CMakeFiles/unity.dir/src/unity.c.o -c /home/mahonri/Desktop/OOP_With_C/State-Table/build/_deps/unity-src/src/unity.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/State-Table/build/_deps/unity-src/src/unity.c",
+  "output": "_deps/unity-build/CMakeFiles/unity.dir/src/unity.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/State-Table/build",
+  "command": "/usr/bin/clang-14 -Dargparse_shared_EXPORTS -I/home/mahonri/Desktop/OOP_With_C/State-Table/build/_deps/argparse-src/.  -g3 -O0 --coverage -g -std=c99 -fPIC -o _deps/argparse-build/CMakeFiles/argparse_shared.dir/argparse.c.o -c /home/mahonri/Desktop/OOP_With_C/State-Table/build/_deps/argparse-src/argparse.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/State-Table/build/_deps/argparse-src/argparse.c",
+  "output": "_deps/argparse-build/CMakeFiles/argparse_shared.dir/argparse.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/State-Table/build",
+  "command": "/usr/bin/clang-14 -I/home/mahonri/Desktop/OOP_With_C/State-Table/build/_deps/argparse-src/.  -g3 -O0 --coverage -g -std=c99 -o _deps/argparse-build/CMakeFiles/argparse.dir/argparse.c.o -c /home/mahonri/Desktop/OOP_With_C/State-Table/build/_deps/argparse-src/argparse.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/State-Table/build/_deps/argparse-src/argparse.c",
+  "output": "_deps/argparse-build/CMakeFiles/argparse.dir/argparse.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/State-Table/build",
+  "command": "/usr/bin/clang-14 -I/home/mahonri/Desktop/OOP_With_C/State-Table/external/log/src  -g3 -O0 --coverage -g -std=c99 -o external/CMakeFiles/log.dir/log/src/log.c.o -c /home/mahonri/Desktop/OOP_With_C/State-Table/external/log/src/log.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/State-Table/external/log/src/log.c",
+  "output": "external/CMakeFiles/log.dir/log/src/log.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/State-Table/build",
+  "command": "/usr/bin/clang-14 -I/home/mahonri/Desktop/OOP_With_C/State-Table/src/mutex/. -I/home/mahonri/Desktop/OOP_With_C/State-Table/build/configured_files/include  -g3 -O0 --coverage -g -std=c99 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -o src/mutex/CMakeFiles/LibMutex.dir/Mutex.c.o -c /home/mahonri/Desktop/OOP_With_C/State-Table/src/mutex/Mutex.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/State-Table/src/mutex/Mutex.c",
+  "output": "src/mutex/CMakeFiles/LibMutex.dir/Mutex.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/State-Table/build",
+  "command": "/usr/bin/clang-14 -I/home/mahonri/Desktop/OOP_With_C/State-Table/src/TokenizerStateTable/. -I/home/mahonri/Desktop/OOP_With_C/State-Table/build/configured_files/include -I/home/mahonri/Desktop/OOP_With_C/State-Table/src/mutex/. -I/home/mahonri/Desktop/OOP_With_C/State-Table/src/StateTable/.  -g3 -O0 --coverage -g -std=c99 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -o src/TokenizerStateTable/CMakeFiles/LibTokenizerStateTable.dir/TokenizerStateTable.c.o -c /home/mahonri/Desktop/OOP_With_C/State-Table/src/TokenizerStateTable/TokenizerStateTable.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/State-Table/src/TokenizerStateTable/TokenizerStateTable.c",
+  "output": "src/TokenizerStateTable/CMakeFiles/LibTokenizerStateTable.dir/TokenizerStateTable.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/State-Table/build",
+  "command": "/usr/bin/clang-14 -I/home/mahonri/Desktop/OOP_With_C/State-Table/src/StateTable/. -I/home/mahonri/Desktop/OOP_With_C/State-Table/build/configured_files/include  -g3 -O0 --coverage -g -std=c99 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -o src/StateTable/CMakeFiles/LibStateTable.dir/StateTablePattern.c.o -c /home/mahonri/Desktop/OOP_With_C/State-Table/src/StateTable/StateTablePattern.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/State-Table/src/StateTable/StateTablePattern.c",
+  "output": "src/StateTable/CMakeFiles/LibStateTable.dir/StateTablePattern.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/State-Table/build",
+  "command": "/usr/bin/clang-14 -I/home/mahonri/Desktop/OOP_With_C/State-Table/app/. -I/home/mahonri/Desktop/OOP_With_C/State-Table/build/configured_files/include -I/home/mahonri/Desktop/OOP_With_C/State-Table/src/StateTable/. -I/home/mahonri/Desktop/OOP_With_C/State-Table/src/TokenizerStateTable/. -I/home/mahonri/Desktop/OOP_With_C/State-Table/src/mutex/. -I/home/mahonri/Desktop/OOP_With_C/State-Table/external/log/src -isystem /home/mahonri/Desktop/OOP_With_C/State-Table/build/_deps/argparse-src/.  -g3 -O0 --coverage -g -std=c99 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -o app/CMakeFiles/main.dir/main.c.o -c /home/mahonri/Desktop/OOP_With_C/State-Table/app/main.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/State-Table/app/main.c",
+  "output": "app/CMakeFiles/main.dir/main.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/State-Table/build",
+  "command": "/usr/bin/clang-14 -I/home/mahonri/Desktop/OOP_With_C/State-Table/src/StateTable/. -I/home/mahonri/Desktop/OOP_With_C/State-Table/build/configured_files/include -I/home/mahonri/Desktop/OOP_With_C/State-Table/src/TokenizerStateTable/. -I/home/mahonri/Desktop/OOP_With_C/State-Table/src/mutex/. -isystem /home/mahonri/Desktop/OOP_With_C/State-Table/build/_deps/unity-src/src -isystem /home/mahonri/Desktop/OOP_With_C/State-Table/build/_deps/unity-build  -g3 -O0 --coverage -g -std=c99 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -o tests/CMakeFiles/SimpleStateTableTests.dir/test_simple_state_table.c.o -c /home/mahonri/Desktop/OOP_With_C/State-Table/tests/test_simple_state_table.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/State-Table/tests/test_simple_state_table.c",
+  "output": "tests/CMakeFiles/SimpleStateTableTests.dir/test_simple_state_table.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/State-Table/build",
+  "command": "/usr/bin/clang-14 -I/home/mahonri/Desktop/OOP_With_C/State-Table/src/StateTable/. -I/home/mahonri/Desktop/OOP_With_C/State-Table/build/configured_files/include -I/home/mahonri/Desktop/OOP_With_C/State-Table/src/TokenizerStateTable/. -I/home/mahonri/Desktop/OOP_With_C/State-Table/src/mutex/. -isystem /home/mahonri/Desktop/OOP_With_C/State-Table/build/_deps/unity-src/src -isystem /home/mahonri/Desktop/OOP_With_C/State-Table/build/_deps/unity-build  -g3 -O0 --coverage -g -std=c99 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -o tests/CMakeFiles/StateTablePatternTests.dir/test_state_table_pattern_simple.c.o -c /home/mahonri/Desktop/OOP_With_C/State-Table/tests/test_state_table_pattern_simple.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/State-Table/tests/test_state_table_pattern_simple.c",
+  "output": "tests/CMakeFiles/StateTablePatternTests.dir/test_state_table_pattern_simple.c.o"
+},
+{
+  "directory": "/home/mahonri/Desktop/OOP_With_C/State-Table/build",
+  "command": "/usr/bin/clang-14 -I/home/mahonri/Desktop/OOP_With_C/State-Table/src/StateTable/. -I/home/mahonri/Desktop/OOP_With_C/State-Table/build/configured_files/include -I/home/mahonri/Desktop/OOP_With_C/State-Table/src/TokenizerStateTable/. -I/home/mahonri/Desktop/OOP_With_C/State-Table/src/mutex/. -isystem /home/mahonri/Desktop/OOP_With_C/State-Table/build/_deps/unity-src/src -isystem /home/mahonri/Desktop/OOP_With_C/State-Table/build/_deps/unity-build  -g3 -O0 --coverage -g -std=c99 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -o tests/CMakeFiles/BasicTokenizerTests.dir/test_tokenizer_basic.c.o -c /home/mahonri/Desktop/OOP_With_C/State-Table/tests/test_tokenizer_basic.c",
+  "file": "/home/mahonri/Desktop/OOP_With_C/State-Table/tests/test_tokenizer_basic.c",
+  "output": "tests/CMakeFiles/BasicTokenizerTests.dir/test_tokenizer_basic.c.o"
+}
+]

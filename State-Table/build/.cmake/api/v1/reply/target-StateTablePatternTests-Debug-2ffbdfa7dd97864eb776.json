@@ -1,0 +1,254 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "tests/StateTablePatternTests"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"target_compile_options",
+			"target_set_warnings"
+		],
+		"files" : 
+		[
+			"tests/CMakeLists.txt",
+			"src/TokenizerStateTable/CMakeLists.txt",
+			"cmake/Warnings.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 78,
+				"parent" : 6
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -g3 -O0 --coverage -g -std=c99"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wunused"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wformat=2"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wcast-align"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wconversion"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wsign-conversion"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wnull-dereference"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wdouble-promotion"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/mahonri/Desktop/OOP_With_C/State-Table/src/StateTable/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/mahonri/Desktop/OOP_With_C/State-Table/build/configured_files/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/mahonri/Desktop/OOP_With_C/State-Table/src/TokenizerStateTable/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/mahonri/Desktop/OOP_With_C/State-Table/src/mutex/."
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/mahonri/Desktop/OOP_With_C/State-Table/build/_deps/unity-src/src"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/mahonri/Desktop/OOP_With_C/State-Table/build/_deps/unity-build"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "unity::@e7b0562af20a4d8c3b3c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "LibMutex::@6033e3632f3a3ed2fe9e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "LibTokenizerStateTable::@6143a3cfa2fa007235b4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "LibStateTable::@dcec8b2fb03c2618f093"
+		}
+	],
+	"id" : "StateTablePatternTests::@a44f0ac069e85531cdee",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g3 -O0 --coverage -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "src/StateTable/libLibStateTable.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "src/TokenizerStateTable/libLibTokenizerStateTable.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "_deps/unity-build/libunity.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "src/StateTable/libLibStateTable.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "src/mutex/libLibMutex.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "StateTablePatternTests",
+	"nameOnDisk" : "StateTablePatternTests",
+	"paths" : 
+	{
+		"build" : "tests",
+		"source" : "tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "tests/test_state_table_pattern_simple.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

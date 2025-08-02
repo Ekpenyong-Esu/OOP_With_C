@@ -1,0 +1,1 @@
+/usr/bin/cc  -g3 -O0 --coverage -g CMakeFiles/main.dir/main.c.o -o main  -lgcov ../src/Multireceptor/libLibMultireceptor.a ../src/mutex/libLibMutex.a ../external/liblog.a ../_deps/argparse-build/libargparse.a -lgcov 

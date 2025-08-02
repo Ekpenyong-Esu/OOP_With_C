@@ -9,7 +9,9 @@ target_link_libraries(
     PUBLIC "LibTokenizeAsyncSinglePkg"
            "LibTSREventQueue"
            "LibTSRSyncSingleReceptor"
-           "LibMutex")
+           "LibMutex"
+           log
+           argparse)
 
 if(${ENABLE_WARNINGS})
     target_set_warnings(

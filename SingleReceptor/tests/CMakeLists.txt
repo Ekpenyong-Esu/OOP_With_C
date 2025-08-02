@@ -1,6 +1,6 @@
 add_executable("UnitTestBuilder" "test_testbuilder.c")
 target_link_libraries("UnitTestBuilder" PUBLIC "LibTokenizeAsyncSinglePkg"
-                                              "LibTSREventQueue" 
+                                              "LibTSREventQueue"
                                               "LibTSRSyncSingleReceptor"
                                               "LibMutex")
 target_link_libraries("UnitTestBuilder" PRIVATE unity)

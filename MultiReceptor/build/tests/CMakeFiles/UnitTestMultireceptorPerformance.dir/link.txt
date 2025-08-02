@@ -1,0 +1,1 @@
+/usr/bin/cc  -g3 -O0 --coverage -g CMakeFiles/UnitTestMultireceptorPerformance.dir/test_MultiReceptor_Performance.c.o -o UnitTestMultireceptorPerformance  -lgcov ../src/Multireceptor/libLibMultireceptor.a ../src/mutex/libLibMutex.a ../_deps/unity-build/libunity.a -lgcov 

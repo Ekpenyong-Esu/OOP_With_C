@@ -2,8 +2,8 @@
 #include <stddef.h>
 #include <stdlib.h>
 #include "TSREventQueue.h"
-#include "../mutex/Mutex.h"
-#include "../TokenizeAsyncSinglePkg/TokenizeAsyncSinglePkg.h"
+#include "Mutex.h"
+#include "TokenizeAsyncSinglePkg.h"
 
 // Internal helper to clean up relations (mutex pointer)
 static void cleanUpRelations(TSREventQueue* const eventQueue);
