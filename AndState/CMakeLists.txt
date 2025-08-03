@@ -88,7 +88,7 @@ add_subdirectory(configured)
 add_subdirectory(external)
 add_subdirectory(src)
 add_subdirectory(app)
-add_subdirectory(examples)  # AND pattern demonstrations
+
 
 
 if(ENABLE_TESTING)
@@ -106,6 +106,6 @@ install(
     RUNTIME DESTINATION bin)
 
 install(
-    TARGETS 
+    TARGETS
     ARCHIVE DESTINATION lib
     LIBRARY DESTINATION lib)

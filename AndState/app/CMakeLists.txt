@@ -6,7 +6,7 @@ target_include_directories("main" PUBLIC ${LIBRARY_INCLUDES})
 
 target_link_libraries(
     "main"
-    PUBLIC "LibLight"
+    PUBLIC "LibLight" "LibSmartLight" "LibSensor"
            log
            argparse)
 

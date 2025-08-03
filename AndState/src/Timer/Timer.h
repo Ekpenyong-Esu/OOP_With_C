@@ -1,6 +1,6 @@
 //
 // Timer Component - Demonstrates time-based AND pattern aspect
-// This adds a timing dimension to demonstrate how time can be 
+// This adds a timing dimension to demonstrate how time can be
 // another orthogonal aspect in the AND pattern
 //
 
@@ -28,12 +28,12 @@ struct Timer {
     // AND Pattern: Timer has multiple independent aspects
     TimerState state;       // Current timer state
     TimerMode mode;         // How the timer behaves
-    
+
     // Timing data
     unsigned int duration_ms;    // Timer duration in milliseconds
     unsigned int elapsed_ms;     // Time elapsed
     clock_t start_time;          // When timer was started
-    
+
     // Configuration
     bool auto_reset;        // Reset automatically when expired
     unsigned int repeat_count;   // How many times to repeat (0 = infinite)

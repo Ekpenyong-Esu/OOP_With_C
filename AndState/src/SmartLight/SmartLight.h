@@ -2,16 +2,16 @@
 // SmartLight Component - Advanced AND Pattern Demonstration
 // This combines multiple components to show complex AND patterns:
 // - Light state (from Light component)
-// - Timer-based behavior (from Timer component)  
+// - Timer-based behavior (from Timer component)
 // - Sensor-driven responses (from Sensor component)
 //
 
 #ifndef ANDSTATE_SMARTLIGHT_H
 #define ANDSTATE_SMARTLIGHT_H
 
-#include "../Light/Light.h"
-#include "../Timer/Timer.h"
-#include "../Sensor/Sensor.h"
+#include "Light.h"
+#include "Timer.h"
+#include "Sensor.h"
 #include <stdbool.h>
 
 typedef enum SmartMode {
@@ -37,19 +37,19 @@ struct SmartLight {
     Timer* fade_timer;          // Smooth transitions
     Sensor* light_sensor;       // Ambient light detection
     Sensor* motion_sensor;      // Motion detection
-    
+
     // SmartLight specific AND aspects
     SmartMode mode;             // Operating mode
     BrightnessLevel brightness; // Brightness level
     bool motion_enabled;        // Motion detection active
     bool auto_dimming;          // Automatic brightness adjustment
     bool energy_saving;         // Energy saving mode
-    
+
     // Configuration
     float light_threshold;      // Lux level for auto operation
     unsigned int fade_duration; // Fade transition time (ms)
     unsigned int auto_timeout;  // Auto-off timeout (ms)
-    
+
     // State tracking
     bool last_motion_state;     // Previous motion detection
     float last_light_level;     // Previous ambient light

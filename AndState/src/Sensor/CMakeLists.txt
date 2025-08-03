@@ -10,3 +10,26 @@ target_include_directories("LibSensor" PUBLIC ${LIBRARY_INCLUDES})
 
 # Link with LightPkg for consistency
 target_link_libraries("LibSensor" PUBLIC "LibLightPkg")
+
+
+if(${ENABLE_WARNINGS})
+    target_set_warnings(
+        TARGET
+        "LibSensor"
+        ENABLE
+        ${ENABLE_WARNINGS}
+        AS_ERRORS
+        ${ENABLE_WARNINGS_AS_ERRORS})
+endif()
+
+if(${ENABLE_LTO})
+    target_enable_lto(
+        TARGET
+        "LibSensor"
+        ENABLE
+        ON)
+endif()
+
+if(${ENABLE_CLANG_TIDY})
+    add_clang_tidy_to_target("LibSensor")
+endif()
